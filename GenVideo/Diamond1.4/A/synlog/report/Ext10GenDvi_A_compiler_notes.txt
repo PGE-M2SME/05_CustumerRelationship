@@ -1,0 +1,33 @@
+@N|Running in 32-bit mode
+@N: CD720 :"/usr/local/diamond/1.4/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/TestVideoTop.vhd":13:7:13:18|Top entity is set to TestVideoTop.
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/TestVideoTop.vhd":13:7:13:18|Synthesizing work.testvideotop.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/TestVideoTop.vhd":69:10:69:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_0.syn_black_box 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Main.vhd":6:7:6:12|Synthesizing work.dvi410.rtl 
+@N: CD630 :"/usr/local/diamond/1.4/cae_library/synthesis/vhdl/xp2.vhd":1835:10:1835:15|Synthesizing work.oddrxc.syn_black_box 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dv i410Request.vhd":6:7:6:19|Synthesizing work.dvi410request.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":6:7:6:18|Synthesizing work.dvi410timing.rtl 
+@N: CL177 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd":25:2:25:3|Sharing sequential element fifo_rd.
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd":6:7:6:16|Synthesizing work.dvi410sync.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":6:7:6:15|Synthesizing work.dvi410cnt.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd":6:7:6:16|Synthesizing work.dvi410conf.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":9:7:9:23|Synthesizing work.i2cmastercommands.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":51:10:51:17|Synthesizing work.pmi_fifo_work_testvideotop_rtl_1.syn_black_box 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2CMasterDevice.vhd":6:7:6:21|Synthesizing work.i2cmasterdevice.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":33:7:33:11|Synthesizing work.forth.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd":85:10:85:19|Synthesizing work.pmi_ram_dq_work_testvideotop_rtl_0.syn_black_box 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd":6:7:6:10|Synthesizing work.uart.rtl 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd":59:7:59:8|Synthesizing work.tx.behavioral 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd":64:7:64:8|Synthesizing work.rx.behavioral 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":29:7:29:10|Synthesizing work.ep32.behavioral 
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/SeqBlk1204.vhd":60:7:60:12|Synthesizing work.seqblk.behavioral 
+@N: CL177 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/SeqBlk1204.vhd":236:2:236:3|Sharing sequential element StartupDDR3.
+@N: CD630 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/IpxLpc/Pll125to100x50.vhd":14:7:14:20|Synthesizing work.pll125to100x50.structure 
+@N: CD630 :"/usr/local/diamond/1.4/cae_library/synthesis/vhdl/xp2.vhd":765:10:765:15|Synthesizing work.eplld1.syn_black_box 
+@N: CD630 :"/usr/local/diamond/1.4/cae_library/synthesis/vhdl/xp2.vhd":1535:10:1535:12|Synthesizing work.vlo.syn_black_box 
+@N: CL134 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Found RAM s_stack, depth=32, width=33
+@N: CL134 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd":455:3:455:4|Found RAM r_stack, depth=32, width=33
+@N: CL201 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2CMasterDevice.vhd":47:0:47:1|Trying to extract state machine for register State
+@N: CL201 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":152:0:152:1|Trying to extract state machine for register State
+@N: CL135 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd":24:2:24:3|Found seqShift srst2, depth=3, width=1
+

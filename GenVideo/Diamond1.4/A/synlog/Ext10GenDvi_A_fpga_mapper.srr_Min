@@ -1,0 +1,112 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jul 31 09:07:27 2012
+#
+
+
+Top view:               TestVideoTop
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.453
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------------
+Pll125to100x50|CLKOK_inferred_clock     200.0 MHz     73.4 MHz      5.000         13.621        -8.621     inferred     Inferred_clkgroup_1
+Pll125to100x50|CLKOP_inferred_clock     200.0 MHz     147.2 MHz     5.000         6.793         -1.793     inferred     Inferred_clkgroup_0
+System                                  200.0 MHz     331.0 MHz     5.000         3.021         1.979      system       system_clkgroup    
+===========================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                               System                               |  0.000       0.618  |  No paths    -      |  No paths    -      |  No paths    -    
+System                               Pll125to100x50|CLKOK_inferred_clock  |  0.000       0.485  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOP_inferred_clock  System                               |  0.000       1.533  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOP_inferred_clock  Pll125to100x50|CLKOP_inferred_clock  |  0.000       0.453  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOP_inferred_clock  Pll125to100x50|CLKOK_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOK_inferred_clock  System                               |  0.000       0.705  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOK_inferred_clock  Pll125to100x50|CLKOP_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to100x50|CLKOK_inferred_clock  Pll125to100x50|CLKOK_inferred_clock  |  0.000       0.571  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port          Starting            User           Arrival     Required          
+Name          Reference           Constraint     Time        Time         Slack
+              Clock                                                            
+-------------------------------------------------------------------------------
+PinClk125     System (rising)     NA             0.000       -1.216            
+PinPortRx     System (rising)     NA             0.000       -1.138            
+PinSda        System (rising)     NA             0.000       -0.671            
+===============================================================================
+
+
+Output Ports: 
+
+Port           Starting                                         User           Arrival     Required          
+Name           Reference                                        Constraint     Time        Time         Slack
+               Clock                                                                                         
+-------------------------------------------------------------------------------------------------------------
+PinClk         System (rising)                                  NA             2.115       0.000             
+PinDat[0]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[1]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[2]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[3]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[4]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[5]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[6]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[7]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[8]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[9]      Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[10]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[11]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[12]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[13]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[14]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[15]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[16]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[17]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[18]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[19]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[20]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[21]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[22]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDat[23]     Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinDe          Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinHSync       Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+PinLedXv       Pll125to100x50|CLKOK_inferred_clock (rising)     NA             2.931       0.000             
+PinPortTx      Pll125to100x50|CLKOK_inferred_clock (rising)     NA             2.819       0.000             
+PinScl         Pll125to100x50|CLKOK_inferred_clock (rising)     NA             2.819       0.000             
+PinSda         Pll125to100x50|CLKOK_inferred_clock (rising)     NA             2.819       0.000             
+PinVSync       Pll125to100x50|CLKOP_inferred_clock (rising)     NA             2.819       0.000             
+=============================================================================================================
+
+
+##### END OF TIMING REPORT #####]
+

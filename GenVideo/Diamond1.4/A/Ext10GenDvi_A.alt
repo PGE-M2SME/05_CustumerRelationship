@@ -1,0 +1,42 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Jul 31 09:09:58 2012 *
+NOTE DESIGN NAME: TestVideoTop *
+NOTE DEVICE NAME: LFXP2-17E-5PQFP208 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS PinSda : 157 : inout *
+NOTE PINS PinLedXv : 83 : out *
+NOTE PINS PinClk125 : 77 : in *
+NOTE PINS PinScl : 164 : out *
+NOTE PINS PinDat_23 : 205 : out *
+NOTE PINS PinDat_22 : 207 : out *
+NOTE PINS PinDat_21 : 206 : out *
+NOTE PINS PinDat_20 : 208 : out *
+NOTE PINS PinDat_19 : 201 : out *
+NOTE PINS PinDat_18 : 202 : out *
+NOTE PINS PinDat_17 : 198 : out *
+NOTE PINS PinDat_16 : 197 : out *
+NOTE PINS PinDat_15 : 186 : out *
+NOTE PINS PinDat_14 : 188 : out *
+NOTE PINS PinDat_13 : 187 : out *
+NOTE PINS PinDat_12 : 192 : out *
+NOTE PINS PinDat_11 : 189 : out *
+NOTE PINS PinDat_10 : 195 : out *
+NOTE PINS PinDat_9 : 193 : out *
+NOTE PINS PinDat_8 : 196 : out *
+NOTE PINS PinDat_7 : 169 : out *
+NOTE PINS PinDat_6 : 168 : out *
+NOTE PINS PinDat_5 : 170 : out *
+NOTE PINS PinDat_4 : 173 : out *
+NOTE PINS PinDat_3 : 175 : out *
+NOTE PINS PinDat_2 : 174 : out *
+NOTE PINS PinDat_1 : 176 : out *
+NOTE PINS PinDat_0 : 177 : out *
+NOTE PINS PinDe : 160 : out *
+NOTE PINS PinHSync : 158 : out *
+NOTE PINS PinVSync : 159 : out *
+NOTE PINS PinClk : 180 : out *
+NOTE PINS PinPortTx : 120 : out *
+NOTE PINS PinPortRx : 125 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

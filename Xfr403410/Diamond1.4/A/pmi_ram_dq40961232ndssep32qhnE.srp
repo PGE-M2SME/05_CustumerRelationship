@@ -1,0 +1,25 @@
+SCUBA, Version Diamond_1.4_Production (87)
+Tue Jul 24 10:41:25 2012
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : /usr/local/diamond/1.4/ispfpga/bin/lin/scuba -w -bus_exp 7 -bb -arch mg5a00 -type bram -wp 10 -rp 1000 -data_width 32 -num_rows 4096 -gsr DISABLED -write_mode_0 0 -sync_reset -memfile /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/ep32q.hex -memformat hex -cascade -1 -n pmi_ram_dq40961232ndssep32qhnE -pmi 
+    Circuit name     : pmi_ram_dq40961232ndssep32qhnE
+    Module type      : RAM_DQ
+    Module Version   : 7.1
+    Ports            : 
+	Inputs       : Clock, ClockEn, Reset, WE, Address[11:0], Data[31:0]
+	Outputs      : Q[31:0]
+    I/O buffer       : not inserted
+    Memory file      : /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/ep32q.hex
+    EDIF output      : pmi_ram_dq40961232ndssep32qhnE.edn
+    Bus notation     : big endian
+    Report output    : pmi_ram_dq40961232ndssep32qhnE.srp
+    Element Usage    :
+         DP16KB : 8
+    Estimated Resource Usage:
+            EBR : 8

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Xfr403410_A.log"
+-o "Xfr403410_A.csv"
+-pr "Xfr403410_A.prf"

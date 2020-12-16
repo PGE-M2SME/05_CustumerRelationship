@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "Ext10GenDvi_A.log"
+-o "Ext10GenDvi_A.csv"
+-pr "Ext10GenDvi_A.prf"

@@ -1,0 +1,185 @@
+
+Lattice Place and Route Report for Design "Xfr403410_A_map.ncd"
+Tue Jul 24 10:41:29 2012
+
+PAR: Place And Route Diamond_1.4_Production (87).
+Command Line: /usr/local/diamond/1.4/ispfpga/bin/lin/par -f Xfr403410_A.p2t
+Xfr403410_A_map.ncd Xfr403410_A.dir Xfr403410_A.prf
+Preference file: Xfr403410_A.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Xfr403410_A_map.ncd.
+Design name: CopyVideoTop
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-17E
+Package:     PQFP208
+Performance: 5
+Loading device for application par from file 'mg5a50x47.nph' in environment: /usr/local/diamond/1.4/ispfpga.
+Package Status:                     Final          Version 1.63
+Performance Hardware Data Status:   Final          Version 10.6
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   GSR                1/1           100% used
+   IOLOGIC           11/364           3% used
+   PIO (prelim)      62/358          17% used
+                     62/146          42% bonded
+   EBR                8/15           53% used
+   SLICE           1377/8280         16% used
+
+
+
+Number of Signals: 3400
+Number of Connections: 10667
+
+Pin Constraint Summary:
+   62 out of 62 pins locked (100% locked).
+
+WARNING - par: The input signal "PinClk125_c" of PLL instance "uPll/PLLInst_0" may not be able to use the dedicated CLKI input pin, therefore general routing may have to be used for this signal.
+The following 2 signals are selected to use the primary clock routing resources:
+    Clk50_c (driver: uPll/PLLInst_0, clk load #: 430)
+    PinClk403_c (driver: PinClk403, clk load #: 17)
+
+No signal is selected as DCS clock.
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    SRst (driver: uSeq/SLICE_400, clk load #: 0, sr load #: 153, ce load #: 0)
+    uForth/cpu1/tload_1 (driver: uForth/cpu1/SLICE_821, clk load #: 0, sr load #: 0, ce load #: 28)
+    N_464 (driver: SLICE_1178, clk load #: 0, sr load #: 0, ce load #: 27)
+
+Signal uPll/PllLock is selected as Global Set/Reset.
+Starting Placer Phase 0.
+............
+Finished Placer Phase 0.  REAL time: 13 secs 
+
+Starting Placer Phase 1.
+......................
+Placer score = 813591.
+Finished Placer Phase 1.  REAL time: 35 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  780093
+Finished Placer Phase 2.  REAL time: 39 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 1 out of 8 (12%)
+  PLL        : 1 out of 4 (25%)
+  DCS        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "Clk50_c" from CLKOP on comp "uPll/PLLInst_0" on PLL site "LRPLL", clk load = 430
+  PRIMARY "PinClk403_c" from comp "PinClk403" on CLK_PIN site "180 (PT29A)", clk load = 17
+  SECONDARY "SRst" from Q0 on comp "uSeq/SLICE_400" on site "R24C2C", clk load = 0, ce load = 0, sr load = 153
+  SECONDARY "N_464" from F0 on comp "SLICE_1178" on site "R23C46A", clk load = 0, ce load = 27, sr load = 0
+  SECONDARY "uForth/cpu1/tload_1" from F1 on comp "uForth/cpu1/SLICE_821" on site "R48C29A", clk load = 0, ce load = 28, sr load = 0
+
+  PRIMARY  : 2 out of 8 (25%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 3 out of 4 (75%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   62 out of 358 (17.3%) PIO sites used.
+   62 out of 146 (42.5%) bonded PIO sites used.
+   Number of PIO comps: 62; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 16 / 20 ( 80%) | -          | -          | -          |
+| 1        | 12 / 18 ( 66%) | -          | -          | -          |
+| 2        | 2 / 18 ( 11%)  | 3.3V       | -          | -          |
+| 3        | 12 / 16 ( 75%) | 3.3V       | -          | -          |
+| 4        | 12 / 18 ( 66%) | 3.3V       | -          | -          |
+| 5        | 8 / 20 ( 40%)  | 3.3V       | -          | -          |
+| 6        | 0 / 18 (  0%)  | -          | -          | -          |
+| 7        | 0 / 18 (  0%)  | -          | -          | -          |
++----------+----------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3 4 5
+# of MULT36X36B                    
+# of MULT18X18B                    
+# of MULT18X18MACB                 
+# of MULT18X18ADDSUBB              
+# of MULT18X18ADDSUBSUMB           
+# of MULT9X9B                      
+# of MULT9X9ADDSUBB                
+# of MULT9X9ADDSUBSUMB             
+
+Total placer CPU time: 39 secs 
+
+Dumping design to file Xfr403410_A.dir/5_1.ncd.
+
+0 connections routed; 10667 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 44 secs 
+
+Congestion Driven Router (CDR) is turned on.
+CDR effort level is set at 3.
+To turn CDR off, please set "-exp parCDR=0" on command line.
+
+Starting iterative routing.
+
+For each routing iteration the number inside the parenthesis is the
+total time (in picoseconds) the design is failing the timing constraints.
+For each routing iteration the router will attempt to reduce this number
+until the number of routing iterations is completed or the value is 0
+meaning the design setup analysis has met timing constraints.
+
+End of iteration 1
+10667 successful; 0 unrouted; (640) real time: 57 secs 
+Dumping design to file Xfr403410_A.dir/5_1.ncd.
+End of iteration 2
+10667 successful; 0 unrouted; (640) real time: 1 mins 1 secs 
+End of iteration 3
+10667 successful; 0 unrouted; (640) real time: 1 mins 1 secs 
+End of iteration 4
+10667 successful; 0 unrouted; (640) real time: 1 mins 2 secs 
+End of iteration 5
+10667 successful; 0 unrouted; (640) real time: 1 mins 2 secs 
+End of iteration 6
+10667 successful; 0 unrouted; (640) real time: 1 mins 3 secs 
+Total CPU time 1 mins 3 secs 
+Total REAL time: 1 mins 3 secs 
+Completely routed.
+End of route.  10667 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Timing score: 640 
+
+Total REAL time to completion: 1 mins 10 secs 
+
+Dumping design to file Xfr403410_A.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.

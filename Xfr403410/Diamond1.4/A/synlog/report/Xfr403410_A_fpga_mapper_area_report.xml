@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/synlog/report/Xfr403410_A_fpga_mapper_resourceusage.rpt</data>
+</report_link>
+<parameter tooltip="Total Register bits used" name="Register bits">
+<data>591</data>
+</parameter>
+<parameter tooltip="Total I/O cells used" name="I/O cells">
+<data>62</data>
+</parameter>
+<parameter tooltip="Total Block RAMs used" name="Block RAMs">
+<data>0</data>
+</parameter>
+<parameter tooltip="Total DSPs used" name="DSPs">
+<data>0</data>
+</parameter>
+<parameter tooltip="Total ORCA LUTs used" name="ORCA LUTs">
+<data>1740</data>
+</parameter>
+</report_table>

@@ -1,0 +1,209 @@
+PAR: Place And Route Diamond_1.4_Production (87).
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Jul 31 09:07:36 2012
+
+/usr/local/diamond/1.4/ispfpga/bin/lin/par -f Ext10GenDvi_A.p2t
+Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir Ext10GenDvi_A.prf
+
+Preference file: Ext10GenDvi_A.prf.
+
+Level/      Number      Timing      Run         NCD
+Cost [ncd]  Unrouted    Score       Time        Status
+----------  --------    --------    -----       ------------
+5_1   *     0           11772       02:06       Complete        
+
+
+* : Design saved.
+
+par done!
+
+Lattice Place and Route Report for Design "Ext10GenDvi_A_map.ncd"
+Tue Jul 31 09:07:36 2012
+
+PAR: Place And Route Diamond_1.4_Production (87).
+Command Line: /usr/local/diamond/1.4/ispfpga/bin/lin/par -f Ext10GenDvi_A.p2t
+Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir Ext10GenDvi_A.prf
+Preference file: Ext10GenDvi_A.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Ext10GenDvi_A_map.ncd.
+Design name: TestVideoTop
+NCD version: 3.2
+Vendor:      LATTICE
+Device:      LFXP2-17E
+Package:     PQFP208
+Performance: 5
+Loading device for application par from file 'mg5a50x47.nph' in environment: /usr/local/diamond/1.4/ispfpga.
+Package Status:                     Final          Version 1.63
+Performance Hardware Data Status:   Final          Version 10.6
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   GSR                1/1           100% used
+   IOLOGIC           32/364           8% used
+   PIO (prelim)      34/358           9% used
+                     34/146          23% bonded
+   EBR                8/15           53% used
+   SLICE           1885/8280         22% used
+
+
+
+Number of Signals: 4439
+Number of Connections: 13731
+
+Pin Constraint Summary:
+   34 out of 34 pins locked (100% locked).
+
+WARNING - par: The input signal "PinClk125_c" of PLL instance "uPll/PLLInst_0" may not be able to use the dedicated CLKI input pin, therefore general routing may have to be used for this signal.
+The following 2 signals are selected to use the primary clock routing resources:
+    Clk100_c (driver: uPll/PLLInst_0, clk load #: 147)
+    Clk50_c (driver: uPll/PLLInst_0, clk load #: 495)
+
+No signal is selected as DCS clock.
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    uSeq_lSRst_iso (driver: uSeq/SLICE_918, clk load #: 0, sr load #: 153, ce load #: 0)
+    uForth/cpu1/tload_1 (driver: uForth/cpu1/SLICE_1074, clk load #: 0, sr load #: 0, ce load #: 31)
+
+Signal SRst is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 14 secs 
+
+Starting Placer Phase 1.
+........................
+Placer score = 989239.
+Finished Placer Phase 1.  REAL time: 41 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  966988
+Finished Placer Phase 2.  REAL time: 46 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 1 out of 4 (25%)
+  DCS        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "Clk100_c" from CLKOP on comp "uPll/PLLInst_0" on PLL site "LRPLL", clk load = 147
+  PRIMARY "Clk50_c" from CLKOK on comp "uPll/PLLInst_0" on PLL site "LRPLL", clk load = 495
+  SECONDARY "uSeq_lSRst_iso" from Q0 on comp "uSeq/SLICE_918" on site "R49C30B", clk load = 0, ce load = 0, sr load = 153
+  SECONDARY "uForth/cpu1/tload_1" from F1 on comp "uForth/cpu1/SLICE_1074" on site "R2C27B", clk load = 0, ce load = 31, sr load = 0
+
+  PRIMARY  : 2 out of 8 (25%)
+     DCS   : 0 out of 2 (0%)
+  SECONDARY: 2 out of 4 (50%)
+
+Edge Clocks:
+  No edge clock selected
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   34 out of 358 (9.5%) PIO sites used.
+   34 out of 146 (23.3%) bonded PIO sites used.
+   Number of PIO comps: 34; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 16 / 20 ( 80%) | 3.3V       | -          | -          |
+| 1        | 14 / 18 ( 77%) | 3.3V       | -          | -          |
+| 2        | 0 / 18 (  0%)  | -          | -          | -          |
+| 3        | 2 / 16 ( 12%)  | 3.3V       | -          | -          |
+| 4        | 1 / 18 (  5%)  | 3.3V       | -          | -          |
+| 5        | 1 / 20 (  5%)  | -          | -          | -          |
+| 6        | 0 / 18 (  0%)  | -          | -          | -          |
+| 7        | 0 / 18 (  0%)  | -          | -          | -          |
++----------+----------------+------------+------------+------------+
+
+
+DSP Utilization Summary:
+-------------------------------------
+DSP Block #:              1 2 3 4 5
+# of MULT36X36B                    
+# of MULT18X18B                    
+# of MULT18X18MACB                 
+# of MULT18X18ADDSUBB              
+# of MULT18X18ADDSUBSUMB           
+# of MULT9X9B                      
+# of MULT9X9ADDSUBB                
+# of MULT9X9ADDSUBSUMB             
+
+Total placer CPU time: 45 secs 
+
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+
+0 connections routed; 13731 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 51 secs 
+
+Congestion Driven Router (CDR) is turned on.
+CDR effort level is set at 2.
+To turn CDR off, please set "-exp parCDR=0" on command line.
+
+Starting iterative routing.
+
+For each routing iteration the number inside the parenthesis is the
+total time (in picoseconds) the design is failing the timing constraints.
+For each routing iteration the router will attempt to reduce this number
+until the number of routing iterations is completed or the value is 0
+meaning the design setup analysis has met timing constraints.
+
+End of iteration 1
+13731 successful; 0 unrouted; (42574) real time: 1 mins 26 secs 
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+End of iteration 2
+13731 successful; 0 unrouted; (42502) real time: 1 mins 33 secs 
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+End of iteration 3
+13731 successful; 0 unrouted; (12394) real time: 1 mins 39 secs 
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+End of iteration 4
+13731 successful; 0 unrouted; (12394) real time: 1 mins 43 secs 
+End of iteration 5
+13731 successful; 0 unrouted; (12376) real time: 1 mins 48 secs 
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+End of iteration 6
+13731 successful; 0 unrouted; (11772) real time: 1 mins 59 secs 
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+Total CPU time 1 mins 57 secs 
+Total REAL time: 2 mins 
+Completely routed.
+End of route.  13731 routed (100.00%); 0 unrouted.
+Checking DRC ... 
+No errors found.
+
+Timing score: 11772 
+
+Total REAL time to completion: 2 mins 6 secs 
+
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor Corporation,  All rights reserved.

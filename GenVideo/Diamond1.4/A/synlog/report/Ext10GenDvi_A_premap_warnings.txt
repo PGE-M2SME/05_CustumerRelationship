@@ -1,0 +1,1 @@
+@W: BN132 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":273:0:273:1|Removing sequential instance DeviceIdW[7:1],  because it is equivalent to instance DeviceIdR[7:1]

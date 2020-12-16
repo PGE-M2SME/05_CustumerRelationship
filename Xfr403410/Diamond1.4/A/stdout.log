@@ -1,0 +1,85 @@
+Running in Lattice mode
+
+
+Starting:    /usr/local/diamond/1.4/synpbase/linux/mbin/synbatch
+Install:     /usr/local/diamond/1.4/synpbase
+Date:        Tue Jul 24 10:40:51 2012
+Version:     F-2011.09L
+
+Arguments:   -product synplify_pro  -batch Xfr403410_A_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+
+log file: "/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/Xfr403410_A.srf"
+
+
+Generating HDL info...
+
+hdl_info_gen Completed
+Return Code: 0
+
+Run Time:00h:00m:01s
+
+Job flow proj_1|A completed on proj_1|A
+
+
+log file: "/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/Xfr403410_A.srf"
+
+
+Running proj_1|A
+
+Running Compile on proj_1|A
+
+Running Compile Process on proj_1|A
+
+Running Compile Input on proj_1|A
+
+compiler Completed
+Return Code: 0
+
+Run Time:00h:00m:04s
+
+Copied /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/synwork/Xfr403410_A_compiler.srs to /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/Xfr403410_A.srl
+
+Copied /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/synwork/Xfr403410_A_compiler.srs to /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext12/FW/Xfr403410/Diamond1.4/A/Xfr403410_A.srs
+
+Job flow Compile Process completed on proj_1|A
+
+
+Running Premap on proj_1|A
+
+premap Completed with warnings
+Return Code: 1
+
+Run Time:00h:00m:01s
+
+Job flow Compile completed on proj_1|A
+
+
+Running Map on proj_1|A
+
+Running Map & Optimize on proj_1|A
+
+fpga_mapper Completed with warnings
+Return Code: 1
+
+Run Time:00h:00m:24s
+
+Job flow Map completed on proj_1|A
+
+
+Job flow Logic Synthesis completed on proj_1|A
+
+
+Job flow proj_1|rev_1 completed on proj_1|rev_1
+
+
+TCL script complete: "Xfr403410_A_synplify.tcl"
+
+exit status=0
+
+

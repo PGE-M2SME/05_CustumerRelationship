@@ -1,0 +1,20 @@
+#Build: Synplify Pro F-2011.09L, Build 022R, Oct 19 2011
+#install: /usr/local/diamond/1.4/synpbase
+#OS: Linux 
+#Hostname: nicolas-laptop
+
+$ Start of Compile
+#Sat Jul 21 20:16:45 2012
+
+Synopsys VHDL Compiler, version comp560rcp1, Build 045R, built Oct 18 2011
+@N|Running in 32-bit mode
+Copyright (C) 1994-2011 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"/usr/local/diamond/1.4/synpbase/lib/vhd/std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/TestVideoTop.vhd":13:7:13:18|Top entity is set to TestVideoTop.
+@W: CD643 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
+@W: CD645 :"/media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Extension/Ext09_Ext10/FW/Ext10/GenVideo/VHDL/I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jul 21 20:16:46 2012
+
+###########################################################]

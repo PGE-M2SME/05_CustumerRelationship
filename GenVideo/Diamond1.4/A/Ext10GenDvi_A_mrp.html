@@ -1,0 +1,2038 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>         Lattice Mapping Report File for Design Module 'TestVideoTop'
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a LatticeXP2 -p LFXP2-17E -t PQFP208 -s 5 -oc Commercial
+     Ext10GenDvi_A.ngd -o Ext10GenDvi_A_map.ncd -pr Ext10GenDvi_A.prf -mp
+     Ext10GenDvi_A.mrp /media/nfs/partage/Design/ProjetsEnCours/TACHYSSEMA/Exten
+     sion/Ext09_Ext10/FW/Ext10/GenVideo/Diamond1.4/Ext10GenDvi.lpf
+Target Vendor:  LATTICE
+Target Device:  LFXP2-17EPQFP208
+Target Performance:   5
+Mapper:  mg5a00,  version:  Diamond_1.4_Production (87)
+Mapped on:  07/31/12  09:07:33
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    986
+      PFU registers:    955
+      PIO registers:    31
+   Number of SLICEs:          1885 out of  8280 (23%)
+      SLICEs(logic/ROM):      1765 out of  6795 (26%)
+      SLICEs(logic/ROM/RAM):   120 out of  1485 (8%)
+          As RAM:          120 out of  1485 (8%)
+          As Logic/ROM:      0 out of  1485 (0%)
+   Number of logic LUT4s:     2264
+   Number of distributed RAM: 120 (240 LUT4s)
+   Number of ripple logic:    366 (732 LUT4s)
+   Number of shift registers:   0
+   Total number of LUT4s:     3236
+   Number of PIO sites used: 34 out of 146 (23%)
+   Number of IDDR/ODDR/TDDR cells used: 1
+      Number of IDDR cells:   0
+      Number of ODDR cells:   1
+      Number of TDDR cells:   0
+   Number of PIO using at least one IDDR/ODDR/TDDR: 1 (0 differential)
+      Number of PIO using IDDR only:        0 (0 differential)
+      Number of PIO using ODDR only:        1 (0 differential)
+      Number of PIO using TDDR only:        0 (0 differential)
+      Number of PIO using IDDR/ODDR:        0 (0 differential)
+      Number of PIO using IDDR/TDDR:        0 (0 differential)
+      Number of PIO using ODDR/TDDR:        0 (0 differential)
+      Number of PIO using IDDR/ODDR/TDDR:   0 (0 differential)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 4 (25%)
+   Number of block RAMs:  8 out of 15 (53%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+   Number Of Mapped DSP Components:
+
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 40 (0 %)
+   Number of clocks:  2
+     Net Clk100_c: 147 loads, 147 rising, 0 falling (Driver: uPll/PLLInst_0 )
+     Net Clk50_c: 487 loads, 479 rising, 8 falling (Driver: uPll/PLLInst_0 )
+   Number of Clock Enables:  51
+     Net pSetReg_un23_ppwe: 4 loads, 4 LSLICEs
+     Net N_23_i: 18 loads, 18 LSLICEs
+     Net FCnte_0_i: 5 loads, 5 LSLICEs
+     Net uMaster/uDevice/N_230_0_i: 1 loads, 1 LSLICEs
+     Net uMaster/uDevice/un1_state_12_i_s: 1 loads, 1 LSLICEs
+     Net uMaster/uDevice/Dly: 3 loads, 3 LSLICEs
+     Net uMaster/uDevice/NumClke_0_i: 2 loads, 2 LSLICEs
+     Net uMaster/uDevice/un17_stated_0_i: 4 loads, 4 LSLICEs
+     Net uMaster_uDevice_N_224_0: 5 loads, 4 LSLICEs
+     Net uMaster/uDevice/un178_state: 4 loads, 4 LSLICEs
+     Net uMaster/uDevice/CntDlye_0_i: 4 loads, 4 LSLICEs
+     Net uMaster_uDevice_pGenScl_un1_state_2_0_i: 1 loads, 0 LSLICEs
+     Net uMaster/uFifoRxRaw/rden_i: 6 loads, 6 LSLICEs
+     Net uMaster/uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uMaster/uFifoRxRaw/fcnt_en: 3 loads, 3 LSLICEs
+     Net uMaster/lTrg: 5 loads, 5 LSLICEs
+     Net uMaster/N_198_i: 1 loads, 1 LSLICEs
+     Net uMaster/un2_stated_2_i_s: 5 loads, 5 LSLICEs
+     Net uMaster/NumXfre_0_i: 5 loads, 5 LSLICEs
+     Net NewDviFrame: 6 loads, 6 LSLICEs
+     Net uDvi/U_gen_cnt/cntve_0_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_31_0: 7 loads, 7 LSLICEs
+     Net uDvi/U_conf/un1_wed_28_0: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_34_0: 7 loads, 7 LSLICEs
+     Net uDvi/U_conf/un1_wed_33_0: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_32: 7 loads, 7 LSLICEs
+     Net uDvi/U_conf/un184_wed_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_27_0: 1 loads, 1 LSLICEs
+     Net uDvi/U_conf/un1_wed_30_0: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_29_0: 6 loads, 6 LSLICEs
+     Net uForth/uart1/TrgTx: 4 loads, 4 LSLICEs
+     Net uForth/uart1/uTx/Cnt_RNI5D544_3: 4 loads, 4 LSLICEs
+     Net uForth/uart1/uRx/Rx1_RNI7OA51: 5 loads, 5 LSLICEs
+     Net uForth/uart1/uRx/XDat_RNO_7: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/un1_ce16: 4 loads, 4 LSLICEs
+     Net uForth/uart1/TrgRx: 5 loads, 5 LSLICEs
+     Net uForth/uart1/uRx/RcvState_en_i: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/un58_ce16: 4 loads, 4 LSLICEs
+     Net uForth/uart1/TxEn: 4 loads, 4 LSLICEs
+     Net uForth/uart1/N_8: 1 loads, 1 LSLICEs
+     Net uForth/cpu1/tload_1: 31 loads, 31 LSLICEs
+
+     Net uForth/cpu1/re_0_i: 17 loads, 17 LSLICEs
+     Net uForth/cpu1/pe_0_i: 16 loads, 16 LSLICEs
+     Net uForth/cpu1/iload_1: 15 loads, 15 LSLICEs
+     Net uFifoRxRaw/rden_i: 6 loads, 6 LSLICEs
+     Net uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uFifoRxRaw/fcnt_en: 3 loads, 3 LSLICEs
+     Net VCnte_0_i: 6 loads, 6 LSLICEs
+     Net Timere_0_i: 16 loads, 16 LSLICEs
+     Net pSetReg_un9_ppwe: 16 loads, 16 LSLICEs
+     Net HCnte_0_i: 5 loads, 5 LSLICEs
+   Number of local set/reset loads for net SRst merged into GSR:  46
+   Number of LSRs:  17
+     Net uSeq_lSRst_iso: 153 loads, 152 LSLICEs
+     Net N_11: 1 loads, 0 LSLICEs
+     Net uMaster/uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uMaster/lTrg_0_a3_RNI4IUV2: 4 loads, 4 LSLICEs
+     Net uMaster/N_18: 1 loads, 1 LSLICEs
+     Net uDvi/U_gen_req/vs0: 1 loads, 1 LSLICEs
+     Net uDvi/U_gen_req/hs0: 1 loads, 1 LSLICEs
+     Net uForth/uart1/TrgTx: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/Trgc_i: 1 loads, 1 LSLICEs
+     Net uForth/cpu1/r_stack_and_0: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/s_stack_and_2: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/s_stack_and_0: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/r_stack_and_2: 9 loads, 9 LSLICEs
+     Net uPll/PllLock: 18 loads, 18 LSLICEs
+     Net uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net VCnt_8: 5 loads, 5 LSLICEs
+     Net N_117_i: 4 loads, 4 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net VCC: 452 loads
+     Net uSeq_lSRst_iso: 153 loads
+     Net uForth/cpu1/rp_0: 86 loads
+     Net uForth/cpu1/rp_1: 85 loads
+     Net SRst: 82 loads
+     Net uForth/cpu1/sp_0: 79 loads
+     Net uForth/cpu1/sp_1: 79 loads
+     Net uForth/cpu1/sp_3: 77 loads
+     Net uDvi/U_conf/un170_wed: 76 loads
+     Net uForth/cpu1/rp_2: 76 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING: Using local reset signal 'SRst' to infer global GSR net.
+
+
+
+
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| PinSda              | BIDIR     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+| PinLedXv            | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinClk125           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinScl              | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_23           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_22           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_21           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_20           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_19           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_18           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_17           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_16           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_15           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_14           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_13           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_12           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_11           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_10           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_9            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_8            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_7            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_6            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_5            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_4            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_3            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_2            | OUTPUT    | LVCMOS33  | OUT        |            |
+
++---------------------+-----------+-----------+------------+------------+
+| PinDat_1            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat_0            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDe               | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinHSync            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinVSync            | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinClk              | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinPortTx           | OUTPUT    | LVCMOS33  | OUT        |            |
++---------------------+-----------+-----------+------------+------------+
+| PinPortRx           | INPUT     | LVCMOS33  | IN         |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block uFifoRxRaw/INV_1 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/INV_2 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/INV_3 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/INV_4 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/INV_0 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/AND2_t0 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/af_cmp_1 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/af_cmp_0 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/af_cmp_ci_a undriven or does not drive anything - clipped.
+Block uFifoRxRaw/a2 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/ae_cmp_1 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/ae_cmp_0 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/ae_cmp_ci_a undriven or does not drive anything - clipped.
+Block uFifoRxRaw/w_ctr_2 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/FF_10 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/FF_15 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/FF_0 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/FF_1 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/a3 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/r_ctr_2 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/ae_cmp_2 undriven or does not drive anything - clipped.
+Block uFifoRxRaw/af_cmp_2 undriven or does not drive anything - clipped.
+Block uForth/cpu1/r_stack_ram_7/RAM2 undriven or does not drive anything -
+     clipped.
+Block uForth/cpu1/r_stack_ram_16/RAM2 undriven or does not drive anything -
+     clipped.
+Block uForth/cpu1/s_stack_ram_7/RAM2 undriven or does not drive anything -
+     clipped.
+Block uForth/cpu1/s_stack_ram_16/RAM2 undriven or does not drive anything -
+     clipped.
+Block uMaster/uFifoRxRaw/INV_1 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/INV_2 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/INV_3 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/INV_4 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/INV_0 undriven or does not drive anything - clipped.
+
+Block uMaster/uFifoRxRaw/AND2_t0 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/af_cmp_1 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/af_cmp_0 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/af_cmp_ci_a undriven or does not drive anything -
+     clipped.
+Block uMaster/uFifoRxRaw/a2 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/ae_cmp_1 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/ae_cmp_0 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/ae_cmp_ci_a undriven or does not drive anything -
+     clipped.
+Block uMaster/uFifoRxRaw/w_ctr_2 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/FF_10 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/FF_15 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/FF_0 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/FF_1 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/a3 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/r_ctr_2 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/ae_cmp_2 undriven or does not drive anything - clipped.
+Block uMaster/uFifoRxRaw/af_cmp_2 undriven or does not drive anything - clipped.
+Signal VCnt_i_8 was merged into signal VCnt_8
+Signal uFifoRxRaw/wren_i_inv was merged into signal uFifoRxRaw/wren_i
+Signal uFifoRxRaw/rden_i_inv was merged into signal uFifoRxRaw/rden_i
+Signal uFifoRxRaw/invout_1 was merged into signal Empty
+Signal uFifoRxRaw/invout_2 was merged into signal Full
+Signal uFifoRxRaw/dec0_wre3 was merged into signal uFifoRxRaw/wren_i
+Signal Clk50_c_i was merged into signal Clk50_c
+Signal PllLock_i was merged into signal uPll/PllLock
+Signal uForth/cpu1/t_in_a0_2_i_9 was merged into signal uForth/cpu1/t_in_a0_2_9
+Signal uForth/cpu1/code_4_x1_0 was merged into signal uForth/cpu1/i_0
+Signal uMaster/uFifoRxRaw/wren_i_inv was merged into signal
+     uMaster/uFifoRxRaw/wren_i
+Signal uMaster/uFifoRxRaw/rden_i_inv was merged into signal
+     uMaster/uFifoRxRaw/rden_i
+Signal uMaster/uFifoRxRaw/invout_1 was merged into signal uMaster/FifoEmpty
+Signal uMaster/uFifoRxRaw/invout_2 was merged into signal uMaster/Full_0
+Signal uMaster/uFifoRxRaw/dec0_wre3 was merged into signal
+     uMaster/uFifoRxRaw/wren_i
+Signal lSda_cl_i was merged into signal uMaster/uDevice/lSda_cl
+Signal uFifoRxRaw/scuba_vlo undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/scuba_vhi undriven or does not drive anything - clipped.
+Signal uForth/uForthMem/scuba_vlo undriven or does not drive anything - clipped.
+Signal uForth/uForthMem/scuba_vhi undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/scuba_vlo undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/scuba_vhi undriven or does not drive anything -
+     clipped.
+Signal HCnt_s_0_S1_7 undriven or does not drive anything - clipped.
+Signal HCnt_s_0_COUT_7 undriven or does not drive anything - clipped.
+Signal FCnt_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal FCnt_cry_0_COUT_7 undriven or does not drive anything - clipped.
+Signal VCnt_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal VCnt_s_0_S1_9 undriven or does not drive anything - clipped.
+Signal VCnt_s_0_COUT_9 undriven or does not drive anything - clipped.
+Signal Timer_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal Timer_s_0_S1_31 undriven or does not drive anything - clipped.
+Signal Timer_s_0_COUT_31 undriven or does not drive anything - clipped.
+
+Signal un1_DatB_1_d0_4_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_4_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_4_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_4_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_4_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_4_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_4_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_4_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal un1_FCnt_2_0_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_FCnt_2_0_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_FCnt_2_0_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_FCnt_2_0_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d0_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_DatB_1_d2_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal un1_datr_2_0_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal un1_datr_2_0_s_7_0_S1 undriven or does not drive anything - clipped.
+Signal un1_datr_2_0_s_7_0_COUT undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/r_nw_inv undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/fcnt_en_inv undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/r_nw undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/invout_0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co0_6 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/af_cmp_ci_a/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/af_cmp_ci_a/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/cmp_ci_3 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a2/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a2/C1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/cnt_con_inv undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co0_5 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/fcnt_en_inv_inv undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/ae_cmp_ci_a/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/ae_cmp_ci_a/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/cmp_ci_2 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/r_ctr_cia/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/r_ctr_cia/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/w_ctr_2/NC1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co2_1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co1_3 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/w_ctr_cia/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/w_ctr_cia/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a1/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a1/C1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/g_cmp_ci_a/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/g_cmp_ci_a/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a0/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a0/C1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/e_cmp_ci_a/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/e_cmp_ci_a/S0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/bdcnt_bctr_cia/S1 undriven or does not drive anything -
+     clipped.
+
+Signal uFifoRxRaw/bdcnt_bctr_cia/S0 undriven or does not drive anything -
+     clipped.
+Signal uFifoRxRaw/wcount_4 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/iwcount_4 undriven or does not drive anything - clipped.
+Signal AlmostFull_0 undriven or does not drive anything - clipped.
+Signal AlmostEmpty_0 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/ae_d undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a3/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/af_d undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/a3/C1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/bdcnt_bctr_2/S1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co2 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/r_ctr_2/NC1 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/ircount_4 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co2_2 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co1_4 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/rcount_4 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/ae_d_c undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co1_5 undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/af_d_c undriven or does not drive anything - clipped.
+Signal uFifoRxRaw/co1_6 undriven or does not drive anything - clipped.
+Signal uPll/CLKINTFB undriven or does not drive anything - clipped.
+Signal uPll/CLKOS undriven or does not drive anything - clipped.
+Signal uSeq/lCnt32_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal uSeq/lCnt32_s_0_S1_31 undriven or does not drive anything - clipped.
+Signal uSeq/lCnt32_s_0_COUT_31 undriven or does not drive anything - clipped.
+Signal uSeq/Cnt16_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal uSeq/Cnt16_s_0_S1_7 undriven or does not drive anything - clipped.
+Signal uSeq/Cnt16_s_0_COUT_7 undriven or does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB4 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB8 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB12 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB16 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA6 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA10 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA14 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOB0 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB4 undriven or
+
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB3 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB2 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB1 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOB0 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA17 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA16 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA15 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA14 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA13 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA12 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA11 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA10 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA9 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA8 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA7 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA6 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA5 undriven or
+     does not drive anything - clipped.
+Signal uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0/DOA4 undriven or
+     does not drive anything - clipped.
+Signal uForth/cpu1/sp1_5_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/sp1_5_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/sp1_5_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/sp_5_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/sp_5_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/sp_5_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/rp1_4_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/rp1_4_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/rp1_4_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/rp_4_cry_0_0_S1 undriven or does not drive anything -
+
+     clipped.
+Signal uForth/cpu1/rp_4_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/rp_4_cry_3_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/r_cry_0_COUT_31 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/p_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/p_s_0_S1_31 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/p_s_0_COUT_31 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un4_sum_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un4_sum_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un4_sum_cry_31_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un1_t_2_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un1_t_2_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un1_t_2_cry_31_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/un75_z_0_0_S1 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_0_0_S0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_1_0_S1 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_1_0_S0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_3_0_S1 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_3_0_S0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_5_0_S1 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_5_0_S0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_7_0_S0 undriven or does not drive anything - clipped.
+Signal uForth/cpu1/un75_z_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_7_DO2 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_7_DO3 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_7_DO1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_16_DO2 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_16_DO3 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/r_stack_ram_16_DO1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/s_stack_ram_7_DO2 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/s_stack_ram_7_DO3 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/s_stack_ram_7_DO1 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/s_stack_ram_16_DO2 undriven or does not drive anything -
+     clipped.
+Signal uForth/cpu1/s_stack_ram_16_DO3 undriven or does not drive anything -
+     clipped.
+
+Signal uForth/cpu1/s_stack_ram_16_DO1 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uRx/Cnt_cry_0_S0_0_0 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uRx/Cnt_s_0_S1_0_7 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uRx/Cnt_s_0_COUT_0_7 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uTx/Cnt_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uTx/Cnt_s_0_S1_7 undriven or does not drive anything -
+     clipped.
+Signal uForth/uart1/uTx/Cnt_s_0_COUT_7 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnth_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnth_s_0_S1_11 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnth_s_0_COUT_11 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cntv_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cntv_s_0_S1_11 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cntv_s_0_COUT_11 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_v_1_s_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_v_1_s_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_h_1_s_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/cnt_h_1_s_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+
+Signal uDvi/U_gen_cnt/un16_cnth_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un16_cnth_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un1_cnth_cry_11_0_COUT undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_21_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+
+Signal uDvi/U_gen_cnt/un12_cnth_0_I_9_0_COUT undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_h_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_3_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_5_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_5_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_7_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_7_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_9_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+
+Signal uDvi/U_gen_sync/un1_cnt_h_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/cnt_v_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_3_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_5_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_5_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_7_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_7_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_9_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+
+Signal uDvi/U_gen_sync/un1_cnt_v_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_h_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_tim/cnt_v_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+
+Signal uDvi/U_gen_tim/cnt_v_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd3_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd3_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd3_1_s_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd3_1_s_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd2_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd2_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd2_1_cry_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd1_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd1_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/bnd1_1_cry_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un1_cnt_v_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+
+Signal uDvi/U_gen_req/cnt_h_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_h_cry_11_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_21_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un3_cnt_v_0_I_9_0_COUT undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_21_0_S1 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/un2_cnt_v_0_I_9_0_COUT undriven or does not drive anything
+     - clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+
+Signal uDvi/U_gen_req/cnt_v_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uDvi/U_gen_req/cnt_v_0_I_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uMaster/NumXfr_cry_0_S0_0 undriven or does not drive anything - clipped.
+Signal uMaster/NumXfr_s_0_S1_7 undriven or does not drive anything - clipped.
+Signal uMaster/NumXfr_s_0_COUT_7 undriven or does not drive anything - clipped.
+Signal uMaster/un73_state_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/un73_state_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/un73_state_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/un73_state_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/un73_state_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/un73_state_0_I_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/r_nw_inv undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/fcnt_en_inv undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/r_nw undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/invout_0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/co0_6 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/af_cmp_ci_a/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/af_cmp_ci_a/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/cmp_ci_3 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/a2/S1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/a2/C1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/cnt_con_inv undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/co0_5 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/fcnt_en_inv_inv undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/ae_cmp_ci_a/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/ae_cmp_ci_a/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/cmp_ci_2 undriven or does not drive anything -
+     clipped.
+
+Signal uMaster/uFifoRxRaw/r_ctr_cia/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/r_ctr_cia/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/w_ctr_2/NC1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/co2_1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/co1_3 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/w_ctr_cia/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/w_ctr_cia/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/a1/S1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/a1/C1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/g_cmp_ci_a/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/g_cmp_ci_a/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/a0/S1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/a0/C1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/e_cmp_ci_a/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/e_cmp_ci_a/S0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/bdcnt_bctr_cia/S1 undriven or does not drive anything
+     - clipped.
+Signal uMaster/uFifoRxRaw/bdcnt_bctr_cia/S0 undriven or does not drive anything
+     - clipped.
+Signal uMaster/uFifoRxRaw/wcount_4 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/iwcount_4 undriven or does not drive anything -
+     clipped.
+Signal uMaster/AlmostFull undriven or does not drive anything - clipped.
+Signal uMaster/AlmostEmpty undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/ae_d undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/a3/S1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/af_d undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/a3/C1 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/bdcnt_bctr_2/S1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/co2 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/r_ctr_2/NC1 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/ircount_4 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/co2_2 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/co1_4 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/rcount_4 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uFifoRxRaw/ae_d_c undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/co1_5 undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/af_d_c undriven or does not drive anything - clipped.
+Signal uMaster/uFifoRxRaw/co1_6 undriven or does not drive anything - clipped.
+Signal uMaster/uDevice/CntDly_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal uMaster/uDevice/CntDly_s_0_S1_7 undriven or does not drive anything -
+
+     clipped.
+Signal uMaster/uDevice/CntDly_s_0_COUT_7 undriven or does not drive anything -
+     clipped.
+Signal HCnt_cry_0_S0_0 undriven or does not drive anything - clipped.
+Block VCnt_RNIDUH6_8 was optimized away.
+Block uFifoRxRaw/INV_5 was optimized away.
+Block uFifoRxRaw/INV_6 was optimized away.
+Block uFifoRxRaw/INV_7 was optimized away.
+Block uFifoRxRaw/INV_8 was optimized away.
+Block uFifoRxRaw/LUT4_0 was optimized away.
+Block uPll/CLKOK_inferred_clock_RNI6F86 was optimized away.
+Block uPll/PLLInst_0_RNIM378 was optimized away.
+Block uForth/cpu1/t_in_0_RNO_10 was optimized away.
+Block uForth/cpu1/code_4_x1_0 was optimized away.
+Block uMaster/uFifoRxRaw/INV_5 was optimized away.
+Block uMaster/uFifoRxRaw/INV_6 was optimized away.
+Block uMaster/uFifoRxRaw/INV_7 was optimized away.
+Block uMaster/uFifoRxRaw/INV_8 was optimized away.
+Block uMaster/uFifoRxRaw/LUT4_0 was optimized away.
+Block uMaster/uDevice/lSda_cl_RNIO1AE was optimized away.
+Block uFifoRxRaw/scuba_vlo_inst was optimized away.
+Block uFifoRxRaw/scuba_vhi_inst was optimized away.
+Block uForth/uForthMem/scuba_vlo_inst was optimized away.
+Block uForth/uForthMem/scuba_vhi_inst was optimized away.
+Block uMaster/uFifoRxRaw/scuba_vlo_inst was optimized away.
+Block uMaster/uFifoRxRaw/scuba_vhi_inst was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+    INFO: Design contains pre-loadable EBR during configuration that has a
+         requirement:
+    Since the GSR is disabled for the EBR, make sure write enable and chip
+    enable are inactive during wake-up, so that the pre-loaded initialization
+    values will not be corrupted during wake-up state.
+
+
+
+
+/uFifoRxRaw:
+    EBRs: 0
+    RAM SLICEs: 6
+    Logic SLICEs: 21
+    PFU Registers: 21
+/uForth/cpu1/r_stack_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_1:
+
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_10:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_11:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_15:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_16:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_16/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_2:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_4:
+    EBRs: 0
+
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_7:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_7/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/r_stack_ram_9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_0:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_1:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_10:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_11:
+    EBRs: 0
+    RAM SLICEs: 3
+
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_12:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_13:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_14:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_15:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_16:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_16/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_2:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_3:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_4:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_5:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_6:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_7:
+    EBRs: 0
+    RAM SLICEs: 2
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_7/RAMW:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_8:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/cpu1/s_stack_ram_9:
+    EBRs: 0
+    RAM SLICEs: 3
+    Logic SLICEs: 0
+    PFU Registers: 0
+/uForth/uForthMem:
+    EBRs: 8
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_7_0:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_0_7:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_1_6:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_2_5:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_3_4:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_4_3:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_5_2:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+    -Contains EBR pmi_ram_dq40961232ndssep32qhnE_0_6_1:  TYPE= DP16KB,  Width_A=
+         4,  Depth_A= 4096,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE=
+         SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_INIT_FILE= ep32q.hex,  MEM_LPC_FILE=
+         pmi_ram_dq40961232ndssep32qhnE__PMIS__4096__32__32H
+/uMaster/uFifoRxRaw:
+    EBRs: 0
+    RAM SLICEs: 6
+    Logic SLICEs: 23
+    PFU Registers: 22
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                uPll/PLLInst_0
+  PLL Type:                                         EPLLD
+  Input Clock:                             PIN      PinClk125_c
+  Output Clock(P):                         NODE     Clk100_c
+  Output Clock(S):                                  NONE
+  Output Clock(K):                         NODE     Clk50_c
+  PLL Feedback Signal:                     NODE     Clk100_c
+  PLL Reset Signal:                                 NONE
+  PLL K Divider Reset Signal:                       NONE
+  PLL LOCK Signal:                         NODE     uPll/PllLock
+  Dynamic Phase Adjust Input 0:                     NONE
+  Dynamic Phase Adjust Input 1:                     NONE
+  Dynamic Phase Adjust Input 2:                     NONE
+  Dynamic Phase Adjust Input 3:                     NONE
+  Dynamic Duty Adjust Input 0:                      NONE
+  Dynamic Duty Adjust Input 1:                      NONE
+  Dynamic Duty Adjust Input 2:                      NONE
+  Dynamic Duty Adjust Input 3:                      NONE
+  Input Clock Frequency (MHz):                      125.0000
+  Output Clock(P) Frequency (MHz):                  100.0000
+  Output Clock(K) Frequency (MHz):                  50.0000
+  Output Clock(P) Actual Frequency:                 100.0000
+  CLKOP BYPASS:                                     DISABLED
+  CLKOS BYPASS:                                     DISABLED
+  CLKOK BYPASS:                                     DISABLED
+  CLKI Divider:                                     5
+  CLKFB Divider:                                    4
+  CLKOP Divider:                                    8
+  CLKOK Divider:                                    2
+  CLKOS Phase Shift (degree):                       0.0
+  CLKOS Duty Cycle (*1/16):                         8
+  Phase_Duty Control:                               STATIC
+  FB_MODE:                                          NONE
+
+
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_7_0
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_0_7
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_1_6
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_2_5
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_3_4
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_4_3
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_5_2
+         Type: DP16KB
+Instance Name: uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnE_0_6_1
+         Type: DP16KB
+Instance Name: uPll/PLLInst_0
+         Type: EPLLD
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+   The local reset signal 'SRst' of the design has been inferred as Global Set
+        Reset (GSR). The reset signal used for GSR control is 'SRst'.
+
+GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+
+Components on inferred reset domain with GSR Property disabled
+--------------------------------------------------------------
+
+These components have the GSR property set to DISABLED and are on the inferred
+     reset domain. The components will respond to the reset signal 'SRst' via
+     the local reset on the component and not the GSR component.
+
+Type and number of components of the type:
+   Register = 1
+
+Type and instance name of component:
+   Register : uDvi/U_gen_cnt/srst0
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 2 secs
+   Total REAL Time: 2 secs
+   Peak Memory Usage: 97 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2011 Lattice Semiconductor
+     Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

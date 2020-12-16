@@ -1,0 +1,30 @@
+# Synospys Constraint Checker(syntax only), version maplat, Build 239R, built Oct 19 2011
+# Copyright (C) 1994-2011, Synopsys Inc.  All Rights Reserved
+
+# Written on Tue Jul 24 10:40:57 2012
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "CopyVideoTop"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start                               Requested     Requested     Clock        Clock              
+Clock                               Frequency     Period        Type         Group              
+------------------------------------------------------------------------------------------------
+System                              1.0 MHz       1000.000      system       system_clkgroup    
+CopyVideoTop|PinClk403              200.0 MHz     5.000         inferred     Inferred_clkgroup_0
+Pll125to50|CLKOP_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_1
+================================================================================================
