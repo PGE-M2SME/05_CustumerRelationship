@@ -1,0 +1,50 @@
+Error Report For : Documents\Ext_DVI.Sch    13-Feb-2011  18:01:36
+
+ #1 Error  Multiple Net Identifiers : Ext_DVI.Sch 3R3 At (1220,610) And Ext_DVI.Sch DAT_M At (1020,560)
+ #3 Error   Floating Input Pins On Net NetJ1_4
+Pin Ext_DVI.Sch(J1-4 @1410,850)
+
+ #5 Error   Floating Input Pins On Net NetJ1_5
+Pin Ext_DVI.Sch(J1-5 @1410,860)
+
+ #7 Error   Floating Input Pins On Net NetJ1_7
+Pin Ext_DVI.Sch(J1-7 @1410,710)
+
+ #9 Error   Floating Input Pins On Net NetJ1_8
+Pin Ext_DVI.Sch(J1-8 @1260,750)
+
+ #11 Error   Floating Input Pins On Net NetJ1_12
+Pin Ext_DVI.Sch(J1-12 @1410,880)
+
+ #13 Error   Floating Input Pins On Net NetJ1_13
+Pin Ext_DVI.Sch(J1-13 @1410,890)
+
+ #15 Error   Floating Input Pins On Net NetJ1_16
+Pin Ext_DVI.Sch(J1-16 @1410,730)
+
+ #17 Error   Floating Input Pins On Net NetJ1_20
+Pin Ext_DVI.Sch(J1-20 @1410,820)
+
+ #19 Error   Floating Input Pins On Net NetJ1_21
+Pin Ext_DVI.Sch(J1-21 @1410,830)
+
+ #21 Error   Floating Input Pins On Net NetJ1_C1
+Pin Ext_DVI.Sch(J1-C1 @1260,730)
+
+ #23 Error   Floating Input Pins On Net NetJ1_C2
+Pin Ext_DVI.Sch(J1-C2 @1260,720)
+
+ #25 Error   Floating Input Pins On Net NetJ1_C3
+Pin Ext_DVI.Sch(J1-C3 @1260,710)
+
+ #27 Error   Floating Input Pins On Net NetJ1_C4
+Pin Ext_DVI.Sch(J1-C4 @1260,740)
+
+ #29 Error   Floating Input Pins On Net NetJ1_C5
+Pin Ext_DVI.Sch(J1-C5 @1260,700)
+
+ #31 Error   Floating Input Pins On Net NetU1_9
+Pin Ext_DVI.Sch(U1-9 @690,600)
+
+
+End Report

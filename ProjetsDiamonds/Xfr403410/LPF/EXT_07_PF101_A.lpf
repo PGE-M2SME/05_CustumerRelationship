@@ -1,0 +1,83 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_07_PF101_A.lpf
+#       generated for EXTENSION-07 on board PF101 in slot A
+# 
+# --------------------------------------------------------------------
+#
+# Interface with Video Decoder: ADV7180
+#
+# Octal bus for data
+#
+LOCATE COMP "PinDat_8" SITE "H20" ;
+IOBUF PORT "PinDat_8" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_9" SITE "J20" ;
+IOBUF PORT "PinDat_9" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_10" SITE "D22" ;
+IOBUF PORT "PinDat_10" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_11" SITE "F21" ;
+IOBUF PORT "PinDat_11" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_12" SITE "F22" ;
+IOBUF PORT "PinDat_12" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_13" SITE "G21" ;
+IOBUF PORT "PinDat_13" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_14" SITE "G22" ;
+IOBUF PORT "PinDat_14" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat_15" SITE "H21" ;
+IOBUF PORT "PinDat_15" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Real time control
+#
+LOCATE COMP "PinLlc" SITE "C8" ;
+IOBUF PORT "PinLlc" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHs" SITE "A2" ;
+IOBUF PORT "PinHs" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinVs" SITE "E5" ;
+IOBUF PORT "PinVs" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinField" SITE "D4" ;
+IOBUF PORT "PinField" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Bus I2C
+#
+LOCATE COMP "PinSda" SITE "B2" ;
+IOBUF PORT "PinSda" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinScl" SITE "F6" ;
+IOBUF PORT "PinScl" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Misc
+#
+LOCATE COMP "PinIt" SITE "D6" ;
+IOBUF PORT "PinIt" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRst" SITE "C6" ;
+IOBUF PORT "PinRst" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+#
+

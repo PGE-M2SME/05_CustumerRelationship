@@ -1,0 +1,44 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.tload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.spush_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.spopp_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.rload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.reset_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.aload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@N: MO231 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":97:2:97:3|Found counter in view:work.CopyVideoTop(rtl) instance uSeq.lCnt32[31:0] 
+@N: MF135 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|RAM sync\.r_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MF135 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|RAM sync\.s_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MO231 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Found counter in view:work.ep32(behavioral) instance r[32:0] 
+@N: MF179 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":183:58:183:72|Found 8 by 8 bit equality operator ('==') pLowLevelFSM\.un73_state (in view: work.I2cMasterCommands(rtl))
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing sequential instance DeviceIdR[1] (in view: work.I2cMasterCommands(rtl)) because it does not drive other instances.
+@N: MF794 |RAM sync\.r_stack[32:0] required 32 registers during mapping 
+@N: MF794 |RAM sync\.s_stack[32:0] required 32 registers during mapping 
+@N: MF794 |RAM PinDat410_1_CR23[23:0] required 2 registers during mapping 
+@N: FA113 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":456:2:456:3|Pipelining module un1_rp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Pushed in register rp1[4:0].
+@N: FA113 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":456:2:456:3|Pipelining module un1_sp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Pushed in register sp1[4:0].
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\forth.vhd":156:2:156:3|Removing sequential instance uForth.ItVec (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":241:2:241:3|Removing sequential instance uForth.cpu1.intset (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Removing sequential instance uForth.cpu1.inten (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[1] (in view: work.CopyVideoTop(rtl)) with 15 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[0] (in view: work.CopyVideoTop(rtl)) with 17 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[1] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[5] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[4] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.g0 (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[3] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[6] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.r_stack[32:0]
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.s_stack[32:0]
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":233:2:233:3|Generating RAM PinDat410_1_CR23[23:0]
+@N: FX1056 |Writing EDF file: C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\Xfr403410_A.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

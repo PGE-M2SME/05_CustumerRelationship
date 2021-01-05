@@ -1,0 +1,98 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_01_PF120_A.lpf
+#       generated for EXTENSION-01 on board PF120 in slot A
+# 
+# --------------------------------------------------------------------
+#
+# 7 segment display
+#   Standard segment names A, B, C,.. are replaced by 0, 1, 2,...
+#   Decimal dot is 7
+#
+LOCATE COMP "PinLed_0" SITE "AE4" ;
+IOBUF PORT "PinLed_0" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_1" SITE "AF4" ;
+IOBUF PORT "PinLed_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_2" SITE "AA1" ;
+IOBUF PORT "PinLed_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_3" SITE "V1" ;
+IOBUF PORT "PinLed_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_4" SITE "U2" ;
+IOBUF PORT "PinLed_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_5" SITE "AD1" ;
+IOBUF PORT "PinLed_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_6" SITE "AD2" ;
+IOBUF PORT "PinLed_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinLed_7" SITE "AA2" ;
+IOBUF PORT "PinLed_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Dip switch
+#
+LOCATE COMP "PinSw_1" SITE "AE23" ;
+IOBUF PORT "PinSw_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_2" SITE "AF23" ;
+IOBUF PORT "PinSw_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_3" SITE "AF24" ;
+IOBUF PORT "PinSw_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_4" SITE "AE25" ;
+IOBUF PORT "PinSw_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_5" SITE "AC25" ;
+IOBUF PORT "PinSw_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_6" SITE "AC26" ;
+IOBUF PORT "PinSw_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_7" SITE "AB26" ;
+IOBUF PORT "PinSw_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSw_8" SITE "AA26" ;
+IOBUF PORT "PinSw_8" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# 10 pin header
+#   Names match pin numbers
+#   Pins 1 & 2 are Gnd & 3R3 respectively
+#   
+LOCATE COMP "PinHe102_3" SITE "AE23" ;
+IOBUF PORT "PinHe102_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_4" SITE "AF23" ;
+IOBUF PORT "PinHe102_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_5" SITE "AF24" ;
+IOBUF PORT "PinHe102_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_6" SITE "AE25" ;
+IOBUF PORT "PinHe102_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_7" SITE "AC25" ;
+IOBUF PORT "PinHe102_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_8" SITE "AC26" ;
+IOBUF PORT "PinHe102_8" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_9" SITE "AB26" ;
+IOBUF PORT "PinHe102_9" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe102_10" SITE "AA26" ;
+IOBUF PORT "PinHe102_10" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+#
+

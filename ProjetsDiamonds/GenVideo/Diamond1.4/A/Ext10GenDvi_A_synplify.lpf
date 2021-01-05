@@ -1,0 +1,24 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat2018q2p1, Build 055R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "uPll/Clk100" 200.0 MHz;
+#FREQUENCY NET "uPll/Clk50" 200.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "uPll/Clk50" TO CLKNET "uPll/Clk100";
+#BLOCK PATH FROM CLKNET "uPll/Clk100" TO CLKNET "uPll/Clk50";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

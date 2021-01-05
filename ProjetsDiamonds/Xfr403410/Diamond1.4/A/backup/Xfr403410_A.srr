@@ -1,0 +1,1331 @@
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-0QV9UDN
+
+# Thu Dec 17 15:18:54 2020
+
+#Implementation: A
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Implementation : A
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Implementation : A
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":15:7:15:18|Top entity is set to CopyVideoTop.
+@W: CD643 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
+@W: CD645 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
+@W: CD643 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":12:27:12:27|Ignoring use clause - pmi_components not found ...
+@W: CD645 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":13:8:13:15|Ignoring undefined library pmi_work
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":15:7:15:18|Synthesizing work.copyvideotop.rtl.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port startupddr3 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port startupddr2 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port startupsdr of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port startuppcs of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port ce1us of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port ce1ms of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":134:0:134:3|Port ce7 of entity work.seqblk is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD280 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":77:10:77:17|Unbound component pmi_fifo mapped to black box
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":212:0:212:9|Port almostfull of entity work.pmi_fifo_work_copyvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":212:0:212:9|Port almostempty of entity work.pmi_fifo_work_copyvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":212:0:212:9|Port full of entity work.pmi_fifo_work_copyvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":212:0:212:9|Port empty of entity work.pmi_fifo_work_copyvideotop_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":77:10:77:17|Synthesizing work.pmi_fifo_work_copyvideotop_rtl_0.syn_black_box.
+Post processing for work.pmi_fifo_work_copyvideotop_rtl_0.syn_black_box
+Running optimization stage 1 on pmi_fifo_work_copyvideotop_rtl_0 .......
+@W: CD280 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":122:10:122:15|Unbound component ODDRXC mapped to black box
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":122:10:122:15|Synthesizing work.oddrxc.syn_black_box.
+Post processing for work.oddrxc.syn_black_box
+Running optimization stage 1 on ODDRXC .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":9:7:9:23|Synthesizing work.i2cmastercommands.rtl.
+@W: CD280 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":51:10:51:17|Unbound component pmi_fifo mapped to black box
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":194:0:194:9|Port almostfull of entity work.pmi_fifo_work_copyvideotop_rtl_1 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":194:0:194:9|Port almostempty of entity work.pmi_fifo_work_copyvideotop_rtl_1 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":51:10:51:17|Synthesizing work.pmi_fifo_work_copyvideotop_rtl_1.syn_black_box.
+Post processing for work.pmi_fifo_work_copyvideotop_rtl_1.syn_black_box
+Running optimization stage 1 on pmi_fifo_work_copyvideotop_rtl_1 .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2CMasterDevice.vhd":6:7:6:21|Synthesizing work.i2cmasterdevice.rtl.
+Post processing for work.i2cmasterdevice.rtl
+Running optimization stage 1 on I2cMasterDevice .......
+Post processing for work.i2cmastercommands.rtl
+Running optimization stage 1 on I2cMasterCommands .......
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":271:0:271:1|Register bit DeviceIdR(0) is always 1.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":271:0:271:1|Register bit DeviceIdW(0) is always 0.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Register bit CmdState(2) is always 0.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Register bit CmdState(3) is always 0.
+@W: CL279 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Pruning register bits 3 to 2 of CmdState(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":271:0:271:1|Pruning register bit 0 of DeviceIdR(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":271:0:271:1|Pruning register bit 0 of DeviceIdW(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\Forth.vhd":33:7:33:11|Synthesizing work.forth.rtl.
+@W: CD280 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\Forth.vhd":85:10:85:19|Unbound component pmi_ram_dq mapped to black box
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\Forth.vhd":85:10:85:19|Synthesizing work.pmi_ram_dq_work_copyvideotop_rtl_0.syn_black_box.
+Post processing for work.pmi_ram_dq_work_copyvideotop_rtl_0.syn_black_box
+Running optimization stage 1 on pmi_ram_dq_work_copyvideotop_rtl_0 .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\UartTss.vhd":6:7:6:10|Synthesizing work.uart.rtl.
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\Tx.vhd":59:7:59:8|Synthesizing work.tx.behavioral.
+Post processing for work.tx.behavioral
+Running optimization stage 1 on Tx .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\Rx.vhd":64:7:64:8|Synthesizing work.rx.behavioral.
+Post processing for work.rx.behavioral
+Running optimization stage 1 on Rx .......
+Post processing for work.uart.rtl
+Running optimization stage 1 on uart .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\ep32Tss.vhd":29:7:29:10|Synthesizing work.ep32.behavioral.
+Post processing for work.ep32.behavioral
+Running optimization stage 1 on ep32 .......
+@W: CL271 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\ep32Tss.vhd":455:3:455:4|Pruning unused bits 31 to 30 of i_4(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.forth.rtl
+Running optimization stage 1 on Forth .......
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":60:7:60:12|Synthesizing work.seqblk.behavioral.
+Post processing for work.seqblk.behavioral
+Running optimization stage 1 on SeqBlk .......
+@W: CL177 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":236:2:236:3|Sharing sequential element StartupDDR3. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\IpxLpc\Pll125to50.vhd":14:7:14:16|Synthesizing work.pll125to50.structure.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp3.vhd":1967:10:1967:16|Synthesizing work.ehxpllf.syn_black_box.
+Post processing for work.ehxpllf.syn_black_box
+Running optimization stage 1 on EHXPLLF .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\ecp3.vhd":1368:10:1368:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+Running optimization stage 1 on VLO .......
+Post processing for work.pll125to50.structure
+Running optimization stage 1 on Pll125to50 .......
+Post processing for work.copyvideotop.rtl
+Running optimization stage 1 on CopyVideoTop .......
+Running optimization stage 2 on VLO .......
+Running optimization stage 2 on EHXPLLF .......
+Running optimization stage 2 on Pll125to50 .......
+Running optimization stage 2 on SeqBlk .......
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(6) is always 0.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(7) is always 0.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(8) is always 0.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":149:0:149:1|Register bit CntUs(9) is always 0.
+@W: CL279 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\SeqBlk1204.vhd":149:0:149:1|Pruning register bits 9 to 6 of CntUs(9 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on ep32 .......
+@N: CL134 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\ep32Tss.vhd":455:3:455:4|Found RAM s_stack, depth=32, width=33
+@N: CL134 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\ep32Tss.vhd":455:3:455:4|Found RAM r_stack, depth=32, width=33
+Running optimization stage 2 on Rx .......
+Running optimization stage 2 on Tx .......
+Running optimization stage 2 on uart .......
+@W: CL246 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\UartTss.vhd":13:4:13:9|Input port bits 31 to 8 of data_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\Forth120719\VHDL\UartTss.vhd":10:4:10:9|Input read_i is unused.
+Running optimization stage 2 on pmi_ram_dq_work_copyvideotop_rtl_0 .......
+Running optimization stage 2 on Forth .......
+Running optimization stage 2 on I2cMasterDevice .......
+@N: CL201 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2CMasterDevice.vhd":47:0:47:1|Trying to extract state machine for register State.
+Extracted state machine for register State
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+Running optimization stage 2 on pmi_fifo_work_copyvideotop_rtl_1 .......
+Running optimization stage 2 on I2cMasterCommands .......
+@W: CL260 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Pruning register bit 3 of CmdStateD(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Register bit CmdStateD(2) is always 0.
+@W: CL260 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":112:0:112:1|Pruning register bit 2 of CmdStateD(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":152:0:152:1|Trying to extract state machine for register State.
+Extracted state machine for register State
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+@W: CL247 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\I2cMasterCommands.vhd":19:4:19:11|Input port bit 0 of deviceid(7 downto 0) is unused 
+Running optimization stage 2 on ODDRXC .......
+Running optimization stage 2 on pmi_fifo_work_copyvideotop_rtl_0 .......
+Running optimization stage 2 on CopyVideoTop .......
+@N: CL135 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":233:2:233:3|Found sequential shift PinDat410 with address depth of 3 words and data bit width of 24.
+@N: CL135 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":233:2:233:3|Found sequential shift PinDe410 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":233:2:233:3|Found sequential shift PinHSync410 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\VHDL\CopyVideoTop.vhd":233:2:233:3|Found sequential shift PinVSync410 with address depth of 3 words and data bit width of 1.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 97MB peak: 110MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Thu Dec 17 15:19:01 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Implementation : A
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 17 15:19:01 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\synwork\Xfr403410_A_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Thu Dec 17 15:19:01 2020
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Database state : C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\synwork\|A
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 17 15:19:03 2020
+
+###########################################################]
+Premap Report
+
+# Thu Dec 17 15:19:03 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Implementation : A
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\Xfr403410_A_scck.rpt 
+Printing clock  summary report in "C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\Xfr403410_A_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 115MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing sequential instance uMaster.DeviceIdW[7:1] because it is equivalent to instance uMaster.DeviceIdR[7:1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":133:2:133:3|Removing sequential instance Ce7 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":167:0:167:1|Removing sequential instance Ce1ms (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":198:2:198:3|Removing sequential instance StartupPCS[1:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":214:2:214:3|Removing sequential instance StartupSDR (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":225:2:225:3|Removing sequential instance StartupDDR2_1 (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":132:0:132:1|Removing sequential instance Done (in view: work.I2cMasterCommands(rtl)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":133:2:133:3|Removing sequential instance Cnt7[11:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":167:0:167:1|Removing sequential instance CntMs[9:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":149:0:149:1|Removing sequential instance CntUs[5:0] (in view: work.SeqBlk(behavioral)) of type view:PrimLib.sdffpatr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":149:0:149:1|Removing sequential instance Ce (in view: work.SeqBlk(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+Encoding state machine State[0:10] (in view: work.I2cMasterDevice(rtl))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   0111 -> 00010000000
+   1000 -> 00100000000
+   1001 -> 01000000000
+   1010 -> 10000000000
+Encoding state machine State[0:9] (in view: work.I2cMasterCommands(rtl))
+original code -> new code
+   0000 -> 0000000001
+   0001 -> 0000000010
+   0010 -> 0000000100
+   0011 -> 0000001000
+   0100 -> 0000010000
+   0101 -> 0000100000
+   0110 -> 0001000000
+   0111 -> 0010000000
+   1000 -> 0100000000
+   1001 -> 1000000000
+syn_allowed_resources : blockrams=240  set on top level netlist CopyVideoTop
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock        Clock                   Clock
+Level     Clock                               Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------
+0 -       System                              200.0 MHz     5.000         system       system_clkgroup         0    
+                                                                                                                    
+0 -       Pll125to50|CLKOP_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_1     575  
+                                                                                                                    
+0 -       CopyVideoTop|PinClk403              200.0 MHz     5.000         inferred     Inferred_clkgroup_0     35   
+====================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                    Clock     Source                            Clock Pin                  Non-clock Pin     Non-clock Pin         
+Clock                               Load      Pin                               Seq Example                Seq Example       Comb Example          
+---------------------------------------------------------------------------------------------------------------------------------------------------
+System                              0         -                                 -                          -                 -                     
+                                                                                                                                                   
+Pll125to50|CLKOP_inferred_clock     575       uPll.PLLInst_0.CLKOP(EHXPLLF)     RdLen[7:0].C               -                 uForth.m_clk.I[0](inv)
+                                                                                                                                                   
+CopyVideoTop|PinClk403              35        PinClk403(port)                   PinDat410_1_CF1[1:0].C     -                 -                     
+===================================================================================================================================================
+
+@W: MT529 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":233:2:233:3|Found inferred clock CopyVideoTop|PinClk403 which controls 35 sequential elements including PinDe410. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":97:2:97:3|Found inferred clock Pll125to50|CLKOP_inferred_clock which controls 575 sequential elements including uSeq.lCnt32[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 511 clock pin(s) of sequential element(s)
+0 instances converted, 511 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_2       PinClk403           Unconstrained_port     12         PinDe410       
+=======================================================================================
+====================================================== Gated/Generated Clocks ======================================================
+Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
+------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       uPll.PLLInst_0.CLKOP     EHXPLLF                511                    Timer[31:0]         Black box on clock path
+====================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Dec 17 15:19:05 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Dec 17 15:19:05 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-0QV9UDN
+
+Implementation : A
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 145MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.tload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.spush_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.spopp_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.rload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.reset_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.aload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.tload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.tload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.spush_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.spush_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.spopp_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.spopp_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.rload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.rload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.reset_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.reset_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.aload_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.aload_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+@W: FA239 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":290:1:290:4|Found ROM decode\.addr_sel_1 (in view: work.ep32(behavioral)) with 29 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+@N: MO231 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":97:2:97:3|Found counter in view:work.CopyVideoTop(rtl) instance uSeq.lCnt32[31:0] 
+@N: MF135 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|RAM sync\.r_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MF135 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|RAM sync\.s_stack[32:0] (in view: work.ep32(behavioral)) is 32 words by 33 bits.
+@N: MO231 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Found counter in view:work.ep32(behavioral) instance r[32:0] 
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing instance uMaster.DeviceIdR[6] because it is equivalent to instance uMaster.DeviceIdR[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing instance uMaster.DeviceIdR[5] because it is equivalent to instance uMaster.DeviceIdR[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing instance uMaster.DeviceIdR[7] because it is equivalent to instance uMaster.DeviceIdR[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing instance uMaster.DeviceIdR[3] because it is equivalent to instance uMaster.DeviceIdR[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing instance uMaster.DeviceIdR[2] because it is equivalent to instance uMaster.DeviceIdR[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":183:58:183:72|Found 8 by 8 bit equality operator ('==') pLowLevelFSM\.un73_state (in view: work.I2cMasterCommands(rtl))
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":271:0:271:1|Removing sequential instance DeviceIdR[1] (in view: work.I2cMasterCommands(rtl)) because it does not drive other instances.
+@N: MF794 |RAM sync\.r_stack[32:0] required 32 registers during mapping 
+@N: MF794 |RAM sync\.s_stack[32:0] required 32 registers during mapping 
+@N: MF794 |RAM PinDat410_1_CR23[23:0] required 2 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 151MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 157MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 167MB)
+
+@N: FA113 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":456:2:456:3|Pipelining module un1_rp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Pushed in register rp1[4:0].
+@N: FA113 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":456:2:456:3|Pipelining module un1_sp1[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Pushed in register sp1[4:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 161MB peak: 167MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 163MB peak: 167MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 162MB peak: 167MB)
+
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\forth.vhd":156:2:156:3|Removing sequential instance uForth.ItVec (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":241:2:241:3|Removing sequential instance uForth.cpu1.intset (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Removing sequential instance uForth.cpu1.inten (in view: work.CopyVideoTop(rtl)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 161MB peak: 167MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 193MB peak: 196MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:30s		    -6.11ns		1457 /       579
+   2		0h:00m:30s		    -6.11ns		1449 /       579
+   3		0h:00m:30s		    -5.86ns		1449 /       579
+   4		0h:00m:30s		    -5.98ns		1452 /       579
+   5		0h:00m:30s		    -5.98ns		1453 /       579
+   6		0h:00m:30s		    -5.98ns		1453 /       579
+   7		0h:00m:31s		    -5.98ns		1453 /       579
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[1] (in view: work.CopyVideoTop(rtl)) with 15 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.slot[0] (in view: work.CopyVideoTop(rtl)) with 17 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[7] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[1] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[3] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+Timing driven replication report
+Added 2 Registers via timing driven replication
+Added 5 LUTs via timing driven replication
+
+   8		0h:00m:33s		    -5.75ns		1465 /       581
+   9		0h:00m:33s		    -4.57ns		1466 /       581
+  10		0h:00m:34s		    -5.60ns		1467 /       581
+  11		0h:00m:34s		    -4.92ns		1470 /       581
+  12		0h:00m:34s		    -5.49ns		1474 /       581
+  13		0h:00m:34s		    -5.39ns		1475 /       581
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.sp[3] (in view: work.CopyVideoTop(rtl)) with 17 loads 2 times to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.sp[1] (in view: work.CopyVideoTop(rtl)) with 16 loads 2 times to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[0] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[6] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[5] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[4] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":143:0:143:5|Replicating instance uForth.system_data_o_0[2] (in view: work.CopyVideoTop(rtl)) with 2 loads 1 time(s) to improve timing.
+Added 4 Registers via timing driven replication
+Added 5 LUTs via timing driven replication
+
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\seqblk1204.vhd":187:2:187:3|Replicating instance uSeq.lSRst (in view: work.CopyVideoTop(rtl)) with 448 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.sp[0] (in view: work.CopyVideoTop(rtl)) with 11 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.sp[4] (in view: work.CopyVideoTop(rtl)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Replicating instance uForth.cpu1.sp[2] (in view: work.CopyVideoTop(rtl)) with 17 loads 1 time to improve timing.
+Added 4 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+  14		0h:00m:35s		    -4.08ns		1499 /       589
+  15		0h:00m:35s		    -3.93ns		1499 /       589
+  16		0h:00m:35s		    -3.83ns		1501 /       589
+  17		0h:00m:36s		    -4.21ns		1501 /       589
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:36s; Memory used current: 197MB peak: 198MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.r_stack[32:0]
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\ep32tss.vhd":455:3:455:4|Generating RAM uForth.cpu1.sync\.s_stack[32:0]
+@N: FO126 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":233:2:233:3|Generating RAM PinDat410_1_CR23[23:0]
+@A: BN291 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmasterdevice.vhd":150:0:150:1|Boundary register uMaster.uDevice.lScl.fb (in view: work.CopyVideoTop(rtl)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:38s; Memory used current: 198MB peak: 198MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:38s; Memory used current: 159MB peak: 199MB)
+
+Writing Analyst data base C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\synwork\Xfr403410_A_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:39s; Memory used current: 197MB peak: 200MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\Xfr403410\Diamond1.4\A\Xfr403410_A.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:40s; Memory used current: 202MB peak: 204MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 199MB peak: 204MB)
+
+@W: MT246 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":246:0:246:6|Blackbox ODDRXC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\copyvideotop.vhd":212:0:212:9|Blackbox pmi_fifo_work_copyvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\i2cmastercommands.vhd":194:0:194:9|Blackbox pmi_fifo_work_copyvideotop_rtl_1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\vhdl\forth120719\vhdl\forth.vhd":229:0:229:8|Blackbox pmi_ram_dq_work_copyvideotop_rtl_0 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\cyprien\documents\git\pge\05_custumerrelationship\xfr403410\ipxlpc\pll125to50.vhd":65:4:65:12|Blackbox EHXPLLF is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock CopyVideoTop|PinClk403 with period 5.00ns. Please declare a user-defined clock on port PinClk403.
+@W: MT420 |Found inferred clock Pll125to50|CLKOP_inferred_clock with period 5.00ns. Please declare a user-defined clock on net uPll.Clk50.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Dec 17 15:19:46 2020
+#
+
+
+Top view:               CopyVideoTop
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -6.065
+
+                                    Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                      Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------
+CopyVideoTop|PinClk403              200.0 MHz     501.1 MHz     5.000         1.996         3.004      inferred     Inferred_clkgroup_0
+Pll125to50|CLKOP_inferred_clock     200.0 MHz     90.4 MHz      5.000         11.065        -6.065     inferred     Inferred_clkgroup_1
+System                              200.0 MHz     387.5 MHz     5.000         2.581         2.419      system       system_clkgroup    
+=======================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+System                           System                           |  5.000       2.419   |  No paths    -      |  No paths    -      |  No paths    -    
+System                           Pll125to50|CLKOP_inferred_clock  |  5.000       1.933   |  No paths    -      |  No paths    -      |  No paths    -    
+CopyVideoTop|PinClk403           CopyVideoTop|PinClk403           |  5.000       3.004   |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to50|CLKOP_inferred_clock  System                           |  5.000       -4.793  |  No paths    -      |  No paths    -      |  No paths    -    
+Pll125to50|CLKOP_inferred_clock  Pll125to50|CLKOP_inferred_clock  |  5.000       -6.065  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CopyVideoTop|PinClk403
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                     Arrival          
+Instance               Reference                  Type         Pin     Net          Time        Slack
+                       Clock                                                                         
+-----------------------------------------------------------------------------------------------------
+PinDat410_1_CF1[0]     CopyVideoTop|PinClk403     FD1S3AX      Q       tmp1[0]      0.988       3.004
+PinDat410_1_CF1[1]     CopyVideoTop|PinClk403     FD1S3AX      Q       tmp1[1]      0.976       3.016
+De403_0io              CopyVideoTop|PinClk403     IFS1P3DX     Q       De403        0.802       4.093
+De410                  CopyVideoTop|PinClk403     FD1S3AX      Q       De410        0.802       4.093
+HSync403_0io           CopyVideoTop|PinClk403     IFS1P3DX     Q       HSync403     0.802       4.093
+HSync410               CopyVideoTop|PinClk403     FD1S3AX      Q       HSync410     0.802       4.093
+VSync403_0io           CopyVideoTop|PinClk403     IFS1P3DX     Q       VSync403     0.802       4.093
+VSync410               CopyVideoTop|PinClk403     FD1S3AX      Q       VSync410     0.802       4.093
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                       Required          
+Instance                   Reference                  Type         Pin      Net           Time         Slack
+                           Clock                                                                            
+------------------------------------------------------------------------------------------------------------
+PinDat410_1_CF1[1]         CopyVideoTop|PinClk403     FD1S3AX      D        tmp2[1]       4.894        3.004
+PinDat410_1_CR23_ram       CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CR23_ram_0     CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CR23_ram_1     CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CR23_ram_2     CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CR23_ram_3     CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CR23_ram_4     CopyVideoTop|PinClk403     DPR16X4C     RAD1     tmp2[1]       5.000        3.110
+PinDat410_1_CF1[0]         CopyVideoTop|PinClk403     FD1S3AX      D        tmp1_i[0]     4.894        3.307
+PinDat410_1_CR23_ram       CopyVideoTop|PinClk403     DPR16X4C     RAD0     tmp1_i[0]     5.000        3.412
+PinDat410_1_CR23_ram_0     CopyVideoTop|PinClk403     DPR16X4C     RAD0     tmp1_i[0]     5.000        3.412
+============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.894
+
+    - Propagation time:                      1.890
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.004
+
+    Number of logic level(s):                1
+    Starting point:                          PinDat410_1_CF1[0] / Q
+    Ending point:                            PinDat410_1_CF1[1] / D
+    The start point is clocked by            CopyVideoTop|PinClk403 [rising] on pin CK
+    The end   point is clocked by            CopyVideoTop|PinClk403 [rising] on pin CK
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                           Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+PinDat410_1_CF1[0]             FD1S3AX      Q        Out     0.988     0.988       -         
+tmp1[0]                        Net          -        -       -         -           8         
+PinDat410_1_CF1_RNID33F[1]     ORCALUT4     A        In      0.000     0.988       -         
+PinDat410_1_CF1_RNID33F[1]     ORCALUT4     Z        Out     0.902     1.890       -         
+tmp2[1]                        Net          -        -       -         -           7         
+PinDat410_1_CF1[1]             FD1S3AX      D        In      0.000     1.890       -         
+=============================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: Pll125to50|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                   Starting                                                                Arrival           
+Instance                           Reference                           Type        Pin     Net             Time        Slack 
+                                   Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp[4]                  Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp[4]           1.075       -6.065
+uForth.cpu1.sp[2]                  Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp[2]           1.062       -6.052
+uForth.cpu1.sp[3]                  Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp[3]           1.057       -6.047
+uForth.cpu1.sp[0]                  Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp[0]           1.045       -6.035
+uForth.cpu1.sp_1_rep1              Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp_1_rep1       0.958       -6.026
+uForth.cpu1.sp_3_rep1              Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp_3_rep1       0.958       -6.026
+uForth.cpu1.sp_fast[0]             Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp_fast[0]      0.994       -5.984
+uForth.cpu1.sp_fast[4]             Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp_fast[4]      0.976       -5.966
+uForth.cpu1.sp_fast[2]             Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       sp_fast[2]      0.934       -5.924
+uForth.cpu1.sync\.s_stackrff_2     Pll125to50|CLKOP_inferred_clock     FD1S3IX     Q       s_stackro_2     0.856       -5.846
+=============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                         Required           
+Instance                  Reference                           Type        Pin     Net                      Time         Slack 
+                          Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------------
+uForth.cpu1.t[5]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[5]                  4.942        -6.065
+uForth.cpu1.t[26]         Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[26]                 5.320        -5.473
+uForth.cpu1.t[18]         Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[18]                 5.320        -5.311
+uForth.uart1.DatTx[0]     Pll125to50|CLKOP_inferred_clock     FD1P3AX     D       system_data_o[0]         4.942        -5.279
+uForth.cpu1.i[0]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       system_data_o_0_rep1     4.942        -5.279
+uForth.cpu1.t[0]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[0]                  4.942        -5.279
+uForth.cpu1.t[1]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[1]                  4.942        -5.279
+uForth.cpu1.t[3]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[3]                  4.942        -5.279
+uForth.cpu1.t[8]          Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[8]                  5.320        -5.270
+uForth.cpu1.t[10]         Pll125to50|CLKOP_inferred_clock     FD1P3IX     D       t_in[10]                 5.320        -5.270
+==============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      11.007
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -6.065
+
+    Number of logic level(s):                16
+    Starting point:                          uForth.cpu1.sp[4] / Q
+    Ending point:                            uForth.cpu1.t[5] / D
+    The start point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp[4]                            FD1S3IX      Q        Out     1.075     1.075       -         
+sp[4]                                        Net          -        -       -         -           39        
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     C        In      0.000     1.075       -         
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     Z        Out     0.728     1.803       -         
+s_stackror_17_sx_sx                          Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     B        In      0.000     1.803       -         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     Z        Out     0.728     2.531       -         
+s_stackror_17_sx                             Net          -        -       -         -           1         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     D        In      0.000     2.531       -         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     Z        Out     0.782     3.314       -         
+s_stackror_17                                Net          -        -       -         -           2         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     C        In      0.000     3.314       -         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     Z        Out     0.728     4.042       -         
+s_stackror_sx                                Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     D        In      0.000     4.042       -         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     Z        Out     1.007     5.050       -         
+s_stackror                                   Net          -        -       -         -           44        
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        A1       In      0.000     5.050       -         
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        COUT     Out     1.049     6.099       -         
+un4_sum_cry_0                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        CIN      In      0.000     6.099       -         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        COUT     Out     0.062     6.161       -         
+un4_sum_cry_2                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        CIN      In      0.000     6.161       -         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        COUT     Out     0.062     6.224       -         
+un4_sum_cry_4                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        CIN      In      0.000     6.224       -         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        S1       Out     1.034     7.258       -         
+un4_sum_cry_5_0_S1                           Net          -        -       -         -           4         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     C        In      0.000     7.258       -         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     Z        Out     0.728     7.987       -         
+t_in_9_bm[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_9[5]                        PFUMX        ALUT     In      0.000     7.987       -         
+uForth.cpu1.t_in_9[5]                        PFUMX        Z        Out     0.203     8.190       -         
+N_640                                        Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     A        In      0.000     8.190       -         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     Z        Out     0.728     8.918       -         
+t_in_d_am[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_d[5]                        PFUMX        BLUT     In      0.000     8.918       -         
+uForth.cpu1.t_in_d[5]                        PFUMX        Z        Out     0.203     9.122       -         
+t_in_d[5]                                    Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     B        In      0.000     9.122       -         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     Z        Out     0.728     9.850       -         
+t_in_d_0_sx[5]                               Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     D        In      0.000     9.850       -         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     Z        Out     0.728     10.579      -         
+t_in_d_0[5]                                  Net          -        -       -         -           1         
+uForth.cpu1.t_in[5]                          ORCALUT4     A        In      0.000     10.579      -         
+uForth.cpu1.t_in[5]                          ORCALUT4     Z        Out     0.428     11.007      -         
+t_in[5]                                      Net          -        -       -         -           1         
+uForth.cpu1.t[5]                             FD1P3IX      D        In      0.000     11.007      -         
+===========================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      10.994
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.052
+
+    Number of logic level(s):                16
+    Starting point:                          uForth.cpu1.sp[2] / Q
+    Ending point:                            uForth.cpu1.t[5] / D
+    The start point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp[2]                            FD1S3IX      Q        Out     1.062     1.062       -         
+sp[2]                                        Net          -        -       -         -           32        
+uForth.cpu1.sync\.s_stackrff_2_RNINJ3E       ORCALUT4     A        In      0.000     1.062       -         
+uForth.cpu1.sync\.s_stackrff_2_RNINJ3E       ORCALUT4     Z        Out     0.728     1.790       -         
+s_stackria_2_0_a3_0_a3_sx                    Net          -        -       -         -           1         
+uForth.cpu1.sp_3_rep1_RNI7DE11               ORCALUT4     C        In      0.000     1.790       -         
+uForth.cpu1.sp_3_rep1_RNI7DE11               ORCALUT4     Z        Out     0.782     2.573       -         
+s_stackria_2                                 Net          -        -       -         -           2         
+uForth.cpu1.sync\.s_stackrff_8_RNI84QI2      ORCALUT4     B        In      0.000     2.573       -         
+uForth.cpu1.sync\.s_stackrff_8_RNI84QI2      ORCALUT4     Z        Out     0.728     3.301       -         
+s_stackrff_8_RNI84QI2                        Net          -        -       -         -           1         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     A        In      0.000     3.301       -         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     Z        Out     0.728     4.030       -         
+s_stackror_sx                                Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     D        In      0.000     4.030       -         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     Z        Out     1.007     5.037       -         
+s_stackror                                   Net          -        -       -         -           44        
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        A1       In      0.000     5.037       -         
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        COUT     Out     1.049     6.086       -         
+un4_sum_cry_0                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        CIN      In      0.000     6.086       -         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        COUT     Out     0.062     6.149       -         
+un4_sum_cry_2                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        CIN      In      0.000     6.149       -         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        COUT     Out     0.062     6.211       -         
+un4_sum_cry_4                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        CIN      In      0.000     6.211       -         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        S1       Out     1.034     7.246       -         
+un4_sum_cry_5_0_S1                           Net          -        -       -         -           4         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     C        In      0.000     7.246       -         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     Z        Out     0.728     7.974       -         
+t_in_9_bm[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_9[5]                        PFUMX        ALUT     In      0.000     7.974       -         
+uForth.cpu1.t_in_9[5]                        PFUMX        Z        Out     0.203     8.177       -         
+N_640                                        Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     A        In      0.000     8.177       -         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     Z        Out     0.728     8.906       -         
+t_in_d_am[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_d[5]                        PFUMX        BLUT     In      0.000     8.906       -         
+uForth.cpu1.t_in_d[5]                        PFUMX        Z        Out     0.203     9.109       -         
+t_in_d[5]                                    Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     B        In      0.000     9.109       -         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     Z        Out     0.728     9.838       -         
+t_in_d_0_sx[5]                               Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     D        In      0.000     9.838       -         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     Z        Out     0.728     10.566      -         
+t_in_d_0[5]                                  Net          -        -       -         -           1         
+uForth.cpu1.t_in[5]                          ORCALUT4     A        In      0.000     10.566      -         
+uForth.cpu1.t_in[5]                          ORCALUT4     Z        Out     0.428     10.994      -         
+t_in[5]                                      Net          -        -       -         -           1         
+uForth.cpu1.t[5]                             FD1P3IX      D        In      0.000     10.994      -         
+===========================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      10.989
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.047
+
+    Number of logic level(s):                16
+    Starting point:                          uForth.cpu1.sp[3] / Q
+    Ending point:                            uForth.cpu1.t[5] / D
+    The start point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp[3]                            FD1S3IX      Q        Out     1.057     1.057       -         
+sp[3]                                        Net          -        -       -         -           29        
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     B        In      0.000     1.057       -         
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     Z        Out     0.728     1.785       -         
+s_stackror_17_sx_sx                          Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     B        In      0.000     1.785       -         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     Z        Out     0.728     2.513       -         
+s_stackror_17_sx                             Net          -        -       -         -           1         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     D        In      0.000     2.513       -         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     Z        Out     0.782     3.296       -         
+s_stackror_17                                Net          -        -       -         -           2         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     C        In      0.000     3.296       -         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     Z        Out     0.728     4.024       -         
+s_stackror_sx                                Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     D        In      0.000     4.024       -         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     Z        Out     1.007     5.032       -         
+s_stackror                                   Net          -        -       -         -           44        
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        A1       In      0.000     5.032       -         
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        COUT     Out     1.049     6.081       -         
+un4_sum_cry_0                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        CIN      In      0.000     6.081       -         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        COUT     Out     0.062     6.143       -         
+un4_sum_cry_2                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        CIN      In      0.000     6.143       -         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        COUT     Out     0.062     6.206       -         
+un4_sum_cry_4                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        CIN      In      0.000     6.206       -         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        S1       Out     1.034     7.240       -         
+un4_sum_cry_5_0_S1                           Net          -        -       -         -           4         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     C        In      0.000     7.240       -         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     Z        Out     0.728     7.969       -         
+t_in_9_bm[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_9[5]                        PFUMX        ALUT     In      0.000     7.969       -         
+uForth.cpu1.t_in_9[5]                        PFUMX        Z        Out     0.203     8.172       -         
+N_640                                        Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     A        In      0.000     8.172       -         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     Z        Out     0.728     8.900       -         
+t_in_d_am[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_d[5]                        PFUMX        BLUT     In      0.000     8.900       -         
+uForth.cpu1.t_in_d[5]                        PFUMX        Z        Out     0.203     9.104       -         
+t_in_d[5]                                    Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     B        In      0.000     9.104       -         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     Z        Out     0.728     9.832       -         
+t_in_d_0_sx[5]                               Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     D        In      0.000     9.832       -         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     Z        Out     0.728     10.561      -         
+t_in_d_0[5]                                  Net          -        -       -         -           1         
+uForth.cpu1.t_in[5]                          ORCALUT4     A        In      0.000     10.561      -         
+uForth.cpu1.t_in[5]                          ORCALUT4     Z        Out     0.428     10.989      -         
+t_in[5]                                      Net          -        -       -         -           1         
+uForth.cpu1.t[5]                             FD1P3IX      D        In      0.000     10.989      -         
+===========================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      10.977
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.035
+
+    Number of logic level(s):                16
+    Starting point:                          uForth.cpu1.sp[0] / Q
+    Ending point:                            uForth.cpu1.t[5] / D
+    The start point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp[0]                            FD1S3IX      Q        Out     1.045     1.045       -         
+sp[0]                                        Net          -        -       -         -           24        
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     A        In      0.000     1.045       -         
+uForth.cpu1.sync\.s_stackrff_18_RNILFD81     ORCALUT4     Z        Out     0.728     1.773       -         
+s_stackror_17_sx_sx                          Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     B        In      0.000     1.773       -         
+uForth.cpu1.sync\.s_stackrff_18_RNIJHOT1     ORCALUT4     Z        Out     0.728     2.501       -         
+s_stackror_17_sx                             Net          -        -       -         -           1         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     D        In      0.000     2.501       -         
+uForth.cpu1.sp_RNIPAM23[2]                   ORCALUT4     Z        Out     0.782     3.284       -         
+s_stackror_17                                Net          -        -       -         -           2         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     C        In      0.000     3.284       -         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     Z        Out     0.728     4.012       -         
+s_stackror_sx                                Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     D        In      0.000     4.012       -         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     Z        Out     1.007     5.020       -         
+s_stackror                                   Net          -        -       -         -           44        
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        A1       In      0.000     5.020       -         
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        COUT     Out     1.049     6.069       -         
+un4_sum_cry_0                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        CIN      In      0.000     6.069       -         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        COUT     Out     0.062     6.131       -         
+un4_sum_cry_2                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        CIN      In      0.000     6.131       -         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        COUT     Out     0.062     6.194       -         
+un4_sum_cry_4                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        CIN      In      0.000     6.194       -         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        S1       Out     1.034     7.228       -         
+un4_sum_cry_5_0_S1                           Net          -        -       -         -           4         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     C        In      0.000     7.228       -         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     Z        Out     0.728     7.957       -         
+t_in_9_bm[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_9[5]                        PFUMX        ALUT     In      0.000     7.957       -         
+uForth.cpu1.t_in_9[5]                        PFUMX        Z        Out     0.203     8.160       -         
+N_640                                        Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     A        In      0.000     8.160       -         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     Z        Out     0.728     8.888       -         
+t_in_d_am[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_d[5]                        PFUMX        BLUT     In      0.000     8.888       -         
+uForth.cpu1.t_in_d[5]                        PFUMX        Z        Out     0.203     9.092       -         
+t_in_d[5]                                    Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     B        In      0.000     9.092       -         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     Z        Out     0.728     9.820       -         
+t_in_d_0_sx[5]                               Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     D        In      0.000     9.820       -         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     Z        Out     0.728     10.549      -         
+t_in_d_0[5]                                  Net          -        -       -         -           1         
+uForth.cpu1.t_in[5]                          ORCALUT4     A        In      0.000     10.549      -         
+uForth.cpu1.t_in[5]                          ORCALUT4     Z        Out     0.428     10.977      -         
+t_in[5]                                      Net          -        -       -         -           1         
+uForth.cpu1.t[5]                             FD1P3IX      D        In      0.000     10.977      -         
+===========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      10.968
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -6.026
+
+    Number of logic level(s):                16
+    Starting point:                          uForth.cpu1.sp_1_rep1 / Q
+    Ending point:                            uForth.cpu1.t[5] / D
+    The start point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+uForth.cpu1.sp_1_rep1                        FD1S3IX      Q        Out     0.958     0.958       -         
+sp_1_rep1                                    Net          -        -       -         -           5         
+uForth.cpu1.sp_3_rep1_RNIGPAJ                ORCALUT4     A        In      0.000     0.958       -         
+uForth.cpu1.sp_3_rep1_RNIGPAJ                ORCALUT4     Z        Out     0.860     1.818       -         
+N_219                                        Net          -        -       -         -           4         
+uForth.cpu1.sync\.s_stackrff_8_RNIDDE11      ORCALUT4     B        In      0.000     1.818       -         
+uForth.cpu1.sync\.s_stackrff_8_RNIDDE11      ORCALUT4     Z        Out     0.728     2.546       -         
+s_stackror_18_x_sx                           Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_8_RNI84QI2      ORCALUT4     D        In      0.000     2.546       -         
+uForth.cpu1.sync\.s_stackrff_8_RNI84QI2      ORCALUT4     Z        Out     0.728     3.275       -         
+s_stackrff_8_RNI84QI2                        Net          -        -       -         -           1         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     A        In      0.000     3.275       -         
+uForth.cpu1.sp_RNIFAIV8[2]                   ORCALUT4     Z        Out     0.728     4.003       -         
+s_stackror_sx                                Net          -        -       -         -           1         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     D        In      0.000     4.003       -         
+uForth.cpu1.sync\.s_stackrff_16_RNIGPLIM     ORCALUT4     Z        Out     1.007     5.011       -         
+s_stackror                                   Net          -        -       -         -           44        
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        A1       In      0.000     5.011       -         
+uForth.cpu1.un4_sum_cry_0_0                  CCU2C        COUT     Out     1.049     6.060       -         
+un4_sum_cry_0                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        CIN      In      0.000     6.060       -         
+uForth.cpu1.un4_sum_cry_1_0                  CCU2C        COUT     Out     0.062     6.122       -         
+un4_sum_cry_2                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        CIN      In      0.000     6.122       -         
+uForth.cpu1.un4_sum_cry_3_0                  CCU2C        COUT     Out     0.062     6.185       -         
+un4_sum_cry_4                                Net          -        -       -         -           1         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        CIN      In      0.000     6.185       -         
+uForth.cpu1.un4_sum_cry_5_0                  CCU2C        S1       Out     1.034     7.219       -         
+un4_sum_cry_5_0_S1                           Net          -        -       -         -           4         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     C        In      0.000     7.219       -         
+uForth.cpu1.t_in_9_bm[5]                     ORCALUT4     Z        Out     0.728     7.948       -         
+t_in_9_bm[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_9[5]                        PFUMX        ALUT     In      0.000     7.948       -         
+uForth.cpu1.t_in_9[5]                        PFUMX        Z        Out     0.203     8.151       -         
+N_640                                        Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     A        In      0.000     8.151       -         
+uForth.cpu1.t_in_d_am[5]                     ORCALUT4     Z        Out     0.728     8.879       -         
+t_in_d_am[5]                                 Net          -        -       -         -           1         
+uForth.cpu1.t_in_d[5]                        PFUMX        BLUT     In      0.000     8.879       -         
+uForth.cpu1.t_in_d[5]                        PFUMX        Z        Out     0.203     9.083       -         
+t_in_d[5]                                    Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     B        In      0.000     9.083       -         
+uForth.cpu1.t_in_d_0_sx[5]                   ORCALUT4     Z        Out     0.728     9.811       -         
+t_in_d_0_sx[5]                               Net          -        -       -         -           1         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     D        In      0.000     9.811       -         
+uForth.cpu1.t_in_d_0[5]                      ORCALUT4     Z        Out     0.728     10.540      -         
+t_in_d_0[5]                                  Net          -        -       -         -           1         
+uForth.cpu1.t_in[5]                          ORCALUT4     A        In      0.000     10.540      -         
+uForth.cpu1.t_in[5]                          ORCALUT4     Z        Out     0.428     10.968      -         
+t_in[5]                                      Net          -        -       -         -           1         
+uForth.cpu1.t[5]                             FD1P3IX      D        In      0.000     10.968      -         
+===========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                                            Arrival          
+Instance               Reference     Type                                   Pin       Net                  Time        Slack
+                       Clock                                                                                                
+----------------------------------------------------------------------------------------------------------------------------
+uFifoRxRaw             System        pmi_fifo_work_copyvideotop_rtl_0       Q[0]      I2cDataR[0]          0.000       1.933
+uFifoRxRaw             System        pmi_fifo_work_copyvideotop_rtl_0       Q[1]      I2cDataR[1]          0.000       1.933
+uFifoRxRaw             System        pmi_fifo_work_copyvideotop_rtl_0       Q[3]      I2cDataR[3]          0.000       1.933
+uForth.uForthMem       System        pmi_ram_dq_work_copyvideotop_rtl_0     Q[1]      memory_data_o[1]     0.000       1.933
+uForth.uForthMem       System        pmi_ram_dq_work_copyvideotop_rtl_0     Q[3]      memory_data_o[3]     0.000       1.933
+uFifoRxRaw             System        pmi_fifo_work_copyvideotop_rtl_0       Q[4]      I2cDataR[4]          0.000       1.990
+uForth.uForthMem       System        pmi_ram_dq_work_copyvideotop_rtl_0     Q[4]      memory_data_o[4]     0.000       1.990
+uForth.uForthMem       System        pmi_ram_dq_work_copyvideotop_rtl_0     Q[6]      memory_data_o[6]     0.000       1.990
+uMaster.uFifoRxRaw     System        pmi_fifo_work_copyvideotop_rtl_1       Empty     FifoEmpty            0.000       2.329
+uFifoRxRaw             System        pmi_fifo_work_copyvideotop_rtl_0       Q[2]      I2cDataR[2]          0.000       2.536
+============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                   Required          
+Instance                  Reference     Type        Pin     Net                      Time         Slack
+                          Clock                                                                        
+-------------------------------------------------------------------------------------------------------
+uForth.uart1.DatTx[0]     System        FD1P3AX     D       system_data_o[0]         4.942        1.933
+uForth.cpu1.i[0]          System        FD1P3IX     D       system_data_o_0_rep1     4.942        1.933
+uForth.cpu1.t[0]          System        FD1P3IX     D       t_in[0]                  4.942        1.933
+uForth.cpu1.t[1]          System        FD1P3IX     D       t_in[1]                  4.942        1.933
+uForth.cpu1.t[3]          System        FD1P3IX     D       t_in[3]                  4.942        1.933
+uForth.cpu1.t[4]          System        FD1P3IX     D       t_in[4]                  5.320        1.990
+uForth.cpu1.t[6]          System        FD1P3IX     D       t_in[6]                  5.320        1.990
+Timer[0]                  System        FD1S3IX     D       pSetReg\.Timer_2[0]      4.894        2.011
+MiscReg1[0]               System        FD1P3IX     D       un1_cpu_data_o[0]        4.894        2.314
+MiscReg2[0]               System        FD1P3IX     D       un1_cpu_data_o[0]        4.894        2.314
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.058
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.942
+
+    - Propagation time:                      3.009
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1.933
+
+    Number of logic level(s):                5
+    Starting point:                          uFifoRxRaw / Q[0]
+    Ending point:                            uForth.uart1.DatTx[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            Pll125to50|CLKOP_inferred_clock [rising] on pin CK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                               Type                                 Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+uFifoRxRaw                         pmi_fifo_work_copyvideotop_rtl_0     Q[0]     Out     0.000     0.000       -         
+I2cDataR[0]                        Net                                  -        -       -         -           1         
+uForth.PeekDat_iv_0_m2[0]          ORCALUT4                             B        In      0.000     0.000       -         
+uForth.PeekDat_iv_0_m2[0]          ORCALUT4                             Z        Out     0.728     0.728       -         
+N_53                               Net                                  -        -       -         -           1         
+uForth.PeekDat_iv_0_1[0]           ORCALUT4                             B        In      0.000     0.728       -         
+uForth.PeekDat_iv_0_1[0]           ORCALUT4                             Z        Out     0.728     1.457       -         
+PeekDat_iv_0_1[0]                  Net                                  -        -       -         -           1         
+uForth.un1_cpu_data_o_am_mb[0]     ORCALUT4                             B        In      0.000     1.457       -         
+uForth.un1_cpu_data_o_am_mb[0]     ORCALUT4                             Z        Out     0.728     2.185       -         
+un1_cpu_data_o_am_mb[0]            Net                                  -        -       -         -           1         
+uForth.un1_cpu_data_o[0]           PFUMX                                BLUT     In      0.000     2.185       -         
+uForth.un1_cpu_data_o[0]           PFUMX                                Z        Out     0.395     2.581       -         
+un1_cpu_data_o[0]                  Net                                  -        -       -         -           9         
+uForth.uart1.DatTx_RNO[0]          ORCALUT4                             A        In      0.000     2.581       -         
+uForth.uart1.DatTx_RNO[0]          ORCALUT4                             Z        Out     0.428     3.009       -         
+system_data_o[0]                   Net                                  -        -       -         -           1         
+uForth.uart1.DatTx[0]              FD1P3AX                              D        In      0.000     3.009       -         
+=========================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 199MB peak: 204MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 199MB peak: 204MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe3_70e-6
+
+Register bits: 589 of 62640 (1%)
+PIC Latch:       0
+I/O cells:       62
+
+
+Details:
+BB:             1
+CCU2C:          149
+DPR16X4C:       42
+FD1P3AX:        97
+FD1P3IX:        156
+FD1P3JX:        2
+FD1S3AX:        63
+FD1S3DX:        33
+FD1S3IX:        207
+FD1S3JX:        21
+GSR:            1
+IB:             30
+IFS1P3DX:       5
+INV:            5
+L6MUX21:        8
+OB:             31
+OFS1P3DX:       3
+OFS1P3JX:       2
+ORCALUT4:       1621
+PFUMX:          197
+PUR:            1
+VHI:            9
+VLO:            10
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:40s; Memory used current: 41MB peak: 204MB)
+
+Process took 0h:00m:41s realtime, 0h:00m:40s cputime
+# Thu Dec 17 15:19:47 2020
+
+###########################################################]

@@ -1,0 +1,90 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_10_PF101_B.lpf
+#       generated for EXTENSION-10 on board PF101 in slot B
+# 
+# --------------------------------------------------------------------
+#
+# Interface with DVI Encoder: TFP410 (Slot B)
+#
+# R(23:16) Data
+#
+LOCATE COMP "PinDat410_16" SITE "B3" ;
+IOBUF PORT "PinDat410_16" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_17" SITE "A3" ;
+IOBUF PORT "PinDat410_17" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_18" SITE "A5" ;
+IOBUF PORT "PinDat410_18" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_19" SITE "A4" ;
+IOBUF PORT "PinDat410_19" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_20" SITE "A6" ;
+IOBUF PORT "PinDat410_20" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_21" SITE "C5" ;
+IOBUF PORT "PinDat410_21" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_22" SITE "A7" ;
+IOBUF PORT "PinDat410_22" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinDat410_23" SITE "B6" ;
+IOBUF PORT "PinDat410_23" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# TFP control
+#
+LOCATE COMP "PinDe410" SITE "G20" ;
+IOBUF PORT "PinDe410" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHSync410" SITE "F20" ;
+IOBUF PORT "PinHSync410" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinVSync410" SITE "E20" ;
+IOBUF PORT "PinVSync410" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSda410" SITE "D20" ;
+IOBUF PORT "PinSda410" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinScl410" SITE "A9" ;
+IOBUF PORT "PinScl410" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Keyboard
+#
+LOCATE COMP "PinKbdDat" SITE "B7" ;
+IOBUF PORT "PinKbdDat" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Mouse
+#
+LOCATE COMP "PinMouseClk" SITE "B8" ;
+IOBUF PORT "PinMouseClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinMouseDat" SITE "A8" ;
+IOBUF PORT "PinMouseDat" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Edid
+#
+LOCATE COMP "PinEdidClk" SITE "B8" ;
+IOBUF PORT "PinEdidClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinEdidDat" SITE "A8" ;
+IOBUF PORT "PinEdidDat" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+#
+

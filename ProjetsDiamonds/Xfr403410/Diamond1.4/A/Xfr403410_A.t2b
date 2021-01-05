@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/Xfr403410/Diamond1.4" 
+-path "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/Xfr403410/Diamond1.4"
+-g ES:No

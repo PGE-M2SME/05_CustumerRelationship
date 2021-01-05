@@ -1,0 +1,16 @@
+Protel Synchronization report
+=========================================================================
+Date : 14-May-2012
+Time : 11:47:10
+
+Reference document: Documents\Ext_HDMI.Sch
+Target document:    Documents\PCB1.PCB
+=========================================================================
+
+ERRORS: 1 macro can not be executed:
+-------------------------------------------------------------------------
+Macro 1: New Node
+Add node J1-0 to net GND
+Error: Node not found
+
+

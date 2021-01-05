@@ -1,0 +1,89 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_02_PFXV_A2.lpf
+#       generated for EXTENSION-02 on board PFX in slot A2
+# 
+# --------------------------------------------------------------------
+#
+# RJ45 Ethernet interface: PHY DP83848C
+#
+#
+# Control signals
+#
+LOCATE COMP "PinClk25MHz" SITE "88" ;
+IOBUF PORT "PinClk25MHz" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinCrs" SITE "68" ;
+IOBUF PORT "PinCrs" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinCol" SITE "69" ;
+IOBUF PORT "PinCol" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinMdIO" SITE "101" ;
+IOBUF PORT "PinMdIO" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinMdc" SITE "102" ;
+IOBUF PORT "PinMdc" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRst" SITE "77" ;
+IOBUF PORT "PinRst" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinInt" SITE "94" ;
+IOBUF PORT "PinInt" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Receive signals
+#
+LOCATE COMP "PinRxDv" SITE "75" ;
+IOBUF PORT "PinRxDv" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxEr" SITE "72" ;
+IOBUF PORT "PinRxEr" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxD_0" SITE "74" ;
+IOBUF PORT "PinRxD_0" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxD_1" SITE "73" ;
+IOBUF PORT "PinRxD_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxD_2" SITE "87" ;
+IOBUF PORT "PinRxD_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxD_3" SITE "85" ;
+IOBUF PORT "PinRxD_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinRxClk" SITE "76" ;
+IOBUF PORT "PinRxClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Transmit signals
+#
+LOCATE COMP "PinTxD_0" SITE "104" ;
+IOBUF PORT "PinTxD_0" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinTxD_1" SITE "92" ;
+IOBUF PORT "PinTxD_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinTxD_2" SITE "98" ;
+IOBUF PORT "PinTxD_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinTxD_3" SITE "91" ;
+IOBUF PORT "PinTxD_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinTxEn" SITE "93" ;
+IOBUF PORT "PinTxEn" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinTxClk" SITE "81" ;
+IOBUF PORT "PinTxClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+#
+

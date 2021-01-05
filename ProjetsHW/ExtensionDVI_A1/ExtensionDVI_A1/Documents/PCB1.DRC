@@ -1,0 +1,56 @@
+Protel Design System Design Rule Check
+PCB File : Documents\PCB1.PCB
+Date     : 30-Apr-2012
+Time     : 14:21:08
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (Is in component J1 ),(On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.15mm) (Max=5mm) (Prefered=0.25mm) (On the board )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+   Violation         Net GND   is broken into 6 sub-nets. Routed To 95.10%
+     Subnet : C15-1    J3-0     J3-B3    C14-1    HE6-12   HE6-11   U10-1    J3-0     J3-0     J3-0
+              J3-0     J3-A3
+     Subnet : C11-1    U12-4    C13-1    C12-1    J4-5     U9-1     J4-5     J4-10    J4-5     J4-8
+              J4-7     J4-6     HE5-11   R35-2    C19-2    HE5-12   C18-2    R34-2    U11-9    U11-11   U11-12
+              U11-13   U11-6    C9-1     U11-2    R36-2    C20-2    C10-1    U12-5
+     Subnet : C22-2    HE1-11   C21-2    R13-2    C16-2    U1-64    U1-26    C23-2    HE1-12   C1-2
+              U1-16    U1-17    C17-2    C3-1     C26-2    C2-1     U1-56    U1-48    U1-7     U1-32    U1-34
+              U1-6     U1-10    U1-8     U6-2     C24-2    U1-35    C25-2
+     Subnet : HE2-11   HE2-12
+     Subnet : U7-1     C5-1     C6-1     J2-0     J2-B3    J2-0     J2-0     J2-0     J2-0     J1-0
+              J2-A3    HE4-11   HE4-12   J1-19    C4-2     U3-3     U2-3     U5-3     J1-3     J1-11    C8-1
+              U4-3     J1-0     HE3-11   C7-2     HE3-12   J1-15    J1-22    U8-1
+     Subnet : U1-20
+   Violation         Net P5   is broken into 5 sub-nets. Routed To 80.00%
+     Subnet : U12-1    C11-2    J3-B4    J3-A4    HE6-14   R17-2
+     Subnet : HE2-14
+     Subnet : R16-2    J4-9     HE5-14
+     Subnet : R14-2    R15-2    J2-B4    J2-A4    HE4-14   HE3-14   J1-14    C4-1
+     Subnet : HE1-14
+   Violation         Net 3R3   is broken into 5 sub-nets. Routed To 89.19%
+     Subnet : C14-2    HE6-10   U10-2    C10-2    U12-8    C12-2    U9-2
+     Subnet : HE2-10   C5-2     HE4-10   C7-1     U7-2     U8-2
+     Subnet : R12-2    C16-1    R11-2    U1-1     D1-1     C1-1     U1-12    U1-18    C25-1    C2-2
+              U1-33    U1-29    R9-2     C3-2     HE3-10   HE1-10   C26-1    U6-1
+     Subnet : U11-4    C9-2     HE5-10
+     Subnet : U1-23    C17-1
+Rule Violations :3
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (On the board ),(On the board )
+Rule Violations :0
+
+
+Violations Detected : 3
+Time Elapsed        : 00:00:01

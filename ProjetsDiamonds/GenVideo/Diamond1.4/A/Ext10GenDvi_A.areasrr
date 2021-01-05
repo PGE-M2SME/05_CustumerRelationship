@@ -1,0 +1,299 @@
+----------------------------------------------------------------------
+Report for cell TestVideoTop.rtl
+
+Register bits: 953 of 62640 (2%)
+PIC Latch:       0
+I/O cells:       34
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2C      311       100.0
+                           DPR16X4C       36       100.0
+                            EHXPLLF        1       100.0
+                            FD1P3AX      202       100.0
+                            FD1P3IX      158       100.0
+                            FD1P3JX        4       100.0
+                            FD1S3AX      216       100.0
+                            FD1S3DX       33       100.0
+                            FD1S3IX      271       100.0
+                            FD1S3JX       38       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                           IFS1P3DX        2       100.0
+                                INV       19       100.0
+                            L6MUX21       25       100.0
+                                 OB       31       100.0
+                           OFS1P3DX       27       100.0
+                           OFS1P3JX        2       100.0
+                           ORCALUT4     2067       100.0
+                              PFUMX      194       100.0
+                                PUR        1       100.0
+                                VHI       15       100.0
+                                VLO       15       100.0
+          pmi_fifo_work_testvideotop_rtl_0        1       100.0
+          pmi_fifo_work_testvideotop_rtl_1        1       100.0
+          pmi_ram_dq_work_testvideotop_rtl_0        1       100.0
+SUB MODULES 
+                             Dvi410        1       100.0
+                          Dvi410Cnt        1       100.0
+                         Dvi410Conf        1       100.0
+                      Dvi410Request        1       100.0
+                         Dvi410Sync        1       100.0
+                       Dvi410Timing        1       100.0
+                              Forth        1       100.0
+                  I2cMasterCommands        1       100.0
+                    I2cMasterDevice        1       100.0
+                     Pll125to100x50        1       100.0
+                                 Rx        1       100.0
+                             SeqBlk        1       100.0
+                                 Tx        1       100.0
+                               ep32        1       100.0
+                               uart        1       100.0
+                            
+                         TOTAL          3690           
+----------------------------------------------------------------------
+Report for cell Dvi410.netlist
+     Instance path:  uDvi
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      133        42.8
+                            FD1P3AX      105        52.0
+                            FD1P3JX        2        50.0
+                            FD1S3AX      133        61.6
+                            FD1S3IX       21         7.7
+                            FD1S3JX        1         2.6
+                                INV        5        26.3
+                           ORCALUT4      466        22.5
+                                VHI        6        40.0
+                                VLO        5        33.3
+SUB MODULES 
+                          Dvi410Cnt        1       100.0
+                         Dvi410Conf        1       100.0
+                      Dvi410Request        1       100.0
+                         Dvi410Sync        1       100.0
+                       Dvi410Timing        1       100.0
+                            
+                         TOTAL           882           
+----------------------------------------------------------------------
+Report for cell Dvi410Request.netlist
+     Instance path:  uDvi.U_gen_req
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       45        14.5
+                            FD1S3AX       44        20.4
+                            FD1S3IX        2         0.7
+                           ORCALUT4        1         0.0
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            94           
+----------------------------------------------------------------------
+Report for cell Dvi410Timing.netlist
+     Instance path:  uDvi.U_gen_tim
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14         4.5
+                            FD1S3AX        8         3.7
+                           ORCALUT4        1         0.0
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            25           
+----------------------------------------------------------------------
+Report for cell Dvi410Sync.netlist
+     Instance path:  uDvi.U_gen_sync
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       28         9.0
+                            FD1S3AX        6         2.8
+                           ORCALUT4        2         0.1
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            38           
+----------------------------------------------------------------------
+Report for cell Dvi410Cnt.netlist
+     Instance path:  uDvi.U_gen_cnt
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       46        14.8
+                            FD1S3AX       39        18.1
+                            FD1S3IX       11         4.1
+                            FD1S3JX        1         2.6
+                                INV        2        10.5
+                           ORCALUT4       14         0.7
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL           115           
+----------------------------------------------------------------------
+Report for cell Dvi410Conf.netlist
+     Instance path:  uDvi.U_conf
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       93        46.0
+                            FD1P3JX        2        50.0
+                            FD1S3AX       36        16.7
+                            FD1S3IX        8         3.0
+                                INV        3        15.8
+                           ORCALUT4      448        21.7
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL           592           
+----------------------------------------------------------------------
+Report for cell I2cMasterCommands.netlist
+     Instance path:  uMaster
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        8         2.6
+                            FD1P3AX       24        11.9
+                            FD1P3IX       22        13.9
+                            FD1P3JX        1        25.0
+                            FD1S3AX       22        10.2
+                            FD1S3IX       24         8.9
+                            FD1S3JX       11        28.9
+                                INV        1         5.3
+                           ORCALUT4      166         8.0
+                                VHI        2        13.3
+                                VLO        2        13.3
+          pmi_fifo_work_testvideotop_rtl_1        1       100.0
+SUB MODULES 
+                    I2cMasterDevice        1       100.0
+                            
+                         TOTAL           285           
+----------------------------------------------------------------------
+Report for cell I2cMasterDevice.netlist
+     Instance path:  uMaster.uDevice
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       24        11.9
+                            FD1P3JX        1        25.0
+                            FD1S3AX       12         5.6
+                            FD1S3IX        9         3.3
+                            FD1S3JX        9        23.7
+                                INV        1         5.3
+                           ORCALUT4       94         4.5
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL           152           
+----------------------------------------------------------------------
+Report for cell Forth.netlist
+     Instance path:  uForth
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      102        32.8
+                           DPR16X4C       36       100.0
+                            FD1P3AX       73        36.1
+                            FD1P3IX       65        41.1
+                            FD1S3AX       35        16.2
+                            FD1S3IX      133        49.1
+                            FD1S3JX        9        23.7
+                            L6MUX21       25       100.0
+                           ORCALUT4     1373        66.4
+                              PFUMX      194       100.0
+                                VHI        5        33.3
+                                VLO        5        33.3
+          pmi_ram_dq_work_testvideotop_rtl_0        1       100.0
+SUB MODULES 
+                                 Rx        1       100.0
+                                 Tx        1       100.0
+                               ep32        1       100.0
+                               uart        1       100.0
+                            
+                         TOTAL          2060           
+----------------------------------------------------------------------
+Report for cell uart.netlist
+     Instance path:  uForth.uart1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         1.6
+                            FD1P3AX       40        19.8
+                            FD1P3IX        2         1.3
+                            FD1S3AX        2         0.9
+                            FD1S3IX       11         4.1
+                            FD1S3JX        7        18.4
+                           ORCALUT4       53         2.6
+                              PFUMX        2         1.0
+                                VHI        3        20.0
+                                VLO        3        20.0
+SUB MODULES 
+                                 Rx        1       100.0
+                                 Tx        1       100.0
+                            
+                         TOTAL           130           
+----------------------------------------------------------------------
+Report for cell Tx.netlist
+     Instance path:  uForth.uart1.uTx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8         4.0
+                            FD1S3IX        2         0.7
+                            FD1S3JX        7        18.4
+                           ORCALUT4       25         1.2
+                              PFUMX        2         1.0
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            46           
+----------------------------------------------------------------------
+Report for cell Rx.netlist
+     Instance path:  uForth.uart1.uRx
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        5         1.6
+                            FD1P3AX       16         7.9
+                            FD1P3IX        1         0.6
+                            FD1S3AX        1         0.5
+                            FD1S3IX        9         3.3
+                           ORCALUT4       24         1.2
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            58           
+----------------------------------------------------------------------
+Report for cell ep32.netlist
+     Instance path:  uForth.cpu1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       97        31.2
+                           DPR16X4C       36       100.0
+                            FD1P3AX       33        16.3
+                            FD1P3IX       63        39.9
+                            FD1S3AX       33        15.3
+                            FD1S3IX      122        45.0
+                            FD1S3JX        2         5.3
+                            L6MUX21       25       100.0
+                           ORCALUT4     1170        56.6
+                              PFUMX      167        86.1
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL          1750           
+----------------------------------------------------------------------
+Report for cell SeqBlk.netlist
+     Instance path:  uSeq
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       22         7.1
+                            FD1S3AX        2         0.9
+                            FD1S3DX       33       100.0
+                            FD1S3IX        8         3.0
+                            FD1S3JX        1         2.6
+                                INV        1         5.3
+                           ORCALUT4       14         0.7
+                                VHI        1         6.7
+                                VLO        1         6.7
+                            
+                         TOTAL            83           
+----------------------------------------------------------------------
+Report for cell Pll125to100x50.netlist
+     Instance path:  uPll
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLF        1       100.0
+                                INV        2        10.5
+                                VLO        1         6.7
+                            
+                         TOTAL             4           

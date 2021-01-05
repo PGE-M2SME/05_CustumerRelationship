@@ -1,0 +1,672 @@
+
+map -a "LatticeECP3" -p LFE3-70E -t FPBGA672 -s 8 -oc Commercial   "Ext10GenDvi_A.ngd" -o "Ext10GenDvi_A_map.ncd" -pr "Ext10GenDvi_A.prf" -mp "Ext10GenDvi_A.mrp" "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf"            
+map:  version Diamond (64-bit) 3.11.2.446
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: Ext10GenDvi_A.ngd
+   Picdevice="LFE3-70E"
+
+   Pictype="FPBGA672"
+
+   Picspeed=8
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFE3-70EFPBGA672, Performance used: 8.
+
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(87): Semantic error in &quot;LOCATE COMP &quot;PinExtClk&quot; SITE &quot;U20&quot; ;&quot;: " arg1="PinExtClk" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="87"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(88): Semantic error in &quot;IOBUF PORT &quot;PinExtClk&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: " arg1="PinExtClk" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="88"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(161): Semantic error in &quot;LOCATE COMP &quot;PinInt_N&quot; SITE &quot;AC2&quot; ;&quot;: " arg1="PinInt_N" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="161"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(162): Semantic error in &quot;IOBUF PORT &quot;PinInt_N&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: " arg1="PinInt_N" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="162"  />
+    <postMsg mid="1100679" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(164): Semantic error in &quot;LOCATE COMP &quot;PinInt_N&quot; SITE &quot;AC2&quot; ;&quot;: " arg1="PinInt_N" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="164"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf(165): Semantic error in &quot;IOBUF PORT &quot;PinInt_N&quot; IO_TYPE=LVCMOS33 PULLMODE=UP ;&quot;: " arg1="PinInt_N" arg2="C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.lpf" arg3="165"  />
+Loading device for application map from file 'ep5c97x146.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.65.
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+997 CCU2 constant inputs absorbed.
+
+logic VCC cell uDvi/U_gen_req/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uDvi/U_gen_tim/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uDvi/U_gen_sync/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uDvi/U_gen_cnt/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uMaster/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uForth/uart1/uRx/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uForth/cpu1/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell uSeq/VCC is replaced by device VCC cell VCC_INST
+
+logic VCC cell VCC is replaced by device VCC cell VCC_INST
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="SRst"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_7_0"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_0_7"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_1_6"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_2_5"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_3_4"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_4_3"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_5_2"  />
+    <postMsg mid="51001051" type="Warning" dynamic="1" navigation="0" arg0="uForth/uForthMem/pmi_ram_dq40961232ndssep32qhnEp1057aae6_0_6_1"  />
+
+
+
+Design Summary:
+   Number of registers:    999 out of 52176 (2%)
+      PFU registers:          968 out of 49896 (2%)
+      PIO registers:           31 out of  2280 (1%)
+   Number of SLICEs:      1764 out of 33264 (5%)
+      SLICEs as Logic/ROM:   1644 out of 33264 (5%)
+      SLICEs as RAM:          120 out of  6804 (2%)
+      SLICEs as Carry:        351 out of 33264 (1%)
+   Number of LUT4s:        3037 out of 66528 (5%)
+      Number used as logic LUTs:        2095
+      Number used as distributed RAM:   240
+      Number used as ripple logic:      702
+      Number used as shift registers:     0
+   Number of PIO sites used: 34 out of 380 (9%)
+   Number of PIO FIXEDDELAY:    0
+   Number of PCS (SerDes):  0 out of 2 (0%) with bonded PIO sites
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 10 (10%)
+   Number of DLLs:  0 out of 2 (0%)
+   Number of block RAMs:  8 out of 240 (3%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18C          0
+   MULT9X9C            0
+   ALU54A              0
+   ALU24A              0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 256 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 128 (0 %)
+   Number of clocks:  3
+     Net PinClk125_c: 1 loads, 1 rising, 0 falling (Driver: PIO PinClk125 )
+     Net Clk100: 159 loads, 159 rising, 0 falling (Driver: uPll/PLLInst_0 )
+     Net Clk50: 497 loads, 489 rising, 8 falling (Driver: uPll/PLLInst_0 )
+   Number of Clock Enables:  40
+     Net pSetReg.un23_ppwe: 4 loads, 4 LSLICEs
+     Net N_22_i: 25 loads, 25 LSLICEs
+     Net NewDviFrame: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_34_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_33_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_32_i: 5 loads, 5 LSLICEs
+     Net uDvi/U_conf/un176_wed: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_27_i: 1 loads, 1 LSLICEs
+     Net uDvi/U_conf/un1_wed_30_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_29_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_28_i: 6 loads, 6 LSLICEs
+     Net uDvi/U_conf/un1_wed_31_i: 6 loads, 6 LSLICEs
+     Net uMaster/uDevice/un1_state_12_i: 1 loads, 1 LSLICEs
+     Net uMaster/uDevice/NumClk_128: 1 loads, 1 LSLICEs
+     Net uMaster/I2cTrgDone: 2 loads, 2 LSLICEs
+     Net uMaster/uDevice/un17_stated: 4 loads, 4 LSLICEs
+     Net uMaster.uDevice.N_114_i: 5 loads, 4 LSLICEs
+     Net uMaster/uDevice/un178_state: 4 loads, 4 LSLICEs
+     Net uMaster.uDevice.pGenScl.un1_state_2: 1 loads, 0 LSLICEs
+     Net uMaster/uFifoRxRaw/rden_i: 6 loads, 6 LSLICEs
+     Net uMaster/uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uMaster/uFifoRxRaw/fcnt_en: 3 loads, 3 LSLICEs
+     Net uMaster/StopVal_RNO: 1 loads, 1 LSLICEs
+     Net uMaster/lTrg_1: 5 loads, 5 LSLICEs
+     Net uMaster/un2_stated_2_i: 5 loads, 5 LSLICEs
+     Net uForth/uart1/TrgTx: 4 loads, 4 LSLICEs
+     Net uForth/uart1/uRx/XDat_RNO[7]: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/N_36_i: 4 loads, 4 LSLICEs
+     Net uForth/uart1/TrgRx: 4 loads, 4 LSLICEs
+     Net uForth/uart1/uRx/RcvState_en_0: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/un58_ce16: 4 loads, 4 LSLICEs
+     Net uForth/uart1/TxEn: 4 loads, 4 LSLICEs
+     Net uForth/uart1/RxFull_en: 1 loads, 1 LSLICEs
+     Net uForth/cpu1/iload_1: 15 loads, 15 LSLICEs
+     Net N_108_i: 16 loads, 16 LSLICEs
+     Net uForth/cpu1/tload_1: 22 loads, 22 LSLICEs
+     Net uForth/cpu1/re: 17 loads, 17 LSLICEs
+     Net uFifoRxRaw/rden_i: 6 loads, 6 LSLICEs
+     Net uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uFifoRxRaw/fcnt_en: 3 loads, 3 LSLICEs
+   Number of local set/reset loads for net SRst merged into GSR:  46
+   Number of LSRs:  31
+     Net uSeq.lSRst_iso: 199 loads, 198 LSLICEs
+     Net uForth.uart1.uTx.pGenDat.Tx_11: 1 loads, 0 LSLICEs
+     Net NewDviFrame: 6 loads, 6 LSLICEs
+     Net uDvi/U_gen_req/vs0: 1 loads, 1 LSLICEs
+     Net uDvi/U_gen_req/hs0: 1 loads, 1 LSLICEs
+     Net ReqNewRow: 5 loads, 5 LSLICEs
+     Net SRst: 3 loads, 3 LSLICEs
+     Net uDvi/U_gen_cnt/un12_cnth_0_I_33_0_RNI1RAL: 6 loads, 6 LSLICEs
+     Net uDvi/U_gen_cnt/un1_cntv_cry_0_0_S1: 1 loads, 1 LSLICEs
+     Net uDvi/U_conf/N_160_i: 6 loads, 6 LSLICEs
+     Net uMaster/uDevice/NumClk_128: 2 loads, 2 LSLICEs
+     Net uMaster/uDevice/DoneTrgc_i_i: 1 loads, 1 LSLICEs
+     Net uMaster/uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net uMaster/un3_stated: 1 loads, 1 LSLICEs
+     Net uMaster/un1_stated_RNIRQAF: 4 loads, 4 LSLICEs
+     Net uMaster/State[4]: 4 loads, 4 LSLICEs
+     Net uMaster/un1_NumXfr[1]: 1 loads, 1 LSLICEs
+     Net uForth/uart1/TrgTx: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/N_276_i: 1 loads, 1 LSLICEs
+     Net uForth/uart1/uRx/un12_rx0: 5 loads, 5 LSLICEs
+     Net uForth/cpu1/r_stack_and_0: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/r_stack_and_2: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/s_stack_and_0: 9 loads, 9 LSLICEs
+     Net uForth/cpu1/s_stack_and_2: 9 loads, 9 LSLICEs
+     Net uSeq/N_1_1: 2 loads, 2 LSLICEs
+     Net uSeq/Cnt16[0]: 1 loads, 1 LSLICEs
+     Net uPll/PllLock: 18 loads, 18 LSLICEs
+     Net uFifoRxRaw/wren_i: 2 loads, 2 LSLICEs
+     Net VCnt[8]: 10 loads, 10 LSLICEs
+     Net VCnt[9]: 10 loads, 10 LSLICEs
+     Net N_87_i: 4 loads, 4 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net uDvi/U_gen_req/VCC: 420 loads
+     Net uSeq.lSRst_iso: 199 loads
+     Net SRst: 162 loads
+     Net uForth/code[0]: 146 loads
+     Net uForth/cpu1/s_stackror: 95 loads
+     Net uForth/cpu1/rp[1]: 87 loads
+     Net uForth/cpu1/rp[2]: 87 loads
+     Net uForth/cpu1/sp[1]: 87 loads
+     Net uForth/cpu1/sp[4]: 84 loads
+     Net uForth/cpu1/code[1]: 80 loads
+ 
+
+   Number of warnings:  15
+   Number of errors:    0
+
+
+
+Total CPU Time: 7 secs  
+Total REAL Time: 8 secs  
+Peak Memory Usage: 295 MB
+
+Dumping design to file Ext10GenDvi_A_map.ncd.
+
+mpartrce -p "Ext10GenDvi_A.p2t" -f "Ext10GenDvi_A.p3t" -tf "Ext10GenDvi_A.pt" "Ext10GenDvi_A_map.ncd" "Ext10GenDvi_A.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "Ext10GenDvi_A_map.ncd"
+Tue Jan 05 16:43:00 2021
+
+PAR: Place And Route Diamond (64-bit) 3.11.2.446.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir/5_1.ncd Ext10GenDvi_A.prf
+Preference file: Ext10GenDvi_A.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file Ext10GenDvi_A_map.ncd.
+Design name: TestVideoTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-70E
+Package:     FPBGA672
+Performance: 8
+Loading device for application par from file 'ep5c97x146.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.65.
+Performance Hardware Data Status:   Final          Version 35.22.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      34/524           6% used
+                     34/380           8% bonded
+   IOLOGIC           31/520           5% used
+
+   SLICE           1764/33264         5% used
+
+   GSR                1/1           100% used
+   EBR                8/240           3% used
+   PLL                1/10           10% used
+
+
+Set delay estimator push_ratio: 95
+Number of Signals: 4219
+Number of Connections: 13322
+
+Pin Constraint Summary:
+   30 out of 34 pins locked (88% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    Clk100 (driver: uPll/PLLInst_0, clk load #: 159)
+    Clk50 (driver: uPll/PLLInst_0, clk load #: 505)
+
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    uSeq.lSRst_iso (driver: uSeq/SLICE_905, clk load #: 0, sr load #: 199, ce load #: 0)
+    N_22_i (driver: uForth/SLICE_1269, clk load #: 0, sr load #: 0, ce load #: 25)
+    uForth/cpu1/tload_1 (driver: uForth/cpu1/SLICE_1097, clk load #: 0, sr load #: 0, ce load #: 22)
+
+Signal SRst is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 28 secs 
+
+.   
+Starting Placer Phase 1.
+........................
+Placer score = 1164262.
+Finished Placer Phase 1.  REAL time: 1 mins 18 secs 
+
+Starting Placer Phase 2.
+.
+Starting Placer Optimization. REAL time: 1 mins 24 secs 
+.   
+..  ..
+.   
+Placer score =  3549120
+Finished Placer Phase 2.  REAL time: 1 mins 27 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 6 (0%)
+  PLL        : 1 out of 10 (10%)
+  DCS        : 0 out of 8 (0%)
+
+Global Clocks:
+  PRIMARY "Clk100" from CLKOP on comp "uPll/PLLInst_0" on PLL site "PLL_R79C142", clk load = 159
+  PRIMARY "Clk50" from CLKOK on comp "uPll/PLLInst_0" on PLL site "PLL_R79C142", clk load = 505
+  SECONDARY "uSeq.lSRst_iso" from Q0 on comp "uSeq/SLICE_905" on site "R2C75B", clk load = 0, ce load = 0, sr load = 199
+  SECONDARY "N_22_i" from F0 on comp "uForth/SLICE_1269" on site "R45C145A", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "uForth/cpu1/tload_1" from F1 on comp "uForth/cpu1/SLICE_1097" on site "R45C144A", clk load = 0, ce load = 22, sr load = 0
+
+  PRIMARY  : 2 out of 8 (25%)
+     DCS   : 0 out of 2 (0%)
+     DCC   : 2 out of 6 (33%)
+  SECONDARY: 3 out of 8 (37%)
+
+Edge Clocks:
+  No edge clock selected.
+
+Regional Secondary Clocks:
+  No regional secondary clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   34 out of 524 (6.5%) PIO sites used.
+   34 out of 380 (8.9%) bonded PIO sites used.
+   Number of PIO comps: 34; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
+----------+------------------+-------+-----------------+----------------
+ I/O Bank | Usage            | Vccio |  Vref1 / Vref2  |  Vtt
+----------+------------------+-------+-----------------+----------------
+    0     |   0 / 60  (  0%) |  OFF  |    OFF / OFF    |               
+    1     |   1 / 48  (  2%) | 3.3V  |    OFF / OFF    |               
+    2     |   0 / 42  (  0%) |  OFF  |    OFF / OFF    |               
+    3     |  19 / 71  ( 26%) | 3.3V  |    OFF / OFF    |               
+    6     |  14 / 79  ( 17%) | 3.3V  |    OFF / OFF    |               
+    7     |   0 / 56  (  0%) |  OFF  |    OFF / OFF    |               
+    8     |   0 / 24  (  0%) |  OFF  |    OFF / OFF    |               
+----------+------------------+-------+-----------------+----------------
+
+---------------------------------- DSP Report ----------------------------------
+
+DSP Slice #:           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+# of MULT9X9C                                                                                                        
+# of MULT18X18C                                                                                                      
+# of ALU24A                                                                                                          
+# of ALU54A                                                                                                          
+
+DSP Slice #:          33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64
+# of MULT9X9C                                                                                                        
+# of MULT18X18C                                                                                                      
+# of ALU24A                                                                                                          
+# of ALU54A                                                                                                          
+
+------------------------------ End of DSP Report -------------------------------
+Total placer CPU time: 1 mins 23 secs 
+
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+
+0 connections routed; 13322 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 2 mins 15 secs 
+
+Start NBR router at 16:45:15 01/05/21
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 16:45:16 01/05/21
+
+Start NBR section for initial routing at 16:45:17 01/05/21
+Level 1, iteration 1
+0(0.00%) conflict; 10627(79.77%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.404ns/0.000ns; real time: 2 mins 18 secs 
+Level 2, iteration 1
+0(0.00%) conflict; 10626(79.76%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.426ns/0.000ns; real time: 2 mins 19 secs 
+Level 3, iteration 1
+2(0.00%) conflicts; 10579(79.41%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.386ns/0.000ns; real time: 2 mins 19 secs 
+Level 4, iteration 1
+652(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.462ns/0.000ns; real time: 2 mins 26 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 16:45:26 01/05/21
+Level 1, iteration 1
+1(0.00%) conflict; 1028(7.72%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.462ns/0.000ns; real time: 2 mins 27 secs 
+Level 4, iteration 1
+413(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 4.118ns/0.000ns; real time: 2 mins 29 secs 
+Level 4, iteration 2
+180(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.974ns/0.000ns; real time: 2 mins 30 secs 
+Level 4, iteration 3
+71(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 31 secs 
+Level 4, iteration 4
+22(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 32 secs 
+Level 4, iteration 5
+7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 32 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 32 secs 
+Level 4, iteration 7
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 33 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 16:45:33 01/05/21
+
+Start NBR section for re-routing at 16:45:37 01/05/21
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 3.554ns/0.000ns; real time: 2 mins 37 secs 
+
+Start NBR section for post-routing at 16:45:37 01/05/21
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 3.554ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 2 mins 38 secs 
+Total REAL time: 2 mins 46 secs 
+Completely routed.
+End of route.  13322 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file Ext10GenDvi_A.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 3.554
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.203
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 2 mins 42 secs 
+Total REAL time to completion: 2 mins 50 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "Ext10GenDvi_A.pt" -o "Ext10GenDvi_A.twr" "Ext10GenDvi_A.ncd" "Ext10GenDvi_A.prf"
+trce:  version Diamond (64-bit) 3.11.2.446
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file ext10gendvi_a.ncd.
+Design name: TestVideoTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-70E
+Package:     FPBGA672
+Performance: 8
+Loading device for application trce from file 'ep5c97x146.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.65.
+Performance Hardware Data Status:   Final          Version 35.22.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.2.446
+Tue Jan 05 16:45:58 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o Ext10GenDvi_A.twr -gui -msgset C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml Ext10GenDvi_A.ncd Ext10GenDvi_A.prf 
+Design file:     ext10gendvi_a.ncd
+Preference file: ext10gendvi_a.prf
+Device,speed:    LFE3-70E,8
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK INTERCLOCKDOMAIN PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 3350275 paths, 43 nets, and 12274 connections (92.13% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.2.446
+Tue Jan 05 16:45:59 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o Ext10GenDvi_A.twr -gui -msgset C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/promote.xml Ext10GenDvi_A.ncd Ext10GenDvi_A.prf 
+Design file:     ext10gendvi_a.ncd
+Preference file: ext10gendvi_a.prf
+Device,speed:    LFE3-70E,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK INTERCLOCKDOMAIN PATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 3350275 paths, 43 nets, and 12274 connections (92.13% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total CPU Time: 10 secs 
+Total REAL Time: 10 secs 
+Peak Memory Usage: 389 MB
+
+
+ltxt2ptxt  -path "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4" "Ext10GenDvi_A.ncd"
+
+Loading design for application ltxt2ptxt from file ext10gendvi_a.ncd.
+Design name: TestVideoTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-70E
+Package:     FPBGA672
+Performance: 8
+Loading device for application ltxt2ptxt from file 'ep5c97x146.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.65.
+Performance Hardware Data Status:   Final          Version 35.22.
+
+tmcheck -par "Ext10GenDvi_A.par" 
+
+bitgen -w "Ext10GenDvi_A.ncd" -f "Ext10GenDvi_A.t2b" -e -s "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.sec" -k "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.bek" "Ext10GenDvi_A.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.11.2.446
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file Ext10GenDvi_A.ncd.
+Design name: TestVideoTop
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-70E
+Package:     FPBGA672
+Performance: 8
+Loading device for application Bitgen from file 'ep5c97x146.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.65.
+Performance Hardware Data Status:   Final          Version 35.22.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from Ext10GenDvi_A.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                          SPI**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                     PERSISTENT  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                   WAKE_ON_LOCK  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     ENABLE_NDR  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                         STRTUP  |                     EXTERNAL**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.133 (Final).
+ 
+Saving bit stream in "Ext10GenDvi_A.bit".
+Total CPU Time: 1 mins 
+Total REAL Time: 1 mins 2 secs 
+Peak Memory Usage: 1269 MB

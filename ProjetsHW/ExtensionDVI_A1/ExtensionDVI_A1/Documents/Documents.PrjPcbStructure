@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=TOP.Sch|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TOP.Sch|Designator=Ext_DVI|SchDesignator=Ext_DVI|FileName=Ext_DVI.Sch|SheetNumber=2|SymbolType=Normal|RawFileName=Ext_DVI.Sch|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TOP.Sch|Designator=EXT_ExtVGA|SchDesignator=EXT_ExtVGA|FileName=EXT_ExtVGA.Sch|SheetNumber=3|SymbolType=Normal|RawFileName=EXT_ExtVGA.Sch|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

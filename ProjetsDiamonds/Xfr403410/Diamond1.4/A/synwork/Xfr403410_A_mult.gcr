@@ -1,0 +1,18 @@
+i uPll.CLKOP_i
+m 0 0
+u 84 511
+n ckid0_0 {t:uMaster.uDevice.State[0].C} Black box on clock path
+p {t:uPll.PLLInst_0.CLKOP}{t:uPll.CLKOP_inferred_clock.I[0]}{t:uPll.CLKOP_inferred_clock.OUT[0]}{p:uPll.CLKOP}{t:uPll.CLKOP}{t:Timer[31:0].C}
+e ckid0_1 {t:Timer[31:0].C} sdffr
+d ckid0_0,ckid0_1 {t:uPll.PLLInst_0.CLKOP} EHXPLLF Black box on clock path
+i PinClk403
+m 0 0
+u 11 12
+p {p:PinClk403}{t:PinDe410.C}
+e ckid0_2 {t:PinDe410.C} dff
+c ckid0_2 {p:PinClk403} Unconstrained_port Inferred clock from port
+i uPll.LOCK
+m 0 0
+u 0 0
+d ckid0_3 {t:uPll.PLLInst_0.LOCK} EHXPLLF Black box on clock path
+l 0 0 0 0 0

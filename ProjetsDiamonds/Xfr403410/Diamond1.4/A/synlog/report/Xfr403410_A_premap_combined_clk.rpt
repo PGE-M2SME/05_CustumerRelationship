@@ -1,0 +1,26 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 511 clock pin(s) of sequential element(s)
+0 instances converted, 511 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_2       PinClk403           Unconstrained_port     12         PinDe410       
+=======================================================================================
+====================================================== Gated/Generated Clocks ======================================================
+Clock Tree ID     Driving Element          Drive Element Type     Unconverted Fanout     Sample Instance     Explanation            
+------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       uPll.PLLInst_0.CLKOP     EHXPLLF                511                    Timer[31:0]         Black box on clock path
+====================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

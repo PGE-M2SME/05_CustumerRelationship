@@ -1,0 +1,502 @@
+[ START MERGED ]
+lSda_cl_i uMaster/uDevice/lSda_cl
+uMaster/uFifoRxRaw/dec0_wre3 uMaster/uFifoRxRaw/wren_i
+uMaster/uFifoRxRaw/wren_i_inv uMaster/uFifoRxRaw/wren_i
+uMaster/uFifoRxRaw/invout_2 uMaster/FifoFull
+uMaster/uFifoRxRaw/invout_1 uMaster/FifoEmpty
+uMaster/uFifoRxRaw/rden_i_inv uMaster/uFifoRxRaw/rden_i
+Clk50_i Clk50
+PllLock_i uPll/PllLock
+uSeq/Cnt16_i[0] uSeq/Cnt16[0]
+uFifoRxRaw/dec0_wre3 uFifoRxRaw/wren_i
+uFifoRxRaw/wren_i_inv uFifoRxRaw/wren_i
+uFifoRxRaw/invout_2 Full
+uFifoRxRaw/invout_1 Empty
+uFifoRxRaw/rden_i_inv uFifoRxRaw/rden_i
+[ END MERGED ]
+[ START CLIPPED ]
+uFifoRxRaw/scuba_vlo
+uFifoRxRaw/scuba_vhi
+uForth/VCC
+uForth/GND
+uForth/uForthMem/scuba_vhi
+uMaster/uFifoRxRaw/scuba_vlo
+uMaster/uFifoRxRaw/scuba_vhi
+un1_DatB_2_0_cry_0_0_S0
+N_1
+un1_DatB_3_d0_s_7_0_S1
+un1_DatB_3_d0_s_7_0_COUT
+un1_DatB_3_d0_cry_0_0_S1
+un1_DatB_3_d0_cry_0_0_S0
+N_2
+un1_DatB_3_d2_s_7_0_S1
+un1_DatB_3_d2_s_7_0_COUT
+un1_DatB_3_d2_cry_0_0_S1
+un1_DatB_3_d2_cry_0_0_S0
+N_3
+un1_FCnt_2_0_s_7_0_S1
+un1_FCnt_2_0_s_7_0_COUT
+un1_FCnt_2_0_cry_0_0_S1
+un1_FCnt_2_0_cry_0_0_S0
+N_4
+un1_HCnt_s_7_0_S1
+un1_HCnt_s_7_0_COUT
+un1_HCnt_cry_0_0_S0
+N_5
+un1_VCnt_1_s_9_0_S1
+un1_VCnt_1_s_9_0_COUT
+un1_VCnt_1_cry_0_0_S0
+N_6
+un1_FCnt_1_cry_7_0_COUT
+un1_FCnt_1_cry_0_0_S0
+N_7
+un1_DatB_3_d0_4_s_7_0_S1
+un1_DatB_3_d0_4_s_7_0_COUT
+un1_DatB_3_d0_4_cry_0_0_S1
+un1_DatB_3_d0_4_cry_0_0_S0
+N_8
+un1_DatB_3_d2_4_s_7_0_S1
+un1_DatB_3_d2_4_s_7_0_COUT
+un1_DatB_3_d2_4_cry_0_0_S1
+un1_DatB_3_d2_4_cry_0_0_S0
+N_9
+uFifoRxRaw/r_nw_inv
+uFifoRxRaw/fcnt_en_inv
+uFifoRxRaw/r_nw
+uFifoRxRaw/invout_0
+uFifoRxRaw/co0_6
+uFifoRxRaw/af_cmp_ci_a/S1
+uFifoRxRaw/af_cmp_ci_a/S0
+uFifoRxRaw/cmp_ci_3
+uFifoRxRaw/a2/S1
+uFifoRxRaw/a2/COUT
+uFifoRxRaw/cnt_con_inv
+uFifoRxRaw/co0_5
+uFifoRxRaw/fcnt_en_inv_inv
+uFifoRxRaw/ae_cmp_ci_a/S1
+uFifoRxRaw/ae_cmp_ci_a/S0
+uFifoRxRaw/cmp_ci_2
+uFifoRxRaw/r_ctr_cia/S1
+uFifoRxRaw/r_ctr_cia/S0
+uFifoRxRaw/w_ctr_2/NC1
+uFifoRxRaw/co2_1
+uFifoRxRaw/co1_3
+uFifoRxRaw/w_ctr_cia/S1
+uFifoRxRaw/w_ctr_cia/S0
+uFifoRxRaw/a1/S1
+uFifoRxRaw/a1/COUT
+uFifoRxRaw/g_cmp_ci_a/S1
+uFifoRxRaw/g_cmp_ci_a/S0
+uFifoRxRaw/a0/S1
+uFifoRxRaw/a0/COUT
+uFifoRxRaw/e_cmp_ci_a/S1
+uFifoRxRaw/e_cmp_ci_a/S0
+uFifoRxRaw/bdcnt_bctr_cia/S1
+uFifoRxRaw/bdcnt_bctr_cia/S0
+uFifoRxRaw/wcount_4
+uFifoRxRaw/iwcount_4
+AlmostFull_0
+AlmostEmpty_0
+uFifoRxRaw/ae_d
+uFifoRxRaw/a3/S1
+uFifoRxRaw/af_d
+uFifoRxRaw/a3/COUT
+uFifoRxRaw/bdcnt_bctr_2/S1
+uFifoRxRaw/co2
+uFifoRxRaw/r_ctr_2/NC1
+uFifoRxRaw/ircount_4
+uFifoRxRaw/co2_2
+uFifoRxRaw/co1_4
+uFifoRxRaw/rcount_4
+uFifoRxRaw/ae_d_c
+uFifoRxRaw/co1_5
+uFifoRxRaw/af_d_c
+uFifoRxRaw/co1_6
+uPll/CLKINTFB
+uPll/CLKOK2
+uPll/CLKOS
+uSeq/un9_cnt16_s_7_0_S1
+uSeq/un9_cnt16_s_7_0_COUT
+uSeq/un9_cnt16_cry_0_0_S1
+uSeq/un9_cnt16_cry_0_0_S0
+uSeq/N_36
+uSeq/lCnt32_s_0_S1[31]
+uSeq/lCnt32_s_0_COUT[31]
+uSeq/lCnt32_cry_0_S0[0]
+uSeq/N_37
+uForth/cpu1/un1_t_2_cry_31_0_COUT
+uForth/cpu1/un1_t_2_cry_0_0_S1
+uForth/cpu1/un1_t_2_cry_0_0_S0
+uForth/cpu1/N_2
+uForth/cpu1/un1_p_s_31_0_S1
+uForth/cpu1/un1_p_s_31_0_COUT
+uForth/cpu1/un1_p_cry_0_0_S0
+uForth/cpu1/N_3
+uForth/cpu1/un4_sum_cry_31_0_COUT
+uForth/cpu1/un4_sum_cry_0_0_S1
+uForth/cpu1/un4_sum_cry_0_0_S0
+uForth/cpu1/N_4
+uForth/cpu1/un1_rp_cry_3_0_COUT
+uForth/cpu1/un1_rp_cry_0_0_S1
+uForth/cpu1/un1_rp_cry_0_0_S0
+uForth/cpu1/N_5
+uForth/cpu1/un1_sp1_cry_3_0_COUT
+uForth/cpu1/un1_sp1_cry_0_0_S1
+uForth/cpu1/un1_sp1_cry_0_0_S0
+uForth/cpu1/N_7
+uForth/cpu1/un1_sp_cry_3_0_COUT
+uForth/cpu1/un1_sp_cry_0_0_S1
+uForth/cpu1/un1_sp_cry_0_0_S0
+uForth/cpu1/N_9
+uForth/cpu1/un1_rp1_cry_3_0_COUT
+uForth/cpu1/un1_rp1_cry_0_0_S1
+uForth/cpu1/un1_rp1_cry_0_0_S0
+uForth/cpu1/N_10
+uForth/cpu1/r_cry_0_COUT[31]
+uForth/cpu1/r_cry_0_S0[0]
+uForth/cpu1/N_12
+uForth/cpu1/Timer_2_0_s_31_0_S1
+uForth/cpu1/Timer_2_0_s_31_0_COUT
+uForth/cpu1/Timer_2_0_cry_0_0_S1
+uForth/cpu1/Timer_2_0_cry_0_0_S0
+uForth/cpu1/N_13
+uForth/cpu1/r_stack_ram_7_DO2
+uForth/cpu1/r_stack_ram_7_DO3
+uForth/cpu1/r_stack_ram_7_DO1
+uForth/cpu1/r_stack_ram_16_DO2
+uForth/cpu1/r_stack_ram_16_DO3
+uForth/cpu1/r_stack_ram_16_DO1
+uForth/cpu1/s_stack_ram_7_DO2
+uForth/cpu1/s_stack_ram_7_DO3
+uForth/cpu1/s_stack_ram_7_DO1
+uForth/cpu1/s_stack_ram_16_DO2
+uForth/cpu1/s_stack_ram_16_DO3
+uForth/cpu1/s_stack_ram_16_DO1
+uForth/uart1/uRx/un1_Cnt_1_s_7_0_S1
+uForth/uart1/uRx/un1_Cnt_1_s_7_0_COUT
+uForth/uart1/uRx/un1_Cnt_1_cry_0_0_S0
+uForth/uart1/uRx/N_1
+uMaster/un73_state_0_I_9_0_S0
+uMaster/un73_state_0_I_9_0_COUT
+uMaster/un73_state_0_I_21_0_S1
+uMaster/un73_state_0_I_21_0_S0
+uMaster/un73_state_0_I_1_0_S1
+uMaster/un73_state_0_I_1_0_S0
+uMaster/N_1
+uMaster/un1_NumXfr_s_7_0_S1
+uMaster/un1_NumXfr_s_7_0_COUT
+uMaster/un1_NumXfr_cry_0_0_S0
+uMaster/N_2
+uMaster/uFifoRxRaw/r_nw_inv
+uMaster/uFifoRxRaw/fcnt_en_inv
+uMaster/uFifoRxRaw/r_nw
+uMaster/uFifoRxRaw/invout_0
+uMaster/uFifoRxRaw/co0_6
+uMaster/uFifoRxRaw/af_cmp_ci_a/S1
+uMaster/uFifoRxRaw/af_cmp_ci_a/S0
+uMaster/uFifoRxRaw/cmp_ci_3
+uMaster/uFifoRxRaw/a2/S1
+uMaster/uFifoRxRaw/a2/COUT
+uMaster/uFifoRxRaw/cnt_con_inv
+uMaster/uFifoRxRaw/co0_5
+uMaster/uFifoRxRaw/fcnt_en_inv_inv
+uMaster/uFifoRxRaw/ae_cmp_ci_a/S1
+uMaster/uFifoRxRaw/ae_cmp_ci_a/S0
+uMaster/uFifoRxRaw/cmp_ci_2
+uMaster/uFifoRxRaw/r_ctr_cia/S1
+uMaster/uFifoRxRaw/r_ctr_cia/S0
+uMaster/uFifoRxRaw/w_ctr_2/NC1
+uMaster/uFifoRxRaw/co2_1
+uMaster/uFifoRxRaw/co1_3
+uMaster/uFifoRxRaw/w_ctr_cia/S1
+uMaster/uFifoRxRaw/w_ctr_cia/S0
+uMaster/uFifoRxRaw/a1/S1
+uMaster/uFifoRxRaw/a1/COUT
+uMaster/uFifoRxRaw/g_cmp_ci_a/S1
+uMaster/uFifoRxRaw/g_cmp_ci_a/S0
+uMaster/uFifoRxRaw/a0/S1
+uMaster/uFifoRxRaw/a0/COUT
+uMaster/uFifoRxRaw/e_cmp_ci_a/S1
+uMaster/uFifoRxRaw/e_cmp_ci_a/S0
+uMaster/uFifoRxRaw/bdcnt_bctr_cia/S1
+uMaster/uFifoRxRaw/bdcnt_bctr_cia/S0
+uMaster/uFifoRxRaw/wcount_4
+uMaster/uFifoRxRaw/iwcount_4
+uMaster/AlmostFull
+uMaster/AlmostEmpty
+uMaster/uFifoRxRaw/ae_d
+uMaster/uFifoRxRaw/a3/S1
+uMaster/uFifoRxRaw/af_d
+uMaster/uFifoRxRaw/a3/COUT
+uMaster/uFifoRxRaw/bdcnt_bctr_2/S1
+uMaster/uFifoRxRaw/co2
+uMaster/uFifoRxRaw/r_ctr_2/NC1
+uMaster/uFifoRxRaw/ircount_4
+uMaster/uFifoRxRaw/co2_2
+uMaster/uFifoRxRaw/co1_4
+uMaster/uFifoRxRaw/rcount_4
+uMaster/uFifoRxRaw/ae_d_c
+uMaster/uFifoRxRaw/co1_5
+uMaster/uFifoRxRaw/af_d_c
+uMaster/uFifoRxRaw/co1_6
+uDvi/U_gen_cnt/un12_cnth_0_I_33_0_S0
+uDvi/U_gen_cnt/un12_cnth_0_I_33_0_COUT
+uDvi/U_gen_cnt/un12_cnth_0_I_27_0_S1
+uDvi/U_gen_cnt/un12_cnth_0_I_27_0_S0
+uDvi/U_gen_cnt/un12_cnth_0_I_9_0_S1
+uDvi/U_gen_cnt/un12_cnth_0_I_9_0_S0
+uDvi/U_gen_cnt/un12_cnth_0_I_1_0_S1
+uDvi/U_gen_cnt/un12_cnth_0_I_1_0_S0
+uDvi/U_gen_cnt/N_1
+uDvi/U_gen_cnt/un1_cnth_cry_11_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_11_0_COUT
+uDvi/U_gen_cnt/un1_cnth_cry_9_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_9_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_7_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_7_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_5_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_5_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_3_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_3_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_1_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_1_0_S0
+uDvi/U_gen_cnt/un1_cnth_cry_0_0_S1
+uDvi/U_gen_cnt/un1_cnth_cry_0_0_S0
+uDvi/U_gen_cnt/N_2
+uDvi/U_gen_cnt/un16_cnth_cry_11_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_11_0_COUT
+uDvi/U_gen_cnt/un16_cnth_cry_9_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_9_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_7_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_7_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_5_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_5_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_3_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_3_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_1_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_1_0_S0
+uDvi/U_gen_cnt/un16_cnth_cry_0_0_S1
+uDvi/U_gen_cnt/un16_cnth_cry_0_0_S0
+uDvi/U_gen_cnt/N_3
+uDvi/U_gen_cnt/cnt_h_1_s_11_0_S1
+uDvi/U_gen_cnt/cnt_h_1_s_11_0_COUT
+uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S1
+uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S0
+uDvi/U_gen_cnt/N_4
+uDvi/U_gen_cnt/cnt_v_1_s_11_0_S1
+uDvi/U_gen_cnt/cnt_v_1_s_11_0_COUT
+uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S1
+uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S0
+uDvi/U_gen_cnt/N_5
+uDvi/U_gen_cnt/un6_cnth_s_11_0_S1
+uDvi/U_gen_cnt/un6_cnth_s_11_0_COUT
+uDvi/U_gen_cnt/un6_cnth_cry_0_0_S1
+uDvi/U_gen_cnt/un6_cnth_cry_0_0_S0
+uDvi/U_gen_cnt/N_6
+uDvi/U_gen_cnt/un1_cntv_s_11_0_S1
+uDvi/U_gen_cnt/un1_cntv_s_11_0_COUT
+uDvi/U_gen_cnt/un1_cntv_cry_0_0_S0
+uDvi/U_gen_cnt/N_7
+uDvi/U_gen_sync/un1_cnt_v_cry_11_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_11_0_COUT
+uDvi/U_gen_sync/un1_cnt_v_cry_9_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_9_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_7_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_7_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_5_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_5_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_3_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_3_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_1_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_1_0_S0
+uDvi/U_gen_sync/un1_cnt_v_cry_0_0_S1
+uDvi/U_gen_sync/un1_cnt_v_cry_0_0_S0
+uDvi/U_gen_sync/N_1
+uDvi/U_gen_sync/cnt_v_cry_11_0_S0
+uDvi/U_gen_sync/cnt_v_cry_11_0_COUT
+uDvi/U_gen_sync/cnt_v_cry_9_0_S1
+uDvi/U_gen_sync/cnt_v_cry_9_0_S0
+uDvi/U_gen_sync/cnt_v_cry_7_0_S1
+uDvi/U_gen_sync/cnt_v_cry_7_0_S0
+uDvi/U_gen_sync/cnt_v_cry_5_0_S1
+uDvi/U_gen_sync/cnt_v_cry_5_0_S0
+uDvi/U_gen_sync/cnt_v_cry_3_0_S1
+uDvi/U_gen_sync/cnt_v_cry_3_0_S0
+uDvi/U_gen_sync/cnt_v_cry_1_0_S1
+uDvi/U_gen_sync/cnt_v_cry_1_0_S0
+uDvi/U_gen_sync/cnt_v_cry_0_0_S1
+uDvi/U_gen_sync/cnt_v_cry_0_0_S0
+uDvi/U_gen_sync/N_2
+uDvi/U_gen_sync/un1_cnt_h_cry_11_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_11_0_COUT
+uDvi/U_gen_sync/un1_cnt_h_cry_9_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_9_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_7_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_7_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_5_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_5_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_3_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_3_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_1_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_1_0_S0
+uDvi/U_gen_sync/un1_cnt_h_cry_0_0_S1
+uDvi/U_gen_sync/un1_cnt_h_cry_0_0_S0
+uDvi/U_gen_sync/N_3
+uDvi/U_gen_sync/cnt_h_cry_11_0_S0
+uDvi/U_gen_sync/cnt_h_cry_11_0_COUT
+uDvi/U_gen_sync/cnt_h_cry_9_0_S1
+uDvi/U_gen_sync/cnt_h_cry_9_0_S0
+uDvi/U_gen_sync/cnt_h_cry_7_0_S1
+uDvi/U_gen_sync/cnt_h_cry_7_0_S0
+uDvi/U_gen_sync/cnt_h_cry_5_0_S1
+uDvi/U_gen_sync/cnt_h_cry_5_0_S0
+uDvi/U_gen_sync/cnt_h_cry_3_0_S1
+uDvi/U_gen_sync/cnt_h_cry_3_0_S0
+uDvi/U_gen_sync/cnt_h_cry_1_0_S1
+uDvi/U_gen_sync/cnt_h_cry_1_0_S0
+uDvi/U_gen_sync/cnt_h_cry_0_0_S1
+uDvi/U_gen_sync/cnt_h_cry_0_0_S0
+uDvi/U_gen_sync/N_4
+uDvi/U_gen_tim/cnt_v_cry_11_0_S0
+uDvi/U_gen_tim/cnt_v_cry_11_0_COUT
+uDvi/U_gen_tim/cnt_v_cry_9_0_S1
+uDvi/U_gen_tim/cnt_v_cry_9_0_S0
+uDvi/U_gen_tim/cnt_v_cry_7_0_S1
+uDvi/U_gen_tim/cnt_v_cry_7_0_S0
+uDvi/U_gen_tim/cnt_v_cry_5_0_S1
+uDvi/U_gen_tim/cnt_v_cry_5_0_S0
+uDvi/U_gen_tim/cnt_v_cry_3_0_S1
+uDvi/U_gen_tim/cnt_v_cry_3_0_S0
+uDvi/U_gen_tim/cnt_v_cry_1_0_S1
+uDvi/U_gen_tim/cnt_v_cry_1_0_S0
+uDvi/U_gen_tim/cnt_v_cry_0_0_S1
+uDvi/U_gen_tim/cnt_v_cry_0_0_S0
+uDvi/U_gen_tim/N_1
+uDvi/U_gen_tim/cnt_h_cry_11_0_S0
+uDvi/U_gen_tim/cnt_h_cry_11_0_COUT
+uDvi/U_gen_tim/cnt_h_cry_9_0_S1
+uDvi/U_gen_tim/cnt_h_cry_9_0_S0
+uDvi/U_gen_tim/cnt_h_cry_7_0_S1
+uDvi/U_gen_tim/cnt_h_cry_7_0_S0
+uDvi/U_gen_tim/cnt_h_cry_5_0_S1
+uDvi/U_gen_tim/cnt_h_cry_5_0_S0
+uDvi/U_gen_tim/cnt_h_cry_3_0_S1
+uDvi/U_gen_tim/cnt_h_cry_3_0_S0
+uDvi/U_gen_tim/cnt_h_cry_1_0_S1
+uDvi/U_gen_tim/cnt_h_cry_1_0_S0
+uDvi/U_gen_tim/cnt_h_cry_0_0_S1
+uDvi/U_gen_tim/cnt_h_cry_0_0_S0
+uDvi/U_gen_tim/N_2
+uDvi/U_gen_req/cnt_v_0_I_33_0_S0
+uDvi/U_gen_req/cnt_v_0_I_33_0_COUT
+uDvi/U_gen_req/cnt_v_0_I_27_0_S1
+uDvi/U_gen_req/cnt_v_0_I_27_0_S0
+uDvi/U_gen_req/cnt_v_0_I_9_0_S1
+uDvi/U_gen_req/cnt_v_0_I_9_0_S0
+uDvi/U_gen_req/cnt_v_0_I_1_0_S1
+uDvi/U_gen_req/cnt_v_0_I_1_0_S0
+uDvi/U_gen_req/N_1
+uDvi/U_gen_req/un2_cnt_v_0_I_33_0_S0
+uDvi/U_gen_req/un2_cnt_v_0_I_33_0_COUT
+uDvi/U_gen_req/un2_cnt_v_0_I_27_0_S1
+uDvi/U_gen_req/un2_cnt_v_0_I_27_0_S0
+uDvi/U_gen_req/un2_cnt_v_0_I_9_0_S1
+uDvi/U_gen_req/un2_cnt_v_0_I_9_0_S0
+uDvi/U_gen_req/un2_cnt_v_0_I_1_0_S1
+uDvi/U_gen_req/un2_cnt_v_0_I_1_0_S0
+uDvi/U_gen_req/N_2
+uDvi/U_gen_req/un3_cnt_v_0_I_33_0_S0
+uDvi/U_gen_req/un3_cnt_v_0_I_33_0_COUT
+uDvi/U_gen_req/un3_cnt_v_0_I_27_0_S1
+uDvi/U_gen_req/un3_cnt_v_0_I_27_0_S0
+uDvi/U_gen_req/un3_cnt_v_0_I_9_0_S1
+uDvi/U_gen_req/un3_cnt_v_0_I_9_0_S0
+uDvi/U_gen_req/un3_cnt_v_0_I_1_0_S1
+uDvi/U_gen_req/un3_cnt_v_0_I_1_0_S0
+uDvi/U_gen_req/N_3
+uDvi/U_gen_req/cnt_h_cry_11_0_S0
+uDvi/U_gen_req/cnt_h_cry_11_0_COUT
+uDvi/U_gen_req/cnt_h_cry_9_0_S1
+uDvi/U_gen_req/cnt_h_cry_9_0_S0
+uDvi/U_gen_req/cnt_h_cry_7_0_S1
+uDvi/U_gen_req/cnt_h_cry_7_0_S0
+uDvi/U_gen_req/cnt_h_cry_5_0_S1
+uDvi/U_gen_req/cnt_h_cry_5_0_S0
+uDvi/U_gen_req/cnt_h_cry_3_0_S1
+uDvi/U_gen_req/cnt_h_cry_3_0_S0
+uDvi/U_gen_req/cnt_h_cry_1_0_S1
+uDvi/U_gen_req/cnt_h_cry_1_0_S0
+uDvi/U_gen_req/cnt_h_cry_0_0_S1
+uDvi/U_gen_req/cnt_h_cry_0_0_S0
+uDvi/U_gen_req/N_4
+uDvi/U_gen_req/un1_cnt_v_cry_11_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_11_0_COUT
+uDvi/U_gen_req/un1_cnt_v_cry_9_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_9_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_7_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_7_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_5_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_5_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_3_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_3_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_1_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_1_0_S0
+uDvi/U_gen_req/un1_cnt_v_cry_0_0_S1
+uDvi/U_gen_req/un1_cnt_v_cry_0_0_S0
+uDvi/U_gen_req/N_5
+uDvi/U_gen_req/bnd3_1_s_11_0_S1
+uDvi/U_gen_req/bnd3_1_s_11_0_COUT
+uDvi/U_gen_req/bnd3_1_cry_0_0_S1
+uDvi/U_gen_req/bnd3_1_cry_0_0_S0
+uDvi/U_gen_req/N_6
+uDvi/U_gen_req/bnd1_1_cry_9_0_COUT
+uDvi/U_gen_req/bnd1_1_cry_0_0_S1
+uDvi/U_gen_req/bnd1_1_cry_0_0_S0
+uDvi/U_gen_req/N_7
+uDvi/U_gen_req/bnd2_1_cry_9_0_COUT
+uDvi/U_gen_req/bnd2_1_cry_0_0_S1
+uDvi/U_gen_req/bnd2_1_cry_0_0_S0
+uDvi/U_gen_req/N_8
+un1_DatB_2_0_s_7_0_S1
+un1_DatB_2_0_s_7_0_COUT
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.11.2.446 -- WARNING: Map write only section -- Tue Jan 05 16:42:58 2021
+
+SYSCONFIG PERSISTENT=OFF CONFIG_MODE=SPI DONE_OD=ON DONE_EX=OFF MCCLK_FREQ=2.5 CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF COMPRESS_CONFIG=OFF ENABLE_NDR=OFF CONFIG_IOVOLTAGE=2.5 STRTUP=EXTERNAL ;
+LOCATE COMP "PinSda" SITE "Y3" ;
+LOCATE COMP "PinScl" SITE "AA4" ;
+LOCATE COMP "PinDat[23]" SITE "AC23" ;
+LOCATE COMP "PinDat[22]" SITE "AD23" ;
+LOCATE COMP "PinDat[21]" SITE "AC24" ;
+LOCATE COMP "PinDat[20]" SITE "AB24" ;
+LOCATE COMP "PinDat[19]" SITE "Y24" ;
+LOCATE COMP "PinDat[18]" SITE "AA25" ;
+LOCATE COMP "PinDat[17]" SITE "V22" ;
+LOCATE COMP "PinDat[16]" SITE "V21" ;
+LOCATE COMP "PinDat[15]" SITE "AE23" ;
+LOCATE COMP "PinDat[14]" SITE "AF23" ;
+LOCATE COMP "PinDat[13]" SITE "AF24" ;
+LOCATE COMP "PinDat[12]" SITE "AE25" ;
+LOCATE COMP "PinDat[11]" SITE "AC25" ;
+LOCATE COMP "PinDat[10]" SITE "AC26" ;
+LOCATE COMP "PinDat[9]" SITE "AB26" ;
+LOCATE COMP "PinDat[8]" SITE "AA26" ;
+LOCATE COMP "PinDat[7]" SITE "AE4" ;
+LOCATE COMP "PinDat[6]" SITE "AF4" ;
+LOCATE COMP "PinDat[5]" SITE "AD1" ;
+LOCATE COMP "PinDat[4]" SITE "AD2" ;
+LOCATE COMP "PinDat[3]" SITE "AA1" ;
+LOCATE COMP "PinDat[2]" SITE "AA2" ;
+LOCATE COMP "PinDat[1]" SITE "V1" ;
+LOCATE COMP "PinDat[0]" SITE "U2" ;
+LOCATE COMP "PinDe" SITE "U1" ;
+LOCATE COMP "PinHSync" SITE "T1" ;
+LOCATE COMP "PinVSync" SITE "W3" ;
+LOCATE COMP "PinClk" SITE "N5" ;
+FREQUENCY NET "PinClk125_c" 125.000000 MHz ;
+FREQUENCY NET "Clk100" 100.000000 MHz ;
+FREQUENCY NET "Clk50" 50.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

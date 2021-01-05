@@ -1,0 +1,91 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_06_PFXE_B1.lpf
+#       generated for EXTENSION-06 on board PFX in slot B1
+# 
+# --------------------------------------------------------------------
+#
+# Octal bus for connector HE200
+#
+LOCATE COMP "PinHe200_1" SITE "160" ;
+IOBUF PORT "PinHe200_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_2" SITE "158" ;
+IOBUF PORT "PinHe200_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_3" SITE "159" ;
+IOBUF PORT "PinHe200_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_4" SITE "157" ;
+IOBUF PORT "PinHe200_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_5" SITE "164" ;
+IOBUF PORT "PinHe200_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_6" SITE "163" ;
+IOBUF PORT "PinHe200_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_7" SITE "156" ;
+IOBUF PORT "PinHe200_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe200_8" SITE "155" ;
+IOBUF PORT "PinHe200_8" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Reference for connector HE200
+#
+LOCATE COMP "PinHe200_13" SITE "149" ;
+IOBUF PORT "PinHe200_13" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Clocks for connector HE200
+#
+#
+# Octal bus for connector HE201
+#
+LOCATE COMP "PinHe201_1" SITE "198" ;
+IOBUF PORT "PinHe201_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_2" SITE "197" ;
+IOBUF PORT "PinHe201_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_3" SITE "201" ;
+IOBUF PORT "PinHe201_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_4" SITE "202" ;
+IOBUF PORT "PinHe201_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_5" SITE "206" ;
+IOBUF PORT "PinHe201_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_6" SITE "208" ;
+IOBUF PORT "PinHe201_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_7" SITE "205" ;
+IOBUF PORT "PinHe201_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinHe201_8" SITE "207" ;
+IOBUF PORT "PinHe201_8" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Reference for connector HE201
+#
+LOCATE COMP "PinHe201_13" SITE "194" ;
+IOBUF PORT "PinHe201_13" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+# Clocks for connector HE201
+#
+#
+#
+

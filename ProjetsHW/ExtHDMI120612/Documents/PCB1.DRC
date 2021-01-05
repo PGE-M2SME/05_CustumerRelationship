@@ -1,0 +1,45 @@
+Protel Design System Design Rule Check
+PCB File : Documents\PCB1.PCB
+Date     : 21-May-2012
+Time     : 11:03:57
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+   Violation         Net 3R3   is broken into 4 sub-nets. Routed To 82.35%
+     Subnet : U10-3    C17-1    HE3-10   C13-1    U8-1     C20-1    R17-1    R16-1
+     Subnet : HE4-10
+     Subnet : U1-29    C12-1    C2-2     R10-1    U9-4     C19-2    HE1-10   U9-1
+     Subnet : HE2-10
+   Violation         Net P5   is broken into 4 sub-nets. Routed To 57.14%
+     Subnet : HE4-14
+     Subnet : R14-1    R15-1    HE3-14
+     Subnet : C3-1     J1-18    HE1-14
+     Subnet : HE2-14
+   Violation         Net GND   is broken into 5 sub-nets. Routed To 92.16%
+     Subnet : HE4-11   HE4-12   C7-2     C5-2     C6-2     R13-1    C1-2     R12-2    C4-2
+     Subnet : C18-2    U10-1    C17-2    HE3-12   HE3-11   C15-2    U8-2     C13-2    U1-0     C16-2
+              C11-2    C14-2
+     Subnet : C12-2    C2-1     U3-3     U2-3     C8-2     R11-1    C9-2     U6-3     U4-2     U5-3
+              J1-0     J1-0     C10-2    J1-2     J1-11    J1-8     J1-5     J1-0     HE1-12   J1-0     HE1-11
+              Designator6-1 Designator5-1 U7-2     C19-1    C20-2    HE2-11   U9-2
+     Subnet : C3-2     J1-17
+     Subnet : HE2-12
+Rule Violations :3
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=1mm) (Prefered=0.2mm) (On the board )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (On the board ),(On the board )
+Rule Violations :0
+
+
+Violations Detected : 3
+Time Elapsed        : 00:00:01

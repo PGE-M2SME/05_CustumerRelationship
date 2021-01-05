@@ -1,0 +1,72 @@
+#
+#   Description:
+#
+#   This LPF constraint file contains most of the pad placement for the
+#   use of a Tachyssema module in a platform board.
+#   For direct integration, signal names in the HDL code should exactly
+#   match those in this LFP file.
+#
+# --------------------------------------------------------------------
+#
+#   Disclaimer:
+#
+#   This code is intended as a design reference to help the user.
+#
+#   It is the user's responsibility to formally verify the functionality and 
+#   performance of this code when merged with the rest of his design.
+#
+#   Tachyssema provides no warranty regarding the use or functionality of this code.
+#
+# --------------------------------------------------------------------
+#
+#                     Tachyssema SARL
+#                     20 rue Jean Moulin
+#                     F31700 BLAGNAC
+#
+#                     web:   http://www.tachyssema.com
+#                     email: support@tachyssema.com
+#
+# --------------------------------------------------------------------
+#
+#   Constraint file EXT_15_PF101_B.lpf
+#       generated for EXTENSION-15 on board PF101 in slot B
+# 
+# --------------------------------------------------------------------
+#
+# Adison flex
+#
+LOCATE COMP "PinSpiSensClk" SITE "B6" ;
+IOBUF PORT "PinSpiSensClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSpiSensCs_N" SITE "A7" ;
+IOBUF PORT "PinSpiSensCs_N" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSpiSensMOSI" SITE "A6" ;
+IOBUF PORT "PinSpiSensMOSI" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSpiSensMISO" SITE "A5" ;
+IOBUF PORT "PinSpiSensMISO" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorRst_N" SITE "B3" ;
+IOBUF PORT "PinSensorRst_N" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorClk" SITE "G20" ;
+IOBUF PORT "PinSensorClk" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorHSync" SITE "E20" ;
+IOBUF PORT "PinSensorHSync" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorVSync" SITE "A9" ;
+IOBUF PORT "PinSensorVSync" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_0" SITE "A8" ;
+IOBUF PORT "PinSensorData_0" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_1" SITE "B7" ;
+IOBUF PORT "PinSensorData_1" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_2" SITE "B8" ;
+IOBUF PORT "PinSensorData_2" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_3" SITE "D20" ;
+IOBUF PORT "PinSensorData_3" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_4" SITE "F20" ;
+IOBUF PORT "PinSensorData_4" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_5" SITE "A3" ;
+IOBUF PORT "PinSensorData_5" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_6" SITE "A4" ;
+IOBUF PORT "PinSensorData_6" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+LOCATE COMP "PinSensorData_7" SITE "C5" ;
+IOBUF PORT "PinSensorData_7" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+#
+#
+

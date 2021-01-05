@@ -1,0 +1,19 @@
+i uPll.CLKOP_i
+m 0 0
+u 35 225
+n ckid0_0 {t:uDvi.U_gen_req.bnd2[11:0].C} Black box on clock path
+p {t:uPll.PLLInst_0.CLKOP}{t:uPll.CLKOP_inferred_clock.I[0]}{t:uPll.CLKOP_inferred_clock.OUT[0]}{p:uPll.CLKOP}{t:uPll.CLKOP}{t:DatR[7:0].C}
+e ckid0_1 {t:DatR[7:0].C} dff
+d ckid0_0,ckid0_1 {t:uPll.PLLInst_0.CLKOP} EHXPLLF Black box on clock path
+i uPll.CLKOK_i
+m 0 0
+u 132 648
+n ckid0_2 {t:uDvi.U_conf.form_vsz[11:0].C} Black box on clock path
+p {t:uPll.PLLInst_0.CLKOK}{t:uPll.CLKOK_inferred_clock.I[0]}{t:uPll.CLKOK_inferred_clock.OUT[0]}{p:uPll.CLKOK}{t:uPll.CLKOK}{t:Timer[31:0].C}
+e ckid0_3 {t:Timer[31:0].C} sdffr
+d ckid0_2,ckid0_3 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Black box on clock path
+i uPll.LOCK
+m 0 0
+u 0 0
+d ckid0_4 {t:uPll.PLLInst_0.LOCK} EHXPLLF Black box on clock path
+l 0 0 0 0 0
