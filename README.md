@@ -10,7 +10,8 @@ Depuis le 16/12/20 sont disponibles :
 - un projet permettant d'émettre des données en DVI en utilisant le TFP403 pour l'émission.
 
 
+Depuis le 05/01/20 : 
 
-A venir prochainement : 
-
-- toutes les informations pour utiliser la machine virtuelle pour la création de projet sous Diamond ( outil Lattice ). 
+- La VM permettant d'utiliser la suite logicielle Diamond est disponible. Vous pouvez la mettre en oeuvre en utilisant ce lien : 
+https://drive.google.com/drive/folders/1BnEkrqF-qL9vTiM-cDJzNFdqgYriPRyO?usp=sharing
+ 
