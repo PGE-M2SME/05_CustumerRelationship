@@ -7,7 +7,7 @@ Depuis le 16/12/20 sont disponibles :
 
 - un projet de génération vidéo.
 - un fichier VHDL permettant de créer une mire.
-- un projet permettant d'émettre des données en DVI en utilisant le TFP403 pour l'émission.
+- un projet permettant de recevoir et de renvoyer un même flux vidéo DVI par l'intermédiaire d'un FPGA.
 
 
 Depuis le 05/01/20 : 
