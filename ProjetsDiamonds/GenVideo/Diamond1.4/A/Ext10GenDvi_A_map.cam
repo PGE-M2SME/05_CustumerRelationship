@@ -17,8 +17,8 @@ uFifoRxRaw/rden_i_inv uFifoRxRaw/rden_i
 [ START CLIPPED ]
 uFifoRxRaw/scuba_vlo
 uFifoRxRaw/scuba_vhi
-uForth/VCC
 uForth/GND
+uForth/VCC
 uForth/uForthMem/scuba_vhi
 uMaster/uFifoRxRaw/scuba_vlo
 uMaster/uFifoRxRaw/scuba_vhi
@@ -127,39 +127,39 @@ uSeq/N_37
 uForth/cpu1/un1_t_2_cry_31_0_COUT
 uForth/cpu1/un1_t_2_cry_0_0_S1
 uForth/cpu1/un1_t_2_cry_0_0_S0
-uForth/cpu1/N_2
+uForth/cpu1/N_1
 uForth/cpu1/un1_p_s_31_0_S1
 uForth/cpu1/un1_p_s_31_0_COUT
 uForth/cpu1/un1_p_cry_0_0_S0
-uForth/cpu1/N_3
+uForth/cpu1/N_2
 uForth/cpu1/un4_sum_cry_31_0_COUT
 uForth/cpu1/un4_sum_cry_0_0_S1
 uForth/cpu1/un4_sum_cry_0_0_S0
-uForth/cpu1/N_4
-uForth/cpu1/un1_rp_cry_3_0_COUT
-uForth/cpu1/un1_rp_cry_0_0_S1
-uForth/cpu1/un1_rp_cry_0_0_S0
-uForth/cpu1/N_5
-uForth/cpu1/un1_sp1_cry_3_0_COUT
-uForth/cpu1/un1_sp1_cry_0_0_S1
-uForth/cpu1/un1_sp1_cry_0_0_S0
-uForth/cpu1/N_7
-uForth/cpu1/un1_sp_cry_3_0_COUT
-uForth/cpu1/un1_sp_cry_0_0_S1
-uForth/cpu1/un1_sp_cry_0_0_S0
-uForth/cpu1/N_9
+uForth/cpu1/N_3
 uForth/cpu1/un1_rp1_cry_3_0_COUT
 uForth/cpu1/un1_rp1_cry_0_0_S1
 uForth/cpu1/un1_rp1_cry_0_0_S0
+uForth/cpu1/N_6
+uForth/cpu1/un1_rp_cry_3_0_COUT
+uForth/cpu1/un1_rp_cry_0_0_S1
+uForth/cpu1/un1_rp_cry_0_0_S0
+uForth/cpu1/N_7
+uForth/cpu1/un1_sp1_cry_3_0_COUT
+uForth/cpu1/un1_sp1_cry_0_0_S1
+uForth/cpu1/un1_sp1_cry_0_0_S0
+uForth/cpu1/N_9
+uForth/cpu1/un1_sp_cry_3_0_COUT
+uForth/cpu1/un1_sp_cry_0_0_S1
+uForth/cpu1/un1_sp_cry_0_0_S0
 uForth/cpu1/N_10
 uForth/cpu1/r_cry_0_COUT[31]
 uForth/cpu1/r_cry_0_S0[0]
-uForth/cpu1/N_12
+uForth/cpu1/N_11
 uForth/cpu1/Timer_2_0_s_31_0_S1
 uForth/cpu1/Timer_2_0_s_31_0_COUT
 uForth/cpu1/Timer_2_0_cry_0_0_S1
 uForth/cpu1/Timer_2_0_cry_0_0_S0
-uForth/cpu1/N_13
+uForth/cpu1/N_12
 uForth/cpu1/r_stack_ram_7_DO2
 uForth/cpu1/r_stack_ram_7_DO3
 uForth/cpu1/r_stack_ram_7_DO1
@@ -278,15 +278,15 @@ uDvi/U_gen_cnt/un16_cnth_cry_1_0_S0
 uDvi/U_gen_cnt/un16_cnth_cry_0_0_S1
 uDvi/U_gen_cnt/un16_cnth_cry_0_0_S0
 uDvi/U_gen_cnt/N_3
-uDvi/U_gen_cnt/cnt_h_1_s_11_0_S1
-uDvi/U_gen_cnt/cnt_h_1_s_11_0_COUT
-uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S1
-uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S0
-uDvi/U_gen_cnt/N_4
 uDvi/U_gen_cnt/cnt_v_1_s_11_0_S1
 uDvi/U_gen_cnt/cnt_v_1_s_11_0_COUT
 uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S1
 uDvi/U_gen_cnt/cnt_v_1_cry_0_0_S0
+uDvi/U_gen_cnt/N_4
+uDvi/U_gen_cnt/cnt_h_1_s_11_0_S1
+uDvi/U_gen_cnt/cnt_h_1_s_11_0_COUT
+uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S1
+uDvi/U_gen_cnt/cnt_h_1_cry_0_0_S0
 uDvi/U_gen_cnt/N_5
 uDvi/U_gen_cnt/un6_cnth_s_11_0_S1
 uDvi/U_gen_cnt/un6_cnth_s_11_0_COUT
@@ -444,37 +444,39 @@ uDvi/U_gen_req/un1_cnt_v_cry_1_0_S0
 uDvi/U_gen_req/un1_cnt_v_cry_0_0_S1
 uDvi/U_gen_req/un1_cnt_v_cry_0_0_S0
 uDvi/U_gen_req/N_5
+uDvi/U_gen_req/bnd1_1_cry_9_0_COUT
+uDvi/U_gen_req/bnd1_1_cry_0_0_S1
+uDvi/U_gen_req/bnd1_1_cry_0_0_S0
+uDvi/U_gen_req/N_6
+uDvi/U_gen_req/bnd2_1_cry_9_0_COUT
+uDvi/U_gen_req/bnd2_1_cry_0_0_S1
+uDvi/U_gen_req/bnd2_1_cry_0_0_S0
+uDvi/U_gen_req/N_7
 uDvi/U_gen_req/bnd3_1_s_11_0_S1
 uDvi/U_gen_req/bnd3_1_s_11_0_COUT
 uDvi/U_gen_req/bnd3_1_cry_0_0_S1
 uDvi/U_gen_req/bnd3_1_cry_0_0_S0
-uDvi/U_gen_req/N_6
-uDvi/U_gen_req/bnd1_1_cry_9_0_COUT
-uDvi/U_gen_req/bnd1_1_cry_0_0_S1
-uDvi/U_gen_req/bnd1_1_cry_0_0_S0
-uDvi/U_gen_req/N_7
-uDvi/U_gen_req/bnd2_1_cry_9_0_COUT
-uDvi/U_gen_req/bnd2_1_cry_0_0_S1
-uDvi/U_gen_req/bnd2_1_cry_0_0_S0
 uDvi/U_gen_req/N_8
 un1_DatB_2_0_s_7_0_S1
 un1_DatB_2_0_s_7_0_COUT
 [ END CLIPPED ]
 [ START DESIGN PREFS ]
 SCHEMATIC START ;
-# map:  version Diamond (64-bit) 3.11.2.446 -- WARNING: Map write only section -- Tue Jan 05 16:42:58 2021
+# map:  version Diamond (64-bit) 3.11.2.446 -- WARNING: Map write only section -- Wed Jan 06 16:33:37 2021
 
 SYSCONFIG PERSISTENT=OFF CONFIG_MODE=SPI DONE_OD=ON DONE_EX=OFF MCCLK_FREQ=2.5 CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF COMPRESS_CONFIG=OFF ENABLE_NDR=OFF CONFIG_IOVOLTAGE=2.5 STRTUP=EXTERNAL ;
 LOCATE COMP "PinSda" SITE "Y3" ;
+LOCATE COMP "PinLedXv" SITE "E23" ;
+LOCATE COMP "PinClk125" SITE "M3" ;
 LOCATE COMP "PinScl" SITE "AA4" ;
-LOCATE COMP "PinDat[23]" SITE "AC23" ;
-LOCATE COMP "PinDat[22]" SITE "AD23" ;
-LOCATE COMP "PinDat[21]" SITE "AC24" ;
-LOCATE COMP "PinDat[20]" SITE "AB24" ;
-LOCATE COMP "PinDat[19]" SITE "Y24" ;
-LOCATE COMP "PinDat[18]" SITE "AA25" ;
-LOCATE COMP "PinDat[17]" SITE "V22" ;
-LOCATE COMP "PinDat[16]" SITE "V21" ;
+LOCATE COMP "PinDat[23]" SITE "AD23" ;
+LOCATE COMP "PinDat[22]" SITE "AC23" ;
+LOCATE COMP "PinDat[21]" SITE "AB24" ;
+LOCATE COMP "PinDat[20]" SITE "AC24" ;
+LOCATE COMP "PinDat[19]" SITE "AA25" ;
+LOCATE COMP "PinDat[18]" SITE "Y24" ;
+LOCATE COMP "PinDat[17]" SITE "V21" ;
+LOCATE COMP "PinDat[16]" SITE "V22" ;
 LOCATE COMP "PinDat[15]" SITE "AE23" ;
 LOCATE COMP "PinDat[14]" SITE "AF23" ;
 LOCATE COMP "PinDat[13]" SITE "AF24" ;
@@ -483,20 +485,22 @@ LOCATE COMP "PinDat[11]" SITE "AC25" ;
 LOCATE COMP "PinDat[10]" SITE "AC26" ;
 LOCATE COMP "PinDat[9]" SITE "AB26" ;
 LOCATE COMP "PinDat[8]" SITE "AA26" ;
-LOCATE COMP "PinDat[7]" SITE "AE4" ;
-LOCATE COMP "PinDat[6]" SITE "AF4" ;
-LOCATE COMP "PinDat[5]" SITE "AD1" ;
-LOCATE COMP "PinDat[4]" SITE "AD2" ;
-LOCATE COMP "PinDat[3]" SITE "AA1" ;
-LOCATE COMP "PinDat[2]" SITE "AA2" ;
-LOCATE COMP "PinDat[1]" SITE "V1" ;
-LOCATE COMP "PinDat[0]" SITE "U2" ;
+LOCATE COMP "PinDat[7]" SITE "U2" ;
+LOCATE COMP "PinDat[6]" SITE "V1" ;
+LOCATE COMP "PinDat[5]" SITE "AA2" ;
+LOCATE COMP "PinDat[4]" SITE "AA1" ;
+LOCATE COMP "PinDat[3]" SITE "AD2" ;
+LOCATE COMP "PinDat[2]" SITE "AD1" ;
+LOCATE COMP "PinDat[1]" SITE "AF4" ;
+LOCATE COMP "PinDat[0]" SITE "AE4" ;
+LOCATE COMP "PinTfpClkN" SITE "N6" ;
+LOCATE COMP "PinTfpClkP" SITE "N5" ;
 LOCATE COMP "PinDe" SITE "U1" ;
 LOCATE COMP "PinHSync" SITE "T1" ;
 LOCATE COMP "PinVSync" SITE "W3" ;
-LOCATE COMP "PinClk" SITE "N5" ;
 FREQUENCY NET "PinClk125_c" 125.000000 MHz ;
-FREQUENCY NET "Clk100" 100.000000 MHz ;
+FREQUENCY NET "PinTfpClkP_c" 100.000000 MHz ;
 FREQUENCY NET "Clk50" 50.000000 MHz ;
+FREQUENCY PORT "PinClk125" 125.000000 MHz ;
 SCHEMATIC END ;
 [ END DESIGN PREFS ]

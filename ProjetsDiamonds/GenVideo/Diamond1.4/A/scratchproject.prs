@@ -1,37 +1,37 @@
 #--  Synopsys, Inc.
 #--  Version N-2018.03L-SP1-1
-#--  Project file C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\GenVideo\Diamond1.4\A\scratchproject.prs
+#--  Project file C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\scratchproject.prs
 
 #project files
 add_file -vhdl -lib work "C:/lscc/diamond/3.11_x64/cae_library/synthesis/vhdl/ecp3.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/I2CMasterDevice.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/SeqBlk1204.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dv i410Request.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/I2cMasterCommands.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/IpxLpc/Pll125to100x50.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/Dvi410/Dvi410Main.vhd"
-add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/TestVideoTop.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/I2CMasterDevice.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/ep32Tss.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Rx.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Tx.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/SeqBlk1204.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Cnt.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Conf.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dv i410Request.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Sync.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Timing.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/UartTss.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Forth120719/VHDL/Forth.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/IpxLpc/Pll125to100x50.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/Dvi410/Dvi410Main.vhd"
+add_file -vhdl -lib work "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/TestVideoTop.vhd"
 
 
 
 #implementation: "A"
-impl -add C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\GenVideo\Diamond1.4\A -type fpga
+impl -add C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/Diamond1.4/A/}
+set_option -include_path {C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/A/}
 
 #device options
 set_option -technology LATTICE-ECP3
@@ -84,8 +84,8 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/Diamond1.4/A/Ext10GenDvi_A.edi"
+project -result_file "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A.edi"
 
 #set log file 
-set_option log_file "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/Diamond1.4/A/Ext10GenDvi_A.srf" 
+set_option log_file "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A.srf" 
 impl -active "A"

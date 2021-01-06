@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BaliProject version="3.2" title="Ext10GenDvi" device="LFE3-70E-8FN672C" default_implementation="A">
+<BaliProject version="3.2" title="Ext10GenDvi" device="LFE3-150EA-7LFN672C" default_implementation="A">
     <Options/>
     <Implementation title="A" dir="A" description="A" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="TestVideoTop"/>
+        <Options def_top="TestVideoTop" top="TestVideoTop"/>
         <Source name="../VHDL/TestVideoTop.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="TestVideoTop"/>
         </Source>

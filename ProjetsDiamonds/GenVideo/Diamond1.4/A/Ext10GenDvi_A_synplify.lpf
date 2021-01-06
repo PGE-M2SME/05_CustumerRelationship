@@ -3,7 +3,7 @@
 #
 
 # Period Constraints 
-#FREQUENCY NET "uPll/Clk100" 200.0 MHz;
+#FREQUENCY NET "uPll/PinTfpClkP_c" 200.0 MHz;
 #FREQUENCY NET "uPll/Clk50" 200.0 MHz;
 
 
@@ -16,8 +16,8 @@
 
 
 # Block Path Constraints 
-#BLOCK PATH FROM CLKNET "uPll/Clk50" TO CLKNET "uPll/Clk100";
-#BLOCK PATH FROM CLKNET "uPll/Clk100" TO CLKNET "uPll/Clk50";
+#BLOCK PATH FROM CLKNET "uPll/Clk50" TO CLKNET "uPll/PinTfpClkP_c";
+#BLOCK PATH FROM CLKNET "uPll/PinTfpClkP_c" TO CLKNET "uPll/Clk50";
 
 BLOCK ASYNCPATHS;
 

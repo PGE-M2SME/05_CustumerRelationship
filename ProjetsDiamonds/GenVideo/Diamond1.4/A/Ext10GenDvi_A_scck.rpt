@@ -13,7 +13,7 @@ Hostname: DESKTOP-0QV9UDN
 
 Implementation : A
 
-# Written on Thu Dec 17 21:51:57 2020
+# Written on Wed Jan  6 16:32:09 2021
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -51,5 +51,5 @@ System                                  0         -                             
                                                                                                                                                
 Pll125to100x50|CLKOK_inferred_clock     712       uPll.PLLInst_0.CLKOK(EHXPLLF)     RdLen[7:0].C       -                 uForth.m_clk.I[0](inv)
                                                                                                                                                
-Pll125to100x50|CLKOP_inferred_clock     225       uPll.PLLInst_0.CLKOP(EHXPLLF)     DviDat[23:0].C     -                 -                     
+Pll125to100x50|CLKOP_inferred_clock     225       uPll.PLLInst_0.CLKOP(EHXPLLF)     DviDat[23:0].C     -                 PinTfpClkN.I[0](inv)  
 ===============================================================================================================================================

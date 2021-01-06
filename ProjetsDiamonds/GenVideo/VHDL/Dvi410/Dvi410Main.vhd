@@ -150,6 +150,10 @@ begin
   end if;
 end process gen_dat;
 
+
+
+
+
 uGenTfpClkXP2 : if FPGA_FAMILY = "XP2" generate
 
 uTfpClk : ODDRXC port map(Clk=>ClkDvi, Da=>'1', Db=>'0', Rst=>'0', Q=>PinTfpClk);

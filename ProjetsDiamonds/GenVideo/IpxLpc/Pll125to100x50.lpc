@@ -16,8 +16,8 @@ CoreRevision=5.8
 ModuleName=Pll125to100x50
 SourceFormat=VHDL
 ParameterFileVersion=1.0
-Date=12/17/2020
-Time=21:49:18
+Date=01/06/2021
+Time=16:31:40
 
 [Parameters]
 Verilog=0

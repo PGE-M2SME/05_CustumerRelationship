@@ -5,14 +5,14 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\GenVideo\Diamond1.4\A\synlog\report\Ext10GenDvi_A_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\synlog\report\Ext10GenDvi_A_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <parameter tooltip="Total Register bits used" name="Register bits">
-<data>953</data>
+<data>956</data>
 </parameter>
 <parameter tooltip="Total I/O cells used" name="I/O cells">
-<data>34</data>
+<data>36</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total Block RAMs used" name="Block RAMs">
 <data>0</data>
@@ -21,6 +21,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>0</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total ORCA LUTs used" name="ORCA LUTs">
-<data>2067</data>
+<data>2229</data>
 </parameter>
 </report_table>

@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Jan 05 16:43:00 2021
+Wed Jan 06 16:33:38 2021
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f Ext10GenDvi_A.p2t
 Ext10GenDvi_A_map.ncd Ext10GenDvi_A.dir Ext10GenDvi_A.prf -gui -msgset
@@ -16,11 +16,11 @@ Preference file: Ext10GenDvi_A.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            3.554        0            0.203        0            02:49        Completed
+5_1   *      0            3.390        0            0.203        0            02:37        Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 2 mins 50 secs 
+Total (real) run time for 1-seed: 2 mins 37 secs 
 
 par done!
 

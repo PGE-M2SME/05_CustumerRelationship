@@ -15,7 +15,7 @@ entity TestVideoTop is port(
         PinLedXv, PinPortTx : out std_logic;
 
 -- DVI generator
-     PinClk, PinVSync, PinHSync, PinDe : out std_logic;
+     PinClk, PinVSync, PinHSync, PinDe, PinTfpClkP, PinTfpClkN : out std_logic;
      PinDat : out std_logic_vector(23 downto 0);
 
      PinSda : inout std_logic;
@@ -71,7 +71,7 @@ component pmi_fifo is
        pmi_data_width : integer := 16; pmi_data_depth : integer := 1024; 
        pmi_full_flag : integer := 1024; pmi_empty_flag : integer := 0; 
        pmi_almost_full_flag : integer := 252; pmi_almost_empty_flag : integer := 4; 
-       pmi_regmode : string := "reg"; pmi_family : string := "ECP3" ; 
+       pmi_regmode : string := "reg"; pmi_family : string := "EC" ; 
        module_type : string := "pmi_fifo"; pmi_implementation : string := "LUT");
     port (
      Data : in std_logic_vector(pmi_data_width-1 downto 0);
@@ -247,6 +247,9 @@ uDvi : Dvi410 generic map(FPGA_FAMILY=>"ECP3")
 				   
 				   PinTfpVs=>PinVSync, PinTfpHs=>PinHSync, PinTfpDe=>PinDe,
                    PinTfpClk=>PinClk, PinTfpDat=>PinDat);
+				   
+PinTfpClkP <= Clk100;
+PinTfpClkN <= not (Clk100);
 
 --
 -- Generate DVI data

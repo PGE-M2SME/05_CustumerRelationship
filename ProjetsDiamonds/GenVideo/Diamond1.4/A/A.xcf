@@ -19,8 +19,8 @@
 				<BScanLen>1</BScanLen>
 				<BScanVal>0</BScanVal>
 			</Bypass>
-			<File>C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/Diamond1.4/A/Ext10GenDvi_A.bit</File>
-			<FileTime>12/17/20 21:56:06</FileTime>
+			<File>C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/A/Ext10GenDvi_A.bit</File>
+			<FileTime>01/06/21 16:37:29</FileTime>
 			<Operation>Fast Program</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>
@@ -45,7 +45,7 @@
 	<CableOptions>
 		<CableName>USB2</CableName>
 		<PortAdd>FTUSB-0</PortAdd>
-		<USBID>FT232H Location 0000 Serial FT753UEH</USBID>
+		<USBID>Single RS232-HS Location 0000 Serial </USBID>
 		<JTAGPinSetting>
 			TRST	ABSENT;
 			ISPEN	ABSENT;

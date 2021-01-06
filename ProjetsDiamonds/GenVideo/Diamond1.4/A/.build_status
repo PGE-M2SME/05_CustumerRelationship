@@ -5,39 +5,35 @@
             <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Bitgen" build_result="2" update_result="0" update_time="1609861633"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1609947450"/>
             <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1609861379">
-            <Task name="Map" build_result="2" update_result="0" update_time="1609861379"/>
+        <Milestone name="Map" build_result="2" build_time="1609947218">
+            <Task name="Map" build_result="2" update_result="0" update_time="1609947218"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1609861550">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1609861550"/>
-            <Task name="PARTrace" build_result="2" update_result="0" update_time="1609861562"/>
+        <Milestone name="PAR" build_result="2" build_time="1609947375">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1609947375"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1609947385"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1608238363">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1608238363"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1609947205">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1609947205"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1609861013"/>
-            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
-            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
-            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
-            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1609947102"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1608238367">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1608238367"/>
+        <Milestone name="Translate" build_result="2" build_time="1609947210">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1609947210"/>
         </Milestone>
-        <Report name="Ext10GenDvi_A.bgn" last_build_time="1609861632" last_build_size="4275"/>
-        <Report name="Ext10GenDvi_A.bit" last_build_time="1609861632" last_build_size="2406661"/>
-        <Report name="Ext10GenDvi_A.edi" last_build_time="1608238354" last_build_size="2196701"/>
-        <Report name="Ext10GenDvi_A.ncd" last_build_time="1609861550" last_build_size="2591847"/>
-        <Report name="Ext10GenDvi_A.ngd" last_build_time="1608238367" last_build_size="2242185"/>
-        <Report name="Ext10GenDvi_A.twr" last_build_time="1609861561" last_build_size="97005"/>
-        <Report name="Ext10GenDvi_A_map.ncd" last_build_time="1609861379" last_build_size="1615754"/>
+        <Report name="Ext10GenDvi_A.bgn" last_build_time="1609947449" last_build_size="4270"/>
+        <Report name="Ext10GenDvi_A.bit" last_build_time="1609947449" last_build_size="2406661"/>
+        <Report name="Ext10GenDvi_A.edi" last_build_time="1609947193" last_build_size="2306717"/>
+        <Report name="Ext10GenDvi_A.ncd" last_build_time="1609947375" last_build_size="2714258"/>
+        <Report name="Ext10GenDvi_A.ngd" last_build_time="1609947210" last_build_size="2333293"/>
+        <Report name="Ext10GenDvi_A.twr" last_build_time="1609947385" last_build_size="93621"/>
+        <Report name="Ext10GenDvi_A_map.ncd" last_build_time="1609947217" last_build_size="1683923"/>
     </Strategy>
 </BuildStatus>

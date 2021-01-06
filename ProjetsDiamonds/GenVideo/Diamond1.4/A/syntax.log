@@ -15,15 +15,15 @@ Implementation : A
 Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
 
 @N|Running in 64-bit mode
-@N:"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\GenVideo\VHDL\TestVideoTop.vhd":13:7:13:18|Top entity is set to TestVideoTop.
-@W: CD643 :"C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
-@W: CD645 :"C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/GenVideo/VHDL/I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
+@N:"C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\TestVideoTop.vhd":13:7:13:18|Top entity is set to TestVideoTop.
+@W: CD643 :"C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":6:27:6:27|Ignoring use clause - pmi_components not found ...
+@W: CD645 :"C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/VHDL/I2cMasterCommands.vhd":7:8:7:15|Ignoring undefined library pmi_work
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 74MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 74MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Dec 17 21:51:46 2020
+# Wed Jan  6 16:31:57 2021
 
 ###########################################################]

@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\GenVideo\Diamond1.4\A\synlog\Ext10GenDvi_A_fpga_mapper.srr</data>
+<data>C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\synlog\Ext10GenDvi_A_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -17,8 +17,8 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>Pll125to100x50|CLKOK_inferred_clock</data>
 <data>200.0 MHz</data>
-<data>58.8 MHz</data>
-<data>-12.007</data>
+<data>61.0 MHz</data>
+<data>-11.392</data>
 </row>
 <row>
 <data>Pll125to100x50|CLKOP_inferred_clock</data>
@@ -29,7 +29,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>System</data>
 <data>200.0 MHz</data>
-<data>410.8 MHz</data>
-<data>2.566</data>
+<data>288.0 MHz</data>
+<data>1.527</data>
 </row>
 </report_table>
