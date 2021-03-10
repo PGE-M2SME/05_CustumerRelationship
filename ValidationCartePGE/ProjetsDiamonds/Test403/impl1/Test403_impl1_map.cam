@@ -1,0 +1,140 @@
+[ START MERGED ]
+top_reveal_coretop_instance/core0/trig_u/tu_0/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/trig_u/tu_1/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/trig_u/te_1/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/trig_u/te_1/jshift_d2.CN jtaghub16_jtck
+top_reveal_coretop_instance/core0/trig_u/te_1/jrstn_i jtaghub16_jrstn
+top_reveal_coretop_instance/core0/trig_u/tcnt_0/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/jtag_int_u/r_w.CN jtaghub16_jtck
+top_reveal_coretop_instance/core0/jtag_int_u/jrstn_i jtaghub16_jrstn
+top_reveal_coretop_instance/core0/jtag_int_u/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/trig_u/te_0/jshift_d2.CN jtaghub16_jtck
+top_reveal_coretop_instance/core0/trig_u/te_0/jrstn_i jtaghub16_jrstn
+top_reveal_coretop_instance/core0/trig_u/te_0/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/tm_u/jrstn_i jtaghub16_jrstn
+top_reveal_coretop_instance/core0/tm_u/reset_n_i top_reveal_coretop_instance/core0/reset_rvl_n
+top_reveal_coretop_instance/core0/tm_u/jtck_i jtaghub16_jtck
+ep5chub/cdn_CN jtaghub16_jtck
+ep5chub/jrstn_i jtaghub16_jrstn
+ep5chub/jtdo2_0_a4_1_am_RNO_2 ep5chub/ip_enable_2
+[ END MERGED ]
+[ START CLIPPED ]
+ep5chub/ip_enable_14
+ep5chub/jtdo2_int_m5_d
+ep5chub/jtdo2_int_m0
+ep5chub/jtdo2_int_m7
+ep5chub/jtdo2_int_m10
+ep5chub/jtdo2_int_m5_d_bm
+ep5chub/jtdo2_int_m5_d_am
+ep5chub/rom_rd_addr_cry_0_S0_0
+ep5chub/bit_count_cry_0_COUT_3
+ep5chub/bit_count_cry_0_S0_0
+ep5chub/er2_tdo_15
+ep5chub/er2_tdo_14
+ep5chub/er2_tdo_7
+ep5chub/er2_tdo_6
+ep5chub/er2_tdo_4
+ep5chub/er2_tdo_3
+ep5chub/er2_tdo_10
+ep5chub/er2_tdo_9
+ep5chub/er2_tdo_13
+ep5chub/er2_tdo_12
+ep5chub/er2_tdo_11
+ep5chub/er2_tdo_1
+ep5chub/er2_tdo_2
+ep5chub/er2_tdo_8
+ep5chub/er2_tdo_5
+ep5chub/ip_enable_15
+ep5chub/genblk5_un1_jtage_u
+ep5chub/genblk5_un1_jtage_u_1
+ep5chub/tdoa
+ep5chub/tdia
+ep5chub/tmsa
+ep5chub/tcka
+ep5chub/cdn
+ep5chub/rom_rd_addr_s_0_S1_7
+ep5chub/rom_rd_addr_s_0_COUT_7
+un1_cpt_1_cry_0_0_S1
+un1_cpt_1_cry_0_0_S0
+N_1
+top_reveal_coretop_instance/core0/VCC
+top_reveal_coretop_instance/core0/GND
+top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_s_0_S1[15]
+top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_s_0_COUT[15]
+top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_cry_0_S0[0]
+top_reveal_coretop_instance/core0/tm_u/N_1
+top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_s_0_S1[15]
+top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_s_0_COUT[15]
+top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_cry_0_S0[0]
+top_reveal_coretop_instance/core0/tm_u/N_2
+top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_s_0_S1[15]
+top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_s_0_COUT[15]
+top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_cry_0_S0[0]
+top_reveal_coretop_instance/core0/tm_u/N_3
+top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_s_0_S1[15]
+top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_s_0_COUT[15]
+top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_cry_0_S0[0]
+top_reveal_coretop_instance/core0/tm_u/N_4
+top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/scuba_vhi
+top_reveal_coretop_instance/core0/jtag_int_u/tr_dout_bit_cnt_cry_0_COUT[3]
+top_reveal_coretop_instance/core0/jtag_int_u/tr_dout_bit_cnt_cry_0_S0[0]
+top_reveal_coretop_instance/core0/jtag_int_u/N_1
+top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_s_0_S1[5]
+top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_s_0_COUT[5]
+top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_cry_0_S0[0]
+top_reveal_coretop_instance/core0/jtag_int_u/N_16
+top_reveal_coretop_instance/core0/trig_u/VCC
+top_reveal_coretop_instance/core0/trig_u/GND
+top_reveal_coretop_instance/core0/trig_u/rd_dout_tcnt[4]
+top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_s_0_S1[15]
+top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_s_0_COUT[15]
+top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_cry_0_S0[0]
+top_reveal_coretop_instance/core0/trig_u/te_1/N_1
+top_reveal_coretop_instance/core0/trig_u/te_1/genblk1.te_tt_ebr_ram/scuba_vhi
+top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_s_s0_0_S1[15]
+top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_s_s0_0_COUT[15]
+top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_cry_s0_0_S0[0]
+top_reveal_coretop_instance/core0/trig_u/te_0/N_1
+top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_ram/scuba_vhi
+top_reveal_coretop_instance/core0/trig_u/rd_dout_tu[3]
+top_reveal_coretop_instance/core0/trig_u/rd_dout_tu_0[3]
+un1_cpt_1_cry_21_0_COUT
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.12.0.240.2 -- WARNING: Map write only section -- Wed Mar 10 11:55:25 2021
+
+SYSCONFIG PERSISTENT=OFF CONFIG_MODE=SPI DONE_OD=ON DONE_EX=OFF MCCLK_FREQ=2.5 CONFIG_SECURE=OFF WAKE_UP=21 WAKE_ON_LOCK=OFF COMPRESS_CONFIG=OFF ENABLE_NDR=OFF CONFIG_IOVOLTAGE=2.5 STRTUP=EXTERNAL ;
+LOCATE COMP "Led" SITE "E23" ;
+LOCATE COMP "Clk_FPGA" SITE "M3" ;
+LOCATE COMP "PinDat[23]" SITE "U1" ;
+LOCATE COMP "PinDat[22]" SITE "T1" ;
+LOCATE COMP "PinDat[21]" SITE "W3" ;
+LOCATE COMP "PinDat[20]" SITE "Y3" ;
+LOCATE COMP "PinDat[19]" SITE "AA4" ;
+LOCATE COMP "PinDat[18]" SITE "AA3" ;
+LOCATE COMP "PinDat[17]" SITE "AC3" ;
+LOCATE COMP "PinDat[16]" SITE "AC2" ;
+LOCATE COMP "PinDat[15]" SITE "AE23" ;
+LOCATE COMP "PinDat[14]" SITE "AF23" ;
+LOCATE COMP "PinDat[13]" SITE "AF24" ;
+LOCATE COMP "PinDat[12]" SITE "AE25" ;
+LOCATE COMP "PinDat[11]" SITE "AC25" ;
+LOCATE COMP "PinDat[10]" SITE "AC26" ;
+LOCATE COMP "PinDat[9]" SITE "AB26" ;
+LOCATE COMP "PinDat[8]" SITE "AA26" ;
+LOCATE COMP "PinDat[7]" SITE "AC23" ;
+LOCATE COMP "PinDat[6]" SITE "AD23" ;
+LOCATE COMP "PinDat[5]" SITE "AC24" ;
+LOCATE COMP "PinDat[4]" SITE "AB24" ;
+LOCATE COMP "PinDat[3]" SITE "Y24" ;
+LOCATE COMP "PinDat[2]" SITE "AA25" ;
+LOCATE COMP "PinDat[1]" SITE "V22" ;
+LOCATE COMP "PinDat[0]" SITE "V21" ;
+LOCATE COMP "Vsync" SITE "AA1" ;
+LOCATE COMP "De" SITE "AD1" ;
+LOCATE COMP "Hsync" SITE "AD2" ;
+LOCATE COMP "Clk" SITE "U20" ;
+FREQUENCY PORT "Clk_FPGA" 125.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

@@ -1,0 +1,205 @@
+---------------------------------------------------
+Report for cell TestVideoTop
+   Instance path: TestVideoTop
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1825.00        100.0
+                                 IOLGC	      31.00        100.0
+                                  LUT4	    2229.00        100.0
+                               DISTRAM	     120.00        100.0
+                                 IOREG	         31        100.0
+                                 IOBUF	         36        100.0
+                                PFUREG	        963        100.0
+                                RIPPLE	        341        100.0
+                                   EBR	          8        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+       pmi_fifo8161602524nELpd390150_0	          1         1.6
+                                SeqBlk	          1         1.8
+                        Pll125to100x50	          1         0.1
+                                Dvi410	          1        23.9
+                     I2cMasterCommands	          1         8.5
+                                 Forth	          1        56.5
+---------------------------------------------------
+Report for cell Dvi410
+   Instance path: TestVideoTop/uDvi
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     436.17        23.9
+                                  LUT4	     501.00        22.5
+                                PFUREG	        262        27.2
+                                RIPPLE	        133        39.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            Dvi410Sync	          1         1.6
+                            Dvi410Conf	          1        15.2
+                             Dvi410Cnt	          1         2.9
+                          Dvi410Timing	          1         1.0
+                         Dvi410Request	          1         2.9
+---------------------------------------------------
+Report for cell Dvi410Request
+   Instance path: TestVideoTop/uDvi/U_gen_req
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.50         2.9
+                                  LUT4	       1.00         0.0
+                                PFUREG	         46         4.8
+                                RIPPLE	         45        13.2
+---------------------------------------------------
+Report for cell Dvi410Timing
+   Instance path: TestVideoTop/uDvi/U_gen_tim
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	       1.00         0.0
+                                PFUREG	          8         0.8
+                                RIPPLE	         14         4.1
+---------------------------------------------------
+Report for cell Dvi410Sync
+   Instance path: TestVideoTop/uDvi/U_gen_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.00         1.6
+                                  LUT4	       2.00         0.1
+                                PFUREG	          6         0.6
+                                RIPPLE	         28         8.2
+---------------------------------------------------
+Report for cell Dvi410Cnt
+   Instance path: TestVideoTop/uDvi/U_gen_cnt
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      53.00         2.9
+                                  LUT4	       5.00         0.2
+                                PFUREG	         51         5.3
+                                RIPPLE	         46        13.5
+---------------------------------------------------
+Report for cell Dvi410Conf
+   Instance path: TestVideoTop/uDvi/U_conf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     276.67        15.2
+                                  LUT4	     492.00        22.1
+                                PFUREG	        139        14.4
+---------------------------------------------------
+Report for cell I2cMasterCommands
+   Instance path: TestVideoTop/uMaster
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     155.75         8.5
+                                  LUT4	     171.00         7.7
+                               DISTRAM	       6.00         5.0
+                                PFUREG	        121        12.6
+                                RIPPLE	         33         9.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+         pmi_fifo8161602524nELpd390150	          1         1.7
+                       I2cMasterDevice	          1         3.7
+---------------------------------------------------
+Report for cell I2cMasterDevice
+   Instance path: TestVideoTop/uMaster/uDevice
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.17         3.7
+                                  LUT4	      97.00         4.4
+                                PFUREG	         55         5.7
+                                RIPPLE	          5         1.5
+---------------------------------------------------
+Report for cell pmi_fifo8161602524nELpd390150
+   Instance path: TestVideoTop/uMaster/uFifoRxRaw
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.50         1.7
+                                  LUT4	       6.00         0.3
+                               DISTRAM	       6.00         5.0
+                                PFUREG	         23         2.4
+                                RIPPLE	         20         5.9
+---------------------------------------------------
+Report for cell Forth
+   Instance path: TestVideoTop/uForth
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1031.50        56.5
+                                  LUT4	    1457.67        65.4
+                               DISTRAM	     104.00        86.7
+                                PFUREG	        316        32.8
+                                RIPPLE	        102        29.9
+                                   EBR	          8        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  uart	          1         3.1
+pmi_ram_dq40961232ndssep32qhnEp1057aae6	          1         0.1
+                                  ep32	          1        46.8
+---------------------------------------------------
+Report for cell uart
+   Instance path: TestVideoTop/uForth/uart1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      56.17         3.1
+                                  LUT4	      60.00         2.7
+                                PFUREG	         62         6.4
+                                RIPPLE	          5         1.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                    Rx	          1         1.3
+                                    Tx	          1         1.0
+---------------------------------------------------
+Report for cell Tx
+   Instance path: TestVideoTop/uForth/uart1/uTx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00         1.0
+                                  LUT4	      25.00         1.1
+                                PFUREG	         17         1.8
+---------------------------------------------------
+Report for cell Rx
+   Instance path: TestVideoTop/uForth/uart1/uRx
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.33         1.3
+                                  LUT4	      24.00         1.1
+                                PFUREG	         27         2.8
+                                RIPPLE	          5         1.5
+---------------------------------------------------
+Report for cell ep32
+   Instance path: TestVideoTop/uForth/cpu1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     854.67        46.8
+                                  LUT4	    1158.00        52.0
+                               DISTRAM	     104.00        86.7
+                                PFUREG	        254        26.4
+                                RIPPLE	         97        28.4
+---------------------------------------------------
+Report for cell pmi_ram_dq40961232ndssep32qhnEp1057aae6
+   Instance path: TestVideoTop/uForth/uForthMem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.1
+                                  LUT4	       1.00         0.0
+                                   EBR	          8        100.0
+---------------------------------------------------
+Report for cell SeqBlk
+   Instance path: TestVideoTop/uSeq
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50         1.8
+                                  LUT4	      14.00         0.6
+                                PFUREG	         44         4.6
+                                RIPPLE	         22         6.5
+---------------------------------------------------
+Report for cell Pll125to100x50
+   Instance path: TestVideoTop/uPll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.1
+                                  LUT4	       2.00         0.1
+---------------------------------------------------
+Report for cell pmi_fifo8161602524nELpd390150_0
+   Instance path: TestVideoTop/uFifoRxRaw
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.25         1.6
+                                  LUT4	       6.00         0.3
+                               DISTRAM	       6.00         5.0
+                                PFUREG	         23         2.4
+                                RIPPLE	         20         5.9

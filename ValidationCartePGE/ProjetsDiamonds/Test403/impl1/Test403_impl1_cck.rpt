@@ -1,0 +1,110 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : impl1
+
+# Written on Wed Mar 10 11:55:14 2021
+
+##### DESIGN INFO #######################################################
+
+Top View:                "Top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                  Ending                                    |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                    System                                    |     5.000            |     No paths         |     No paths         |     No paths                         
+System                                    reveal_coretop|jtck_inferred_clock[0]     |     No paths         |     No paths         |     5.000            |     No paths                         
+System                                    Top|Clk                                   |     5.000            |     No paths         |     No paths         |     No paths                         
+Top|Clk_FPGA                              Top|Clk_FPGA                              |     5.000            |     No paths         |     No paths         |     No paths                         
+reveal_coretop|jtck_inferred_clock[0]     System                                    |     No paths         |     No paths         |     No paths         |     5.000                            
+reveal_coretop|jtck_inferred_clock[0]     reveal_coretop|jtck_inferred_clock[0]     |     No paths         |     5.000            |     No paths         |     No paths                         
+reveal_coretop|jtck_inferred_clock[0]     Top|Clk                                   |     No paths         |     No paths         |     No paths         |     Diff grp                         
+Top|Clk                                   System                                    |     5.000            |     No paths         |     No paths         |     No paths                         
+Top|Clk                                   reveal_coretop|jtck_inferred_clock[0]     |     No paths         |     No paths         |     Diff grp         |     No paths                         
+Top|Clk                                   Top|Clk                                   |     5.000            |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:De
+p:Hsync
+p:Led
+p:PinDat[0]
+p:PinDat[1]
+p:PinDat[2]
+p:PinDat[3]
+p:PinDat[4]
+p:PinDat[5]
+p:PinDat[6]
+p:PinDat[7]
+p:PinDat[8]
+p:PinDat[9]
+p:PinDat[10]
+p:PinDat[11]
+p:PinDat[12]
+p:PinDat[13]
+p:PinDat[14]
+p:PinDat[15]
+p:PinDat[16]
+p:PinDat[17]
+p:PinDat[18]
+p:PinDat[19]
+p:PinDat[20]
+p:PinDat[21]
+p:PinDat[22]
+p:PinDat[23]
+p:Vsync
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

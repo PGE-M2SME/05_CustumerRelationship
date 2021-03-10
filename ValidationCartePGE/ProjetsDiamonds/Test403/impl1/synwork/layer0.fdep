@@ -1,0 +1,33 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|Top|-layerid|0|-orig_srs|C:\\Users\\cypri\\Documents\\GIT\\PGE\\05_CustumerRelationship\\ProjetsDiamonds\\Test403\\impl1\\synwork\\Test403_impl1_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1603963122
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\location.map":1604334380
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\std1164.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\numeric.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\arith.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\unsigned.vhd":1603963390
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1603963390
+#CUR:"C:\\Users\\cypri\\Documents\\GIT\\PGE\\05_CustumerRelationship\\ProjetsDiamonds\\Test403\\impl1\\reveal_workspace\\tmpreveal\\Top_rvl_top.vhd":1615373707
+0 "C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work top rtl 0
+module work top 0
+arch work reveal_coretop one 0
+module work reveal_coretop 0
+
+# Unbound Instances to File Association
+inst work reveal_coretop jtagconn16 0
+inst work reveal_coretop top_la0 0
+
+
+# Configuration files used

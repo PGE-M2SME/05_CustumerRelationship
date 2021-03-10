@@ -1,0 +1,26 @@
+
+fsm_encoding {9470471} onehot
+
+fsm_state_encoding {9470471} st_idle {00000000001}
+
+fsm_state_encoding {9470471} st_start1 {00000000010}
+
+fsm_state_encoding {9470471} st_start2 {00000000100}
+
+fsm_state_encoding {9470471} st_stop1 {00000001000}
+
+fsm_state_encoding {9470471} st_stop2 {00000010000}
+
+fsm_state_encoding {9470471} st_stop3 {00000100000}
+
+fsm_state_encoding {9470471} st_stop4 {00001000000}
+
+fsm_state_encoding {9470471} st_xfer1 {00010000000}
+
+fsm_state_encoding {9470471} st_xfer2 {00100000000}
+
+fsm_state_encoding {9470471} st_xfer3 {01000000000}
+
+fsm_state_encoding {9470471} st_xfer4 {10000000000}
+
+fsm_registers {9470471} {State[0]}  {State[1]}  {State[2]}  {State[3]}  {State[4]}  {State[5]}  {State[6]}  {State[7]}  {State[8]}  {State[9]}  {State[10]} 

@@ -1,0 +1,35 @@
+i Clk
+m 0 0
+u 61 246
+p {p:Clk}{t:top_reveal_coretop_instance.clk}{p:top_reveal_coretop_instance.clk}{t:top_reveal_coretop_instance.core0.clk}{p:top_reveal_coretop_instance.core0.clk}{t:top_reveal_coretop_instance.core0.tm_u.clk}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_0 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_0 {p:Clk} port Unsupported/too complex instance on clock path
+i top_reveal_coretop_instance.jtck_i[0]
+m 0 0
+u 52 242
+p {t:top_reveal_coretop_instance.jtag0.jtck}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].I[0]}{t:top_reveal_coretop_instance.jtck_inferred_clock[0].OUT[0]}{t:top_reveal_coretop_instance.core0.jtck}{p:top_reveal_coretop_instance.core0.jtck}{t:top_reveal_coretop_instance.core0.tm_u.jtck}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_1 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_1 {t:top_reveal_coretop_instance.jtag0.jtck} jtagconn16 Unsupported/too complex instance on clock path
+i Clk_FPGA
+m 0 0
+u 2 24
+p {p:Clk_FPGA}{t:cpt[22:0].C}
+e ckid0_2 {t:cpt[22:0].C} dff
+c ckid0_2 {p:Clk_FPGA} port Unsupported/too complex instance on clock path
+i top_reveal_coretop_instance.ip_enable[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jce2[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jrstn[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jshift[0]
+m 0 0
+u 0 0
+i top_reveal_coretop_instance.jtdi[0]
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

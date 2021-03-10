@@ -1,0 +1,551 @@
+Logfile for Reveal Analyzer
+Version: Diamond 3.12.0.240.2
+Platform: Windows8 64bit
+Filename: C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+First created: mer. 10. mars 11:56:58 2021
+[11:57:00] runProject on device [1. LFE3-70E] using C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rva [test.rvl]
+[11:57:00] Connecting cableserver to run Reveal debugger....
+[11:57:00] @Connect
+[11:57:00] @SetSharableApplications,2,Reveal,Mico
+[11:57:01] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:57:01] @LockCable
+[11:57:01] @GetServerStatus
+[11:57:01] @Read
+[11:57:01] @SetTargetDevice,0
+[11:57:01] Connecting core0....
+[11:57:01] @ShiftIR,8,0,ER1
+[11:57:01] @ShiftDR,21,0,data (select core0)
+[11:57:01] @ShiftIR,8,0,ER2
+[11:57:01] Configuring core0....
+[11:57:01] @JumpState,RUN_TEST_IDLE
+[11:57:01] @JumpState,RUN_TEST_IDLE
+[11:57:01] @JumpState,RUN_TEST_IDLE
+[11:57:01] @ShiftIR,8,0,NOP
+[11:57:01] @JumpState,RUN_TEST_IDLE
+[11:57:01] @ShiftIR,8,0,ER2
+[11:57:01] @Set Odd Parity readback
+[11:57:01] @Set Odd Parity
+[11:57:01] @Set LA Start/Stop readback
+[11:57:01] @Set LA Start/Stop 
+[11:57:01] #Reveal IP Version = 1_6_042617
+[11:57:01] @Get Pattern
+[11:57:01] #pattern readout = a5a5
+[11:57:01] pattern readout passed!
+[11:57:01] @Get Tracy Signature
+[11:57:01] @Get Tracy Signature
+[11:57:01] #signature from core0 = 349486531
+[11:57:01] signature from core0 passed!
+[11:57:01] @Set Opcode Value
+[11:57:01] @Set Comp Value
+[11:57:01] @Set Mask Value
+[11:57:01] @Set Opcode Value
+[11:57:01] @Set Comp Value
+[11:57:01] @Set Mask Value
+[11:57:01] @Set Then Num
+[11:57:01] @Set NEXT THEN
+[11:57:01] @Set Cnt Cntg
+[11:57:01] @Set Event Count
+[11:57:01] @Set Then Num
+[11:57:01] @Set NEXT THEN
+[11:57:01] @Set Cnt Cntg
+[11:57:01] @Set Event Count
+[11:57:01] @Set Event Count
+[11:57:01] @Get BurstWrite CRC
+[11:57:01] @Set Truth Tbl Addr Cnter Init
+[11:57:01] @Set Truth Table Prog
+[11:57:01] Configuring in burst mode....
+[11:57:01] @Get BurstWrite CRC
+[11:57:01] @Enable TE Trig
+[11:57:01] @Enable Trig Output OR All readback
+[11:57:01] @Enable Trig Output OR All
+[11:57:01] @Set Pre-Trig Sample
+[11:57:01] @Set Post-Trig Sample
+[11:57:01] finished configuration of core0
+[11:57:01] Starting all active cores....
+[11:57:01] @ShiftIR,8,0,ER1
+[11:57:01] @ShiftDR,21,0,data (select active cores)
+[11:57:01] @ShiftIR,8,0,ER2
+[11:57:01] @Set LA Start cores
+[11:57:01] @UnlockCable
+[11:57:01] Running all active cores....
+[11:57:01] @LockCable
+[11:57:01] Polling trigger memory of core0....
+[11:57:01] @ShiftIR,8,0,ER1
+[11:57:01] @ShiftDR,21,0,data (select core0)
+[11:57:01] @ShiftIR,8,0,ER2
+[11:57:01] @Get Force Trigger bit
+[11:57:01] #TM_CTL_0=3
+[11:57:01] @Get Trig Detected Cnt
+[11:57:01] #numDetectedTriggers = 1
+[11:57:01] @Get Mem Block Full Cnt
+[11:57:01] #memFullCnt = 1
+[11:57:01] Downloading trigger memory of core0....
+[11:57:01] @Is LA Armed
+[11:57:01] @Set LA Start/Stop readback
+[11:57:01] @Set LA Start/Stop 
+[11:57:01] @Set LA Start/Stop readback
+[11:57:01] @Set LA Start/Stop 
+[11:57:01] @Get Trig Detected Cnt
+[11:57:01] #numDetectedTriggers = 1
+[11:57:01] @Get Mem Block Full Cnt
+[11:57:01] #memFullCnt = 1
+[11:57:01] @Get Last Addr Written
+[11:57:01] #lastAddrWritten = 61440
+[11:57:01] @Get Multiple Trig Enbl
+[11:57:01] #traceWidth=28, userSelectedTriggers=1, numTrigEnable=1
+[11:57:01] @Get BurstRead CRC
+[11:57:01] @Set Trace Mem Cnter Init
+[11:57:01] Uploading in burst mode....
+[11:57:02] @ShiftDR,1835008,1,data (burst read)
+[11:57:02] @GetTDO,data,1835008
+[11:57:02] @Get BurstRead CRC
+[11:57:02] @Get BurstRead CRC
+[11:57:02] @Get Pre-Trig Sample Num
+[11:57:02] @Get Post-Trig Sample Num
+[11:57:02] @Get Pre-Trig Samples Captured
+[11:57:02] @Get Trig Ptr
+[11:57:02] #trigPtr = 6
+[11:57:02] #dataSize=4, numRead=65536, trace_out=61441
+[11:57:02] #trig0={blockPosition:0,triggerPosition:1}
+[11:57:02] finished download trigger memory of core0
+[11:57:02] @UnlockCable
+[11:57:02] @ReleaseCablePort
+[11:57:02] @Disconnect
+[11:57:02] All messages logged in file C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+[11:57:22] runProject on device [1. LFE3-70E] using C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rva [test.rvl]
+[11:57:22] Connecting cableserver to run Reveal debugger....
+[11:57:22] @Connect
+[11:57:22] @SetSharableApplications,2,Reveal,Mico
+[11:57:23] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:57:23] @LockCable
+[11:57:23] @GetServerStatus
+[11:57:23] @Read
+[11:57:23] @SetTargetDevice,0
+[11:57:23] Connecting core0....
+[11:57:23] @ShiftIR,8,0,ER1
+[11:57:23] @ShiftDR,21,0,data (select core0)
+[11:57:23] @ShiftIR,8,0,ER2
+[11:57:23] Configuring core0....
+[11:57:23] @JumpState,RUN_TEST_IDLE
+[11:57:23] @JumpState,RUN_TEST_IDLE
+[11:57:23] @JumpState,RUN_TEST_IDLE
+[11:57:23] @ShiftIR,8,0,NOP
+[11:57:23] @JumpState,RUN_TEST_IDLE
+[11:57:23] @ShiftIR,8,0,ER2
+[11:57:23] @Set Odd Parity readback
+[11:57:23] @Set Odd Parity
+[11:57:23] @Set LA Start/Stop readback
+[11:57:23] @Set LA Start/Stop 
+[11:57:23] #Reveal IP Version = 1_6_042617
+[11:57:23] @Get Pattern
+[11:57:23] #pattern readout = a5a5
+[11:57:23] pattern readout passed!
+[11:57:23] @Get Tracy Signature
+[11:57:23] @Get Tracy Signature
+[11:57:23] #signature from core0 = 349486531
+[11:57:23] signature from core0 passed!
+[11:57:23] @Set Opcode Value
+[11:57:23] @Set Comp Value
+[11:57:23] @Set Mask Value
+[11:57:23] @Set Opcode Value
+[11:57:23] @Set Comp Value
+[11:57:23] @Set Mask Value
+[11:57:23] @Set Then Num
+[11:57:23] @Set NEXT THEN
+[11:57:23] @Set Cnt Cntg
+[11:57:23] @Set Event Count
+[11:57:23] @Set Then Num
+[11:57:23] @Set NEXT THEN
+[11:57:23] @Set Cnt Cntg
+[11:57:23] @Set Event Count
+[11:57:23] @Set Event Count
+[11:57:23] @Get BurstWrite CRC
+[11:57:23] @Set Truth Tbl Addr Cnter Init
+[11:57:23] @Set Truth Table Prog
+[11:57:23] Configuring in burst mode....
+[11:57:23] @Get BurstWrite CRC
+[11:57:23] @Enable TE Trig
+[11:57:23] @Enable Trig Output OR All readback
+[11:57:23] @Enable Trig Output OR All
+[11:57:23] @Set Pre-Trig Sample
+[11:57:23] @Set Post-Trig Sample
+[11:57:23] finished configuration of core0
+[11:57:23] Starting all active cores....
+[11:57:23] @ShiftIR,8,0,ER1
+[11:57:23] @ShiftDR,21,0,data (select active cores)
+[11:57:23] @ShiftIR,8,0,ER2
+[11:57:23] @Set LA Start cores
+[11:57:23] @UnlockCable
+[11:57:23] Running all active cores....
+[11:57:23] @LockCable
+[11:57:23] Polling trigger memory of core0....
+[11:57:23] @ShiftIR,8,0,ER1
+[11:57:23] @ShiftDR,21,0,data (select core0)
+[11:57:23] @ShiftIR,8,0,ER2
+[11:57:23] @Get Force Trigger bit
+[11:57:23] #TM_CTL_0=3
+[11:57:23] @Get Trig Detected Cnt
+[11:57:23] #numDetectedTriggers = 1
+[11:57:24] @Get Mem Block Full Cnt
+[11:57:24] #memFullCnt = 1
+[11:57:24] Downloading trigger memory of core0....
+[11:57:24] @Is LA Armed
+[11:57:24] @Set LA Start/Stop readback
+[11:57:24] @Set LA Start/Stop 
+[11:57:24] @Set LA Start/Stop readback
+[11:57:24] @Set LA Start/Stop 
+[11:57:24] @Get Trig Detected Cnt
+[11:57:24] #numDetectedTriggers = 1
+[11:57:24] @Get Mem Block Full Cnt
+[11:57:24] #memFullCnt = 1
+[11:57:24] @Get Last Addr Written
+[11:57:24] #lastAddrWritten = 40992
+[11:57:24] @Get Multiple Trig Enbl
+[11:57:24] #traceWidth=28, userSelectedTriggers=1, numTrigEnable=1
+[11:57:24] @Get BurstRead CRC
+[11:57:24] @Set Trace Mem Cnter Init
+[11:57:24] Uploading in burst mode....
+[11:57:24] @ShiftDR,1835008,1,data (burst read)
+[11:57:24] @GetTDO,data,1835008
+[11:57:24] @Get BurstRead CRC
+[11:57:24] @Get BurstRead CRC
+[11:57:24] @Get Pre-Trig Sample Num
+[11:57:24] @Get Post-Trig Sample Num
+[11:57:24] @Get Pre-Trig Samples Captured
+[11:57:24] @Get Trig Ptr
+[11:57:24] #trigPtr = 45094
+[11:57:24] #dataSize=4, numRead=65536, trace_out=65536
+[11:57:24] #trig0={blockPosition:0,triggerPosition:4096}
+[11:57:24] finished download trigger memory of core0
+[11:57:24] @UnlockCable
+[11:57:24] @ReleaseCablePort
+[11:57:24] @Disconnect
+[11:57:24] All messages logged in file C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+[11:58:06] runProject on device [1. LFE3-70E] using C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rva [test.rvl]
+[11:58:06] Connecting cableserver to run Reveal debugger....
+[11:58:06] @Connect
+[11:58:06] @SetSharableApplications,2,Reveal,Mico
+[11:58:07] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:58:07] @LockCable
+[11:58:07] @GetServerStatus
+[11:58:07] @Read
+[11:58:07] @SetTargetDevice,0
+[11:58:07] Connecting core0....
+[11:58:07] @ShiftIR,8,0,ER1
+[11:58:07] @ShiftDR,21,0,data (select core0)
+[11:58:07] @ShiftIR,8,0,ER2
+[11:58:07] Configuring core0....
+[11:58:07] @JumpState,RUN_TEST_IDLE
+[11:58:07] @JumpState,RUN_TEST_IDLE
+[11:58:07] @JumpState,RUN_TEST_IDLE
+[11:58:07] @ShiftIR,8,0,NOP
+[11:58:07] @JumpState,RUN_TEST_IDLE
+[11:58:07] @ShiftIR,8,0,ER2
+[11:58:07] @Set Odd Parity readback
+[11:58:07] @Set Odd Parity
+[11:58:07] @Set LA Start/Stop readback
+[11:58:07] @Set LA Start/Stop 
+[11:58:07] #Reveal IP Version = 1_6_042617
+[11:58:07] @Get Pattern
+[11:58:07] #pattern readout = a5a5
+[11:58:07] pattern readout passed!
+[11:58:07] @Get Tracy Signature
+[11:58:07] @Get Tracy Signature
+[11:58:07] #signature from core0 = 349486531
+[11:58:07] signature from core0 passed!
+[11:58:07] @Set Opcode Value
+[11:58:07] @Set Comp Value
+[11:58:07] @Set Mask Value
+[11:58:07] @Set Opcode Value
+[11:58:07] @Set Comp Value
+[11:58:07] @Set Mask Value
+[11:58:07] @Set Then Num
+[11:58:07] @Set NEXT THEN
+[11:58:07] @Set Cnt Cntg
+[11:58:07] @Set Event Count
+[11:58:07] @Set Then Num
+[11:58:07] @Set NEXT THEN
+[11:58:07] @Set Cnt Cntg
+[11:58:07] @Set Event Count
+[11:58:07] @Set Event Count
+[11:58:07] @Get BurstWrite CRC
+[11:58:07] @Set Truth Tbl Addr Cnter Init
+[11:58:07] @Set Truth Table Prog
+[11:58:07] Configuring in burst mode....
+[11:58:07] @Get BurstWrite CRC
+[11:58:07] @Enable TE Trig
+[11:58:07] @Enable Trig Output OR All readback
+[11:58:07] @Enable Trig Output OR All
+[11:58:07] @Set Pre-Trig Sample
+[11:58:07] @Set Post-Trig Sample
+[11:58:07] finished configuration of core0
+[11:58:07] Starting all active cores....
+[11:58:07] @ShiftIR,8,0,ER1
+[11:58:07] @ShiftDR,21,0,data (select active cores)
+[11:58:07] @ShiftIR,8,0,ER2
+[11:58:07] @Set LA Start cores
+[11:58:07] @UnlockCable
+[11:58:07] Running all active cores....
+[11:58:07] @LockCable
+[11:58:07] Polling trigger memory of core0....
+[11:58:07] @ShiftIR,8,0,ER1
+[11:58:07] @ShiftDR,21,0,data (select core0)
+[11:58:07] @ShiftIR,8,0,ER2
+[11:58:07] @Get Force Trigger bit
+[11:58:07] #TM_CTL_0=3
+[11:58:07] @Get Trig Detected Cnt
+[11:58:07] #numDetectedTriggers = 0
+[11:58:07] @Get Mem Block Full Cnt
+[11:58:07] #memFullCnt = 1
+[11:58:07] Downloading trigger memory of core0....
+[11:58:07] @Is LA Armed
+[11:58:07] @Set LA Start/Stop readback
+[11:58:07] @Set LA Start/Stop 
+[11:58:07] @Set LA Start/Stop readback
+[11:58:07] @Set LA Start/Stop 
+[11:58:07] @Get Trig Detected Cnt
+[11:58:07] #numDetectedTriggers = 1
+[11:58:07] @Get Mem Block Full Cnt
+[11:58:07] #memFullCnt = 1
+[11:58:07] @Get Last Addr Written
+[11:58:07] #lastAddrWritten = 21259
+[11:58:07] @Get Multiple Trig Enbl
+[11:58:07] #traceWidth=28, userSelectedTriggers=1, numTrigEnable=1
+[11:58:07] @Get BurstRead CRC
+[11:58:07] @Set Trace Mem Cnter Init
+[11:58:07] Uploading in burst mode....
+[11:58:07] @ShiftDR,1835008,1,data (burst read)
+[11:58:07] @GetTDO,data,1835008
+[11:58:07] @Get BurstRead CRC
+[11:58:07] @Get BurstRead CRC
+[11:58:08] @Get Pre-Trig Sample Num
+[11:58:08] @Get Post-Trig Sample Num
+[11:58:08] @Get Pre-Trig Samples Captured
+[11:58:08] @Get Trig Ptr
+[11:58:08] #trigPtr = 25361
+[11:58:08] #dataSize=4, numRead=65536, trace_out=65536
+[11:58:08] #trig0={blockPosition:0,triggerPosition:4096}
+[11:58:08] finished download trigger memory of core0
+[11:58:08] @UnlockCable
+[11:58:08] @ReleaseCablePort
+[11:58:08] @Disconnect
+[11:58:08] All messages logged in file C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+[11:58:52] runProject on device [1. LFE3-70E] using C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rva [test.rvl]
+[11:58:52] Connecting cableserver to run Reveal debugger....
+[11:58:52] @Connect
+[11:58:52] @SetSharableApplications,2,Reveal,Mico
+[11:58:53] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:58:53] @LockCable
+[11:58:53] @GetServerStatus
+[11:58:53] @Read
+[11:58:53] @SetTargetDevice,0
+[11:58:53] Connecting core0....
+[11:58:53] @ShiftIR,8,0,ER1
+[11:58:53] @ShiftDR,21,0,data (select core0)
+[11:58:53] @ShiftIR,8,0,ER2
+[11:58:53] Configuring core0....
+[11:58:53] @JumpState,RUN_TEST_IDLE
+[11:58:53] @JumpState,RUN_TEST_IDLE
+[11:58:53] @JumpState,RUN_TEST_IDLE
+[11:58:53] @ShiftIR,8,0,NOP
+[11:58:53] @JumpState,RUN_TEST_IDLE
+[11:58:53] @ShiftIR,8,0,ER2
+[11:58:53] @Set Odd Parity readback
+[11:58:53] @Set Odd Parity
+[11:58:53] @Set LA Start/Stop readback
+[11:58:53] @Set LA Start/Stop 
+[11:58:53] #Reveal IP Version = 1_6_042617
+[11:58:53] @Get Pattern
+[11:58:53] #pattern readout = a5a5
+[11:58:53] pattern readout passed!
+[11:58:53] @Get Tracy Signature
+[11:58:53] @Get Tracy Signature
+[11:58:53] #signature from core0 = 349486531
+[11:58:53] signature from core0 passed!
+[11:58:53] @Set Opcode Value
+[11:58:53] @Set Comp Value
+[11:58:53] @Set Mask Value
+[11:58:53] @Set Opcode Value
+[11:58:53] @Set Comp Value
+[11:58:53] @Set Mask Value
+[11:58:53] @Set Then Num
+[11:58:53] @Set NEXT THEN
+[11:58:53] @Set Cnt Cntg
+[11:58:53] @Set Event Count
+[11:58:53] @Set Then Num
+[11:58:53] @Set NEXT THEN
+[11:58:53] @Set Cnt Cntg
+[11:58:53] @Set Event Count
+[11:58:53] @Set Event Count
+[11:58:53] @Get BurstWrite CRC
+[11:58:53] @Set Truth Tbl Addr Cnter Init
+[11:58:53] @Set Truth Table Prog
+[11:58:53] Configuring in burst mode....
+[11:58:53] @Get BurstWrite CRC
+[11:58:53] @Enable TE Trig
+[11:58:53] @Enable Trig Output OR All readback
+[11:58:53] @Enable Trig Output OR All
+[11:58:53] @Set Pre-Trig Sample
+[11:58:53] @Set Post-Trig Sample
+[11:58:53] finished configuration of core0
+[11:58:53] Starting all active cores....
+[11:58:53] @ShiftIR,8,0,ER1
+[11:58:53] @ShiftDR,21,0,data (select active cores)
+[11:58:53] @ShiftIR,8,0,ER2
+[11:58:53] @Set LA Start cores
+[11:58:53] @UnlockCable
+[11:58:53] Running all active cores....
+[11:58:53] @LockCable
+[11:58:53] Polling trigger memory of core0....
+[11:58:53] @ShiftIR,8,0,ER1
+[11:58:53] @ShiftDR,21,0,data (select core0)
+[11:58:53] @ShiftIR,8,0,ER2
+[11:58:53] @Get Force Trigger bit
+[11:58:53] #TM_CTL_0=3
+[11:58:53] @Get Trig Detected Cnt
+[11:58:53] #numDetectedTriggers = 1
+[11:58:53] @Get Mem Block Full Cnt
+[11:58:53] #memFullCnt = 1
+[11:58:53] Downloading trigger memory of core0....
+[11:58:53] @Is LA Armed
+[11:58:53] @Set LA Start/Stop readback
+[11:58:53] @Set LA Start/Stop 
+[11:58:53] @Set LA Start/Stop readback
+[11:58:53] @Set LA Start/Stop 
+[11:58:53] @Get Trig Detected Cnt
+[11:58:53] #numDetectedTriggers = 1
+[11:58:53] @Get Mem Block Full Cnt
+[11:58:53] #memFullCnt = 1
+[11:58:53] @Get Last Addr Written
+[11:58:53] #lastAddrWritten = 61440
+[11:58:53] @Get Multiple Trig Enbl
+[11:58:53] #traceWidth=28, userSelectedTriggers=1, numTrigEnable=1
+[11:58:53] @Get BurstRead CRC
+[11:58:53] @Set Trace Mem Cnter Init
+[11:58:53] Uploading in burst mode....
+[11:58:53] @ShiftDR,1835008,1,data (burst read)
+[11:58:53] @GetTDO,data,1835008
+[11:58:53] @Get BurstRead CRC
+[11:58:53] @Get BurstRead CRC
+[11:58:54] @Get Pre-Trig Sample Num
+[11:58:54] @Get Post-Trig Sample Num
+[11:58:54] @Get Pre-Trig Samples Captured
+[11:58:54] @Get Trig Ptr
+[11:58:54] #trigPtr = 6
+[11:58:54] #dataSize=4, numRead=65536, trace_out=61441
+[11:58:54] #trig0={blockPosition:0,triggerPosition:1}
+[11:58:54] finished download trigger memory of core0
+[11:58:54] @UnlockCable
+[11:58:54] @ReleaseCablePort
+[11:58:54] @Disconnect
+[11:58:54] All messages logged in file C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+[11:59:29] runProject on device [1. LFE3-70E] using C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rva [test.rvl]
+[11:59:29] Connecting cableserver to run Reveal debugger....
+[11:59:29] @Connect
+[11:59:29] @SetSharableApplications,2,Reveal,Mico
+[11:59:30] @SetCablePort,USB2,FTUSB-0,8,0,0,1,1,0,0,0,1
+[11:59:30] @LockCable
+[11:59:30] @GetServerStatus
+[11:59:30] @Read
+[11:59:30] @SetTargetDevice,0
+[11:59:30] Connecting core0....
+[11:59:30] @ShiftIR,8,0,ER1
+[11:59:30] @ShiftDR,21,0,data (select core0)
+[11:59:30] @ShiftIR,8,0,ER2
+[11:59:30] Configuring core0....
+[11:59:30] @JumpState,RUN_TEST_IDLE
+[11:59:30] @JumpState,RUN_TEST_IDLE
+[11:59:30] @JumpState,RUN_TEST_IDLE
+[11:59:30] @ShiftIR,8,0,NOP
+[11:59:30] @JumpState,RUN_TEST_IDLE
+[11:59:30] @ShiftIR,8,0,ER2
+[11:59:30] @Set Odd Parity readback
+[11:59:30] @Set Odd Parity
+[11:59:30] @Set LA Start/Stop readback
+[11:59:30] @Set LA Start/Stop 
+[11:59:30] #Reveal IP Version = 1_6_042617
+[11:59:30] @Get Pattern
+[11:59:30] #pattern readout = a5a5
+[11:59:30] pattern readout passed!
+[11:59:30] @Get Tracy Signature
+[11:59:30] @Get Tracy Signature
+[11:59:30] #signature from core0 = 349486531
+[11:59:30] signature from core0 passed!
+[11:59:30] @Set Opcode Value
+[11:59:30] @Set Comp Value
+[11:59:30] @Set Mask Value
+[11:59:30] @Set Opcode Value
+[11:59:30] @Set Comp Value
+[11:59:30] @Set Mask Value
+[11:59:30] @Set Then Num
+[11:59:30] @Set NEXT THEN
+[11:59:30] @Set Cnt Cntg
+[11:59:30] @Set Event Count
+[11:59:30] @Set Then Num
+[11:59:30] @Set NEXT THEN
+[11:59:30] @Set Cnt Cntg
+[11:59:30] @Set Event Count
+[11:59:30] @Set Event Count
+[11:59:30] @Get BurstWrite CRC
+[11:59:30] @Set Truth Tbl Addr Cnter Init
+[11:59:30] @Set Truth Table Prog
+[11:59:30] Configuring in burst mode....
+[11:59:30] @Get BurstWrite CRC
+[11:59:30] @Enable TE Trig
+[11:59:30] @Enable Trig Output OR All readback
+[11:59:30] @Enable Trig Output OR All
+[11:59:30] @Set Pre-Trig Sample
+[11:59:30] @Set Post-Trig Sample
+[11:59:30] finished configuration of core0
+[11:59:30] Starting all active cores....
+[11:59:30] @ShiftIR,8,0,ER1
+[11:59:30] @ShiftDR,21,0,data (select active cores)
+[11:59:30] @ShiftIR,8,0,ER2
+[11:59:30] @Set LA Start cores
+[11:59:30] @UnlockCable
+[11:59:30] Running all active cores....
+[11:59:30] @LockCable
+[11:59:30] Polling trigger memory of core0....
+[11:59:30] @ShiftIR,8,0,ER1
+[11:59:30] @ShiftDR,21,0,data (select core0)
+[11:59:30] @ShiftIR,8,0,ER2
+[11:59:30] @Get Force Trigger bit
+[11:59:30] #TM_CTL_0=3
+[11:59:30] @Get Trig Detected Cnt
+[11:59:30] #numDetectedTriggers = 1
+[11:59:30] @Get Mem Block Full Cnt
+[11:59:30] #memFullCnt = 1
+[11:59:30] Downloading trigger memory of core0....
+[11:59:30] @Is LA Armed
+[11:59:30] @Set LA Start/Stop readback
+[11:59:30] @Set LA Start/Stop 
+[11:59:30] @Set LA Start/Stop readback
+[11:59:30] @Set LA Start/Stop 
+[11:59:30] @Get Trig Detected Cnt
+[11:59:30] #numDetectedTriggers = 1
+[11:59:30] @Get Mem Block Full Cnt
+[11:59:30] #memFullCnt = 1
+[11:59:30] @Get Last Addr Written
+[11:59:30] #lastAddrWritten = 61440
+[11:59:30] @Get Multiple Trig Enbl
+[11:59:30] #traceWidth=28, userSelectedTriggers=1, numTrigEnable=1
+[11:59:30] @Get BurstRead CRC
+[11:59:30] @Set Trace Mem Cnter Init
+[11:59:30] Uploading in burst mode....
+[11:59:31] @ShiftDR,1835008,1,data (burst read)
+[11:59:31] @GetTDO,data,1835008
+[11:59:31] @Get BurstRead CRC
+[11:59:31] @Get BurstRead CRC
+[11:59:31] @Get Pre-Trig Sample Num
+[11:59:31] @Get Post-Trig Sample Num
+[11:59:31] @Get Pre-Trig Samples Captured
+[11:59:31] @Get Trig Ptr
+[11:59:31] #trigPtr = 6
+[11:59:31] #dataSize=4, numRead=65536, trace_out=61441
+[11:59:31] #trig0={blockPosition:0,triggerPosition:1}
+[11:59:31] finished download trigger memory of core0
+[11:59:31] @UnlockCable
+[11:59:31] @ReleaseCablePort
+[11:59:31] @Disconnect
+[11:59:31] All messages logged in file C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_debug.log
+Last closed: mer. 10. mars 12:01:51 2021

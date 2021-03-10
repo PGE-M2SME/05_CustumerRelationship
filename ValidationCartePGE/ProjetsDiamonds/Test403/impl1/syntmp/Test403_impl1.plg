@@ -1,0 +1,26 @@
+@P:  Worst Slack : -0.592
+@P:  Top|Clk - Estimated Frequency : 234.2 MHz
+@P:  Top|Clk - Requested Frequency : 200.0 MHz
+@P:  Top|Clk - Estimated Period : 4.270
+@P:  Top|Clk - Requested Period : 5.000
+@P:  Top|Clk - Slack : 0.730
+@P:  Top|Clk_FPGA - Estimated Frequency : 271.5 MHz
+@P:  Top|Clk_FPGA - Requested Frequency : 200.0 MHz
+@P:  Top|Clk_FPGA - Estimated Period : 3.683
+@P:  Top|Clk_FPGA - Requested Period : 5.000
+@P:  Top|Clk_FPGA - Slack : 1.317
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Frequency : 178.8 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Frequency : 200.0 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Period : 5.592
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Period : 5.000
+@P:  reveal_coretop|jtck_inferred_clock[0] - Slack : -0.592
+@P:  System - Estimated Frequency : 270.6 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 3.696
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 1.304
+@P:  Total Area : 628.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:04s

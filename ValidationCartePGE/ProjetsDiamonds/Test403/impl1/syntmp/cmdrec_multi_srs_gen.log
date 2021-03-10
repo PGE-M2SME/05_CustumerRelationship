@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  Top  -multisrs  C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\Test403_impl1_comp.srs  -osyn  C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\Test403_impl1_mult.srs  -log  C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synlog\Test403_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top Top -multisrs ..\synwork\Test403_impl1_comp.srs -osyn ..\synwork\Test403_impl1_mult.srs -log ..\synlog\Test403_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Test403_impl1_comp.srs|io:i|time:1615373711|size:146123|exec:0|csum:5522E668AA839AFDE98381AB3210B358
+file:..\synwork\Test403_impl1_mult.srs|io:o|time:1615373712|size:3613|exec:0|csum:
+file:..\synlog\Test403_impl1_multi_srs_gen.srr|io:o|time:1615373712|size:1187|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603963122|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

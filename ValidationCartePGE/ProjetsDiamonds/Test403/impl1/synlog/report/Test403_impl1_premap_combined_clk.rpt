@@ -1,0 +1,23 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+3 non-gated/non-generated clock tree(s) driving 512 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================= Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element                            Drive Element Type     Fanout     Sample Instance
+--------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       Clk                                        port                   246        ENCRYPTED      
+@KP:ckid0_1       top_reveal_coretop_instance.jtag0.jtck     jtagconn16             242        ENCRYPTED      
+@KP:ckid0_2       Clk_FPGA                                   port                   24         cpt[22:0]      
+==============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

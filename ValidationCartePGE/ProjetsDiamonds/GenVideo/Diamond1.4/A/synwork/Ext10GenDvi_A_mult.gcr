@@ -1,0 +1,17 @@
+i uPll.CLKOP_i
+m 0 0
+u 35 225
+p {t:uPll.PLLInst_0.CLKOP}{t:uPll.CLKOP_inferred_clock.I[0]}{t:uPll.CLKOP_inferred_clock.OUT[0]}{p:uPll.CLKOP}{t:uPll.CLKOP}{t:DatR[7:0].C}
+e ckid0_0 {t:DatR[7:0].C} dff
+c ckid0_0 {t:uPll.PLLInst_0.CLKOP} EHXPLLF Unsupported/too complex instance on clock path
+i uPll.CLKOK_i
+m 0 0
+u 123 642
+p {t:uPll.PLLInst_0.CLKOK}{t:uPll.CLKOK_inferred_clock.I[0]}{t:uPll.CLKOK_inferred_clock.OUT[0]}{p:uPll.CLKOK}{t:uPll.CLKOK}{t:Timer[31:0].C}
+e ckid0_1 {t:Timer[31:0].C} sdffr
+c ckid0_1 {t:uPll.PLLInst_0.CLKOK} EHXPLLF Unsupported/too complex instance on clock path
+i uPll.LOCK
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,54 @@
+<Project ModBy="Inserter" SigType="0" Name="C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rvl" Date="2021-03-10">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/VHDL" Synthesis="synplify" DeviceFamily="LatticeECP3" DesignName="Test403"/>
+    <Core InsertDataset="0" Insert="1" Reveal_sig="349486531" Name="Top_LA0" ID="0">
+        <Setting>
+            <Clock SampleClk="clk" SampleEnable="0" EnableClk="" EnableClk_Pri="0"/>
+            <TraceBuffer Implementation="0" BitTimeStamp="0" hasTimeStamp="0" IncTrigSig="0" BufferDepth="65536"/>
+            <Capture Mode="0" MinSamplesPerTrig="256"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut Polarity="0" MinPulseWidth="0" TrigOutNetType="1" EnableTrigOut="0" TrigOutNet="reveal_debug_Top_LA0_net"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Type="SIG" Name="de"/>
+                <Sig Type="SIG" Name="hsync"/>
+                <Sig Type="SIG" Name="vsync"/>
+                <Bus Name="pindat">
+                    <Sig Type="SIG" Name="pindat:0"/>
+                    <Sig Type="SIG" Name="pindat:1"/>
+                    <Sig Type="SIG" Name="pindat:2"/>
+                    <Sig Type="SIG" Name="pindat:3"/>
+                    <Sig Type="SIG" Name="pindat:4"/>
+                    <Sig Type="SIG" Name="pindat:5"/>
+                    <Sig Type="SIG" Name="pindat:6"/>
+                    <Sig Type="SIG" Name="pindat:7"/>
+                    <Sig Type="SIG" Name="pindat:8"/>
+                    <Sig Type="SIG" Name="pindat:9"/>
+                    <Sig Type="SIG" Name="pindat:10"/>
+                    <Sig Type="SIG" Name="pindat:11"/>
+                    <Sig Type="SIG" Name="pindat:12"/>
+                    <Sig Type="SIG" Name="pindat:13"/>
+                    <Sig Type="SIG" Name="pindat:14"/>
+                    <Sig Type="SIG" Name="pindat:15"/>
+                    <Sig Type="SIG" Name="pindat:16"/>
+                    <Sig Type="SIG" Name="pindat:17"/>
+                    <Sig Type="SIG" Name="pindat:18"/>
+                    <Sig Type="SIG" Name="pindat:19"/>
+                    <Sig Type="SIG" Name="pindat:20"/>
+                    <Sig Type="SIG" Name="pindat:21"/>
+                    <Sig Type="SIG" Name="pindat:22"/>
+                    <Sig Type="SIG" Name="pindat:23"/>
+                </Bus>
+                <Sig Type="SIG" Name="clkanalys"/>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" ID="1" Sig="de,"/>
+                <TU Serialbits="0" Type="0" ID="2" Sig="vsync,"/>
+                <TE MaxSequence="1" MaxEvnCnt="1" ID="1" Resource="1"/>
+                <TE MaxSequence="2" MaxEvnCnt="1" ID="2" Resource="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

@@ -1,7 +1,0 @@
-C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  TestVideoTop  -multisrs  C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\synwork\Ext10GenDvi_A_comp.srs  -osyn  C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\synwork\Ext10GenDvi_A_mult.srs  -log  C:\Users\Cyprien\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\Diamond1.4\A\synlog\Ext10GenDvi_A_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top TestVideoTop -multisrs ..\synwork\Ext10GenDvi_A_comp.srs -osyn ..\synwork\Ext10GenDvi_A_mult.srs -log ..\synlog\Ext10GenDvi_A_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\Ext10GenDvi_A_comp.srs|io:i|time:1609947127|size:68484|exec:0|csum:B9459C435FE77C237346E63800B8221A
-file:..\synwork\Ext10GenDvi_A_mult.srs|io:o|time:1609947128|size:11482|exec:0|csum:
-file:..\synlog\Ext10GenDvi_A_multi_srs_gen.srr|io:o|time:1609947128|size:1237|exec:0|csum:
-file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554106952|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

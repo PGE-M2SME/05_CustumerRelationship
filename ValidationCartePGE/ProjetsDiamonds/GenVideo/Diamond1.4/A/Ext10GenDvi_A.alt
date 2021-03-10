@@ -1,0 +1,44 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Mar 09 08:56:57 2021 *
+NOTE DESIGN NAME: TestVideoTop *
+NOTE DEVICE NAME: LFE3-70EA-7FPBGA672 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS PinSda : AC3 : inout *
+NOTE PINS PinLedXv : E23 : out *
+NOTE PINS PinClk125 : M3 : in *
+NOTE PINS PinScl : AC2 : out *
+NOTE PINS PinDat[23] : U2 : out *
+NOTE PINS PinDat[22] : V1 : out *
+NOTE PINS PinDat[21] : AA2 : out *
+NOTE PINS PinDat[20] : AA1 : out *
+NOTE PINS PinDat[19] : AD2 : out *
+NOTE PINS PinDat[18] : AD1 : out *
+NOTE PINS PinDat[17] : AF4 : out *
+NOTE PINS PinDat[16] : AE4 : out *
+NOTE PINS PinDat[15] : AC23 : out *
+NOTE PINS PinDat[14] : AD23 : out *
+NOTE PINS PinDat[13] : AC24 : out *
+NOTE PINS PinDat[12] : AB24 : out *
+NOTE PINS PinDat[11] : Y24 : out *
+NOTE PINS PinDat[10] : AA25 : out *
+NOTE PINS PinDat[9] : V22 : out *
+NOTE PINS PinDat[8] : V21 : out *
+NOTE PINS PinDat[7] : AE23 : out *
+NOTE PINS PinDat[6] : AF23 : out *
+NOTE PINS PinDat[5] : AF24 : out *
+NOTE PINS PinDat[4] : AE25 : out *
+NOTE PINS PinDat[3] : AC25 : out *
+NOTE PINS PinDat[2] : AC26 : out *
+NOTE PINS PinDat[1] : AB26 : out *
+NOTE PINS PinDat[0] : AA26 : out *
+NOTE PINS PinTfpClkN : U19 : out *
+NOTE PINS PinTfpClkP : U20 : out *
+NOTE PINS PinDe : T1 : out *
+NOTE PINS PinHSync : W3 : out *
+NOTE PINS PinVSync : Y3 : out *
+NOTE PINS PinClk : T6 : out *
+NOTE PINS PinPortTx : C12 : out *
+NOTE PINS PinPortRx : T5 : in *
+NOTE CONFIGURATION MODE: SPI *
+NOTE COMPRESSION: off *

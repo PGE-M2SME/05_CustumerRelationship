@@ -1,0 +1,10 @@
+
+fsm_encoding {71040010401} sequential
+
+fsm_state_encoding {71040010401} 00 {00}
+
+fsm_state_encoding {71040010401} 01 {01}
+
+fsm_state_encoding {71040010401} 10 {10}
+
+fsm_registers {71040010401} {next_then_shift[1]}  {next_then_shift[0]} 

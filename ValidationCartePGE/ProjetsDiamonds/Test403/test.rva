@@ -1,0 +1,69 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>mer. 10. mars 08:23:20 2021</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="1"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LFE3-70E</DeviceName>
+  <DeviceID>0x01014043</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>test.rvl</RVLFileName>
+  <RVSFileName>test.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0">
+   <TraceSigTreeData>
+    <TraceSignal IsHidden="false" Name="de" NodeType="0" PortIndex="0"/>
+    <TraceSignal IsHidden="false" Name="hsync" NodeType="0" PortIndex="1"/>
+    <TraceSignal IsHidden="false" Name="vsync" NodeType="0" PortIndex="2"/>
+    <TraceSignal IsHidden="false" Name="pindat" NodeType="1" PortIndex="3">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+    </TraceSignal>
+    <TraceSignal IsHidden="false" Name="pindat:0" NodeType="2" PortIndex="3"/>
+    <TraceSignal IsHidden="false" Name="pindat:1" NodeType="2" PortIndex="4"/>
+    <TraceSignal IsHidden="false" Name="pindat:2" NodeType="2" PortIndex="5"/>
+    <TraceSignal IsHidden="false" Name="pindat:3" NodeType="2" PortIndex="6"/>
+    <TraceSignal IsHidden="false" Name="pindat:4" NodeType="2" PortIndex="7"/>
+    <TraceSignal IsHidden="false" Name="pindat:5" NodeType="2" PortIndex="8"/>
+    <TraceSignal IsHidden="false" Name="pindat:6" NodeType="2" PortIndex="9"/>
+    <TraceSignal IsHidden="false" Name="pindat:7" NodeType="2" PortIndex="10"/>
+    <TraceSignal IsHidden="false" Name="pindat:8" NodeType="2" PortIndex="11"/>
+    <TraceSignal IsHidden="false" Name="pindat:9" NodeType="2" PortIndex="12"/>
+    <TraceSignal IsHidden="false" Name="pindat:10" NodeType="2" PortIndex="13"/>
+    <TraceSignal IsHidden="false" Name="pindat:11" NodeType="2" PortIndex="14"/>
+    <TraceSignal IsHidden="false" Name="pindat:12" NodeType="2" PortIndex="15"/>
+    <TraceSignal IsHidden="false" Name="pindat:13" NodeType="2" PortIndex="16"/>
+    <TraceSignal IsHidden="false" Name="pindat:14" NodeType="2" PortIndex="17"/>
+    <TraceSignal IsHidden="false" Name="pindat:15" NodeType="2" PortIndex="18"/>
+    <TraceSignal IsHidden="false" Name="pindat:16" NodeType="2" PortIndex="19"/>
+    <TraceSignal IsHidden="false" Name="pindat:17" NodeType="2" PortIndex="20"/>
+    <TraceSignal IsHidden="false" Name="pindat:18" NodeType="2" PortIndex="21"/>
+    <TraceSignal IsHidden="false" Name="pindat:19" NodeType="2" PortIndex="22"/>
+    <TraceSignal IsHidden="false" Name="pindat:20" NodeType="2" PortIndex="23"/>
+    <TraceSignal IsHidden="false" Name="pindat:21" NodeType="2" PortIndex="24"/>
+    <TraceSignal IsHidden="false" Name="pindat:22" NodeType="2" PortIndex="25"/>
+    <TraceSignal IsHidden="false" Name="pindat:23" NodeType="2" PortIndex="26"/>
+    <TraceSignal IsHidden="false" Name="clkanalys" NodeType="0" PortIndex="27"/>
+   </TraceSigTreeData>
+   <TriggerUI UserSelect="0" PreSelectType="0" PreSelect="1" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Unit="ns" Frequency="-1.0"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

@@ -1,0 +1,3 @@
+ckid0_0:@|S:Clk@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:top_reveal_coretop_instance.jtag0.jtck@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
+ckid0_2:@|S:Clk_FPGA@|E:cpt[22:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

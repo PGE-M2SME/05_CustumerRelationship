@@ -1,0 +1,9 @@
+
+
+
+
+-g CfgMode:Disable
+-g RamCfg:Reset
+-path "C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4" 
+-path "C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4"
+-g ES:No

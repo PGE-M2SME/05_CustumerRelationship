@@ -1,0 +1,7 @@
+@W: MT246 :"c:\users\cypri\documents\git\pge\05_custumerrelationship\projetsdiamonds\test403\impl1\reveal_workspace\tmpreveal\top_rvl_top.vhd":102:4:102:8|Blackbox jtagconn16 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1192:8:1192:20|Blackbox pmi_ram_dp_Z2_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":1192:8:1192:20|Blackbox pmi_ram_dp_Z4_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v":2162:8:2162:13|Blackbox pmi_ram_dp_Z6_layer1 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock Top|Clk_FPGA with period 5.00ns. Please declare a user-defined clock on port Clk_FPGA.
+@W: MT420 |Found inferred clock reveal_coretop|jtck_inferred_clock[0] with period 5.00ns. Please declare a user-defined clock on net top_reveal_coretop_instance.jtck[0].
+@W: MT420 |Found inferred clock Top|Clk with period 5.00ns. Please declare a user-defined clock on port Clk.

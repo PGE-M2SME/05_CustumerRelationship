@@ -1,0 +1,57 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : A
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+Modified Files: 2
+FID:  path (prevtimestamp, timestamp)
+57       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\I2cMasterCommands.vhd (2021-01-25 12:14:34, 2021-03-09 08:55:11)
+59       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\TestVideoTop.vhd (2021-03-09 08:46:20, 2021-03-09 08:54:51)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 25
+FID:  path (timestamp)
+44       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\IpxLpc\Pll125to100x50.vhd (2021-03-09 08:41:09)
+45       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dv i410Request.vhd (2012-07-21 20:16:10)
+46       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dvi410Cnt.vhd (2012-07-21 20:15:54)
+47       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dvi410Conf.vhd (2012-07-21 20:16:02)
+48       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dvi410Main.vhd (2021-01-06 12:30:06)
+49       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dvi410Sync.vhd (2012-07-21 20:16:26)
+50       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Dvi410\Dvi410Timing.vhd (2012-07-21 20:16:24)
+51       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Forth120719\VHDL\Forth.vhd (2012-07-19 17:21:58)
+52       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Forth120719\VHDL\Rx.vhd (2012-05-19 19:05:38)
+53       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Forth120719\VHDL\Tx.vhd (2012-06-11 08:53:06)
+54       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Forth120719\VHDL\UartTss.vhd (2012-05-19 19:10:56)
+55       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\Forth120719\VHDL\ep32Tss.vhd (2012-05-15 11:54:08)
+56       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\I2CMasterDevice.vhd (2012-07-31 09:03:34)
+58       C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\GenVideo\VHDL\SeqBlk1204.vhd (2012-01-24 12:58:12)
+60       C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\ecp3.vhd (2018-11-15 00:32:10)
+61       C:\lscc\diamond\3.12\synpbase\lib\vhd\arith.vhd (2020-10-29 10:23:10)
+62       C:\lscc\diamond\3.12\synpbase\lib\vhd\hyperents.vhd (2020-10-29 10:23:10)
+63       C:\lscc\diamond\3.12\synpbase\lib\vhd\location.map (2020-11-02 17:26:20)
+64       C:\lscc\diamond\3.12\synpbase\lib\vhd\misc.vhd (2020-10-29 10:23:10)
+65       C:\lscc\diamond\3.12\synpbase\lib\vhd\numeric.vhd (2020-10-29 10:23:10)
+66       C:\lscc\diamond\3.12\synpbase\lib\vhd\snps_haps_pkg.vhd (2020-10-29 10:23:10)
+67       C:\lscc\diamond\3.12\synpbase\lib\vhd\std.vhd (2020-10-29 10:23:10)
+68       C:\lscc\diamond\3.12\synpbase\lib\vhd\std1164.vhd (2020-10-29 10:23:10)
+69       C:\lscc\diamond\3.12\synpbase\lib\vhd\umr_capim.vhd (2020-10-29 10:23:10)
+70       C:\lscc\diamond\3.12\synpbase\lib\vhd\unsigned.vhd (2020-10-29 10:23:10)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

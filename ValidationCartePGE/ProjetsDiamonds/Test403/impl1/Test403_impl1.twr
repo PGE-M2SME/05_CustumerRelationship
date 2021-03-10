@@ -1,0 +1,1094 @@
+
+Loading design for application trce from file test403_impl1.ncd.
+Design name: Top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE3-70EA
+Package:     FPBGA672
+Performance: 7
+Loading device for application trce from file 'ec5a97x146.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.3.
+Performance Hardware Data Status:   Final          Version 36.22.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.0.240.2
+Wed Mar 10 11:56:06 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 7 -sphld m -o Test403_impl1.twr -gui -msgset C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/promote.xml Test403_impl1.ncd Test403_impl1.prf 
+Design file:     test403_impl1.ncd
+Preference file: test403_impl1.prf
+Device,speed:    LFE3-70EA,7
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK INTERCLOCKDOMAIN PATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "Clk_FPGA" 125.000000 MHz ;
+            461 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 3.830ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[6]  (to Clk_FPGA_c +)
+                   FF                        cpt[0]
+
+   Delay:               3.759ns  (20.3% logic, 79.7% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.759ns physical path delay SLICE_70 to SLICE_82 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.411ns LSR_SET requirement (totaling 7.589ns) by 3.830ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     1.135    R36C121C.Q1 to    R35C120B.A1 cpt[16]
+CTOF_DEL    ---     0.163    R35C120B.A1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.827    R35C122C.F1 to   R35C120A.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.759   (20.3% logic, 79.7% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C120A.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 3.843ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[18]  (to Clk_FPGA_c +)
+                   FF                        cpt[14]
+
+   Delay:               3.746ns  (20.3% logic, 79.7% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.746ns physical path delay SLICE_70 to SLICE_85 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.411ns LSR_SET requirement (totaling 7.589ns) by 3.843ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_85:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     1.135    R36C121C.Q1 to    R35C120B.A1 cpt[16]
+CTOF_DEL    ---     0.163    R35C120B.A1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.814    R35C122C.F1 to   R35C121C.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.746   (20.3% logic, 79.7% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_85:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 3.855ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[8]  (to Clk_FPGA_c +)
+
+   Delay:               3.759ns  (20.3% logic, 79.7% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.759ns physical path delay SLICE_70 to SLICE_495 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.386ns LSR_SET requirement (totaling 7.614ns) by 3.855ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_495:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     1.135    R36C121C.Q1 to    R35C120B.A1 cpt[16]
+CTOF_DEL    ---     0.163    R35C120B.A1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.827    R35C122C.F1 to   R35C120B.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.759   (20.3% logic, 79.7% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_495:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C120B.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 3.886ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[9]  (to Clk_FPGA_c +)
+
+   Delay:               3.728ns  (20.4% logic, 79.6% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.728ns physical path delay SLICE_70 to SLICE_67 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.386ns LSR_SET requirement (totaling 7.614ns) by 3.886ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     1.135    R36C121C.Q1 to    R35C120B.A1 cpt[16]
+CTOF_DEL    ---     0.163    R35C120B.A1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.796    R35C122C.F1 to   R36C120C.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.728   (20.4% logic, 79.6% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C120C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.018ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[11]  (to Clk_FPGA_c +)
+
+   Delay:               3.596ns  (21.2% logic, 78.8% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.596ns physical path delay SLICE_70 to SLICE_68 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.386ns LSR_SET requirement (totaling 7.614ns) by 4.018ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_68:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     1.135    R36C121C.Q1 to    R35C120B.A1 cpt[16]
+CTOF_DEL    ---     0.163    R35C120B.A1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.664    R35C122C.F1 to   R36C121A.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.596   (21.2% logic, 78.8% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_68:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121A.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.072ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[15]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[6]  (to Clk_FPGA_c +)
+                   FF                        cpt[0]
+
+   Delay:               3.517ns  (21.7% logic, 78.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.517ns physical path delay SLICE_70 to SLICE_82 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.411ns LSR_SET requirement (totaling 7.589ns) by 4.072ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q0 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     0.893    R36C121C.Q0 to    R35C120B.C1 cpt[15]
+CTOF_DEL    ---     0.163    R35C120B.C1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.827    R35C122C.F1 to   R35C120A.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.517   (21.7% logic, 78.3% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C120A.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.085ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[15]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[18]  (to Clk_FPGA_c +)
+                   FF                        cpt[14]
+
+   Delay:               3.504ns  (21.7% logic, 78.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.504ns physical path delay SLICE_70 to SLICE_85 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.411ns LSR_SET requirement (totaling 7.589ns) by 4.085ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_85:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q0 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     0.893    R36C121C.Q0 to    R35C120B.C1 cpt[15]
+CTOF_DEL    ---     0.163    R35C120B.C1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.814    R35C122C.F1 to   R35C121C.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.504   (21.7% logic, 78.3% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_85:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.097ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[15]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[8]  (to Clk_FPGA_c +)
+
+   Delay:               3.517ns  (21.7% logic, 78.3% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.517ns physical path delay SLICE_70 to SLICE_495 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.386ns LSR_SET requirement (totaling 7.614ns) by 4.097ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_495:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q0 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     0.893    R36C121C.Q0 to    R35C120B.C1 cpt[15]
+CTOF_DEL    ---     0.163    R35C120B.C1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.827    R35C122C.F1 to   R35C120B.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.517   (21.7% logic, 78.3% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_495:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C120B.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.128ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[15]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[9]  (to Clk_FPGA_c +)
+
+   Delay:               3.486ns  (21.9% logic, 78.1% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.486ns physical path delay SLICE_70 to SLICE_67 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.386ns LSR_SET requirement (totaling 7.614ns) by 4.128ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121C.CLK to    R36C121C.Q0 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     0.893    R36C121C.Q0 to    R35C120B.C1 cpt[15]
+CTOF_DEL    ---     0.163    R35C120B.C1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.796    R35C122C.F1 to   R36C120C.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.486   (21.9% logic, 78.1% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C120C.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.157ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[11]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[6]  (to Clk_FPGA_c +)
+                   FF                        cpt[0]
+
+   Delay:               3.432ns  (22.2% logic, 77.8% route), 4 logic levels.
+
+ Constraint Details:
+
+      3.432ns physical path delay SLICE_68 to SLICE_82 meets
+      8.000ns delay constraint less
+      0.000ns skew and
+      0.411ns LSR_SET requirement (totaling 7.589ns) by 4.157ns
+
+ Physical Path Details:
+
+      Data path SLICE_68 to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.273   R36C121A.CLK to    R36C121A.Q0 SLICE_68 (from Clk_FPGA_c)
+ROUTE         3     0.808    R36C121A.Q0 to    R35C120B.D1 cpt[11]
+CTOF_DEL    ---     0.163    R35C120B.D1 to    R35C120B.F1 SLICE_495
+ROUTE         1     0.339    R35C120B.F1 to    R35C120B.D0 pled.op_ge.op_ge.un2_cptlto21_d_2
+CTOF_DEL    ---     0.163    R35C120B.D0 to    R35C120B.F0 SLICE_495
+ROUTE         1     0.696    R35C120B.F0 to    R35C122C.C1 pled.op_ge.op_ge.un2_cptlto21_d_4
+CTOF_DEL    ---     0.163    R35C122C.C1 to    R35C122C.F1 SLICE_81
+ROUTE         8     0.827    R35C122C.F1 to   R35C120A.LSR pled.op_ge.op_ge.un2_cpt_i (to Clk_FPGA_c)
+                  --------
+                    3.432   (22.2% logic, 77.8% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_68:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R36C121A.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     2.260       M3.PADDI to   R35C120A.CLK Clk_FPGA_c
+                  --------
+                    2.260   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:  239.808MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "Clk_FPGA" 125.000000    |             |             |
+MHz ;                                   |  125.000 MHz|  239.808 MHz|   4  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+No clock domain analysis is done. To analyze clock domains, please remove the BLOCK INTERCLOCKDOMAIN PATHS preference.
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 461 paths, 1 nets, and 5779 connections (62.47% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.0.240.2
+Wed Mar 10 11:56:07 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 7 -sphld m -o Test403_impl1.twr -gui -msgset C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/promote.xml Test403_impl1.ncd Test403_impl1.prf 
+Design file:     test403_impl1.ncd
+Preference file: test403_impl1.prf
+Device,speed:    LFE3-70EA,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK INTERCLOCKDOMAIN PATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "Clk_FPGA" 125.000000 MHz ;
+            461 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.207ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[0]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[0]  (to Clk_FPGA_c +)
+
+   Delay:               0.196ns  (78.6% logic, 21.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.196ns physical path delay SLICE_82 to SLICE_82 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.207ns
+
+ Physical Path Details:
+
+      Data path SLICE_82 to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R35C120A.CLK to    R35C120A.Q0 SLICE_82 (from Clk_FPGA_c)
+ROUTE         2     0.042    R35C120A.Q0 to    R35C120A.D0 cpt[0]
+CTOF_DEL    ---     0.058    R35C120A.D0 to    R35C120A.F0 SLICE_82
+ROUTE         1     0.000    R35C120A.F0 to   R35C120A.DI0 cpt_i[0] (to Clk_FPGA_c)
+                  --------
+                    0.196   (78.6% logic, 21.4% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R35C120A.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_82:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R35C120A.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.236ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              sLed  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        sLed  (to Clk_FPGA_c +)
+
+   Delay:               0.225ns  (68.4% logic, 31.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.225ns physical path delay SLICE_81 to SLICE_81 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.236ns
+
+ Physical Path Details:
+
+      Data path SLICE_81 to SLICE_81:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R35C122C.CLK to    R35C122C.Q0 SLICE_81 (from Clk_FPGA_c)
+ROUTE         2     0.071    R35C122C.Q0 to    R35C122C.C0 Led_c
+CTOF_DEL    ---     0.058    R35C122C.C0 to    R35C122C.F0 SLICE_81
+ROUTE         1     0.000    R35C122C.F0 to   R35C122C.DI0 sLed_0 (to Clk_FPGA_c)
+                  --------
+                    0.225   (68.4% logic, 31.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_81:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R35C122C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_81:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R35C122C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.281ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[4]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[4]  (to Clk_FPGA_c +)
+
+   Delay:               0.270ns  (57.0% logic, 43.0% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.270ns physical path delay SLICE_64 to SLICE_64 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.281ns
+
+ Physical Path Details:
+
+      Data path SLICE_64 to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C119C.CLK to    R36C119C.Q1 SLICE_64 (from Clk_FPGA_c)
+ROUTE         1     0.116    R36C119C.Q1 to    R36C119C.A1 cpt[4]
+CTOF_DEL    ---     0.058    R36C119C.A1 to    R36C119C.F1 SLICE_64
+ROUTE         1     0.000    R36C119C.F1 to   R36C119C.DI1 un1_cpt_1[4] (to Clk_FPGA_c)
+                  --------
+                    0.270   (57.0% logic, 43.0% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.282ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[2]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[2]  (to Clk_FPGA_c +)
+
+   Delay:               0.271ns  (56.8% logic, 43.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.271ns physical path delay SLICE_63 to SLICE_63 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.282ns
+
+ Physical Path Details:
+
+      Data path SLICE_63 to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C119B.CLK to    R36C119B.Q1 SLICE_63 (from Clk_FPGA_c)
+ROUTE         1     0.117    R36C119B.Q1 to    R36C119B.B1 cpt[2]
+CTOF_DEL    ---     0.058    R36C119B.B1 to    R36C119B.F1 SLICE_63
+ROUTE         1     0.000    R36C119B.F1 to   R36C119B.DI1 un1_cpt_1[2] (to Clk_FPGA_c)
+                  --------
+                    0.271   (56.8% logic, 43.2% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.283ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[16]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[16]  (to Clk_FPGA_c +)
+
+   Delay:               0.272ns  (56.6% logic, 43.4% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.272ns physical path delay SLICE_70 to SLICE_70 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.283ns
+
+ Physical Path Details:
+
+      Data path SLICE_70 to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C121C.CLK to    R36C121C.Q1 SLICE_70 (from Clk_FPGA_c)
+ROUTE         3     0.118    R36C121C.Q1 to    R36C121C.A1 cpt[16]
+CTOF_DEL    ---     0.058    R36C121C.A1 to    R36C121C.F1 SLICE_70
+ROUTE         1     0.000    R36C121C.F1 to   R36C121C.DI1 un1_cpt_1[16] (to Clk_FPGA_c)
+                  --------
+                    0.272   (56.6% logic, 43.4% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_70:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C121C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.323ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[7]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[7]  (to Clk_FPGA_c +)
+
+   Delay:               0.312ns  (49.4% logic, 50.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.312ns physical path delay SLICE_66 to SLICE_66 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.323ns
+
+ Physical Path Details:
+
+      Data path SLICE_66 to SLICE_66:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C120B.CLK to    R36C120B.Q0 SLICE_66 (from Clk_FPGA_c)
+ROUTE         2     0.158    R36C120B.Q0 to    R36C120B.B0 cpt[7]
+CTOF_DEL    ---     0.058    R36C120B.B0 to    R36C120B.F0 SLICE_66
+ROUTE         1     0.000    R36C120B.F0 to   R36C120B.DI0 un1_cpt_1[7] (to Clk_FPGA_c)
+                  --------
+                    0.312   (49.4% logic, 50.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_66:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C120B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_66:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C120B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.323ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[9]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[9]  (to Clk_FPGA_c +)
+
+   Delay:               0.312ns  (49.4% logic, 50.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.312ns physical path delay SLICE_67 to SLICE_67 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.323ns
+
+ Physical Path Details:
+
+      Data path SLICE_67 to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C120C.CLK to    R36C120C.Q0 SLICE_67 (from Clk_FPGA_c)
+ROUTE         2     0.158    R36C120C.Q0 to    R36C120C.B0 cpt[9]
+CTOF_DEL    ---     0.058    R36C120C.B0 to    R36C120C.F0 SLICE_67
+ROUTE         1     0.000    R36C120C.F0 to   R36C120C.DI0 cpt_3[9] (to Clk_FPGA_c)
+                  --------
+                    0.312   (49.4% logic, 50.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C120C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_67:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C120C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.323ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[19]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[19]  (to Clk_FPGA_c +)
+
+   Delay:               0.312ns  (49.4% logic, 50.6% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.312ns physical path delay SLICE_72 to SLICE_72 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.323ns
+
+ Physical Path Details:
+
+      Data path SLICE_72 to SLICE_72:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C122B.CLK to    R36C122B.Q0 SLICE_72 (from Clk_FPGA_c)
+ROUTE         2     0.158    R36C122B.Q0 to    R36C122B.B0 cpt[19]
+CTOF_DEL    ---     0.058    R36C122B.B0 to    R36C122B.F0 SLICE_72
+ROUTE         1     0.000    R36C122B.F0 to   R36C122B.DI0 cpt_3[19] (to Clk_FPGA_c)
+                  --------
+                    0.312   (49.4% logic, 50.6% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_72:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C122B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_72:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C122B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.342ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[1]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[1]  (to Clk_FPGA_c +)
+
+   Delay:               0.331ns  (46.5% logic, 53.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.331ns physical path delay SLICE_63 to SLICE_63 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.342ns
+
+ Physical Path Details:
+
+      Data path SLICE_63 to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C119B.CLK to    R36C119B.Q0 SLICE_63 (from Clk_FPGA_c)
+ROUTE         1     0.177    R36C119B.Q0 to    R36C119B.B0 cpt[1]
+CTOF_DEL    ---     0.058    R36C119B.B0 to    R36C119B.F0 SLICE_63
+ROUTE         1     0.000    R36C119B.F0 to   R36C119B.DI0 un1_cpt_1[1] (to Clk_FPGA_c)
+                  --------
+                    0.331   (46.5% logic, 53.5% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_63:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119B.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.342ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              cpt[3]  (from Clk_FPGA_c +)
+   Destination:    FF         Data in        cpt[3]  (to Clk_FPGA_c +)
+
+   Delay:               0.331ns  (46.5% logic, 53.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.331ns physical path delay SLICE_64 to SLICE_64 meets
+     -0.011ns DIN_HLD and
+      0.000ns delay constraint less
+      0.000ns skew requirement (totaling -0.011ns) by 0.342ns
+
+ Physical Path Details:
+
+      Data path SLICE_64 to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.096   R36C119C.CLK to    R36C119C.Q0 SLICE_64 (from Clk_FPGA_c)
+ROUTE         1     0.177    R36C119C.Q0 to    R36C119C.B0 cpt[3]
+CTOF_DEL    ---     0.058    R36C119C.B0 to    R36C119C.F0 SLICE_64
+ROUTE         1     0.000    R36C119C.F0 to   R36C119C.DI0 un1_cpt_1[3] (to Clk_FPGA_c)
+                  --------
+                    0.331   (46.5% logic, 53.5% route), 2 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path Clk_FPGA to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path Clk_FPGA to SLICE_64:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        18     1.014       M3.PADDI to   R36C119C.CLK Clk_FPGA_c
+                  --------
+                    1.014   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "Clk_FPGA" 125.000000    |             |             |
+MHz ;                                   |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+No clock domain analysis is done. To analyze clock domains, please remove the BLOCK INTERCLOCKDOMAIN PATHS preference.
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 461 paths, 1 nets, and 5779 connections (62.47% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

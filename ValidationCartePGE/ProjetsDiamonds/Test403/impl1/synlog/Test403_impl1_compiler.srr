@@ -1,0 +1,233 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":117:7:117:9|Top entity is set to Top.
+VHDL syntax check successful!
+File C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd changed - recompiling
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 87MB peak: 87MB)
+
+
+Process completed successfully.
+# Wed Mar 10 11:55:08 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp3.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\rvl_j2w_module.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\wb2sci.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\ertl\JTAG_SOFT.v" (library work)
+@I::"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_trig_gen.v" (library work)
+@I::"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_gen.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 96MB peak: 96MB)
+
+
+Process completed successfully.
+# Wed Mar 10 11:55:08 2021
+
+###########################################################]
+###########################################################[
+@N:"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":117:7:117:9|Top entity is set to Top.
+File C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd changed - recompiling
+@N: CD630 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":117:7:117:9|Synthesizing work.top.rtl.
+@N: CD630 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":4:7:4:20|Synthesizing work.reveal_coretop.one.
+@W: CD638 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":19:11:19:21|Signal trigger_out is undriven. Either assign the signal a value or remove the signal declaration.
+Running optimization stage 1 on jtagconn16 .......
+Running optimization stage 1 on top_la0 .......
+Post processing for work.reveal_coretop.one
+Running optimization stage 1 on reveal_coretop .......
+Post processing for work.top.rtl
+Running optimization stage 1 on Top .......
+Running optimization stage 2 on top_la0 .......
+Running optimization stage 2 on jtagconn16 .......
+Running optimization stage 2 on reveal_coretop .......
+Running optimization stage 2 on Top .......
+@N: CL189 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":220:8:220:9|Register bit cpt(23) is always 0.
+@W: CL260 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\Top_rvl_top.vhd":220:8:220:9|Pruning register bit 23 of cpt(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+
+Process completed successfully.
+# Wed Mar 10 11:55:09 2021
+
+###########################################################]
+###########################################################[
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp3.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\ertl\ertl.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\rvl_j2w_module.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\rvl_j2w_module\wb2sci.v" (library work)
+@I::"C:\lscc\diamond\3.12\module\reveal\src\ertl\JTAG_SOFT.v" (library work)
+@I::"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_trig_gen.v" (library work)
+@I::"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_gen.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":1162:7:1162:16|Synthesizing module jtagconn16 in library work.
+Running optimization stage 1 on jtagconn16 .......
+Running optimization stage 1 on rvl_jtag_int_28s_2s_0s_0s_5s_28s_28s .......
+Running optimization stage 1 on rvl_decode_2s_2s .......
+Running optimization stage 1 on rvl_tu_1s_0s_0s_0s_1s .......
+Running optimization stage 1 on pmi_ram_dp_Z2_layer1 .......
+Running optimization stage 1 on rvl_te_Z1_layer1 .......
+Running optimization stage 1 on pmi_ram_dp_Z4_layer1 .......
+Running optimization stage 1 on rvl_te_Z3_layer1 .......
+Running optimization stage 1 on rvl_tcnt_2s_3s_1_0s .......
+@N: CG364 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_trig_gen.v":11:7:11:18|Synthesizing module top_la0_trig in library work.
+Running optimization stage 1 on top_la0_trig .......
+Running optimization stage 1 on pmi_ram_dp_Z6_layer1 .......
+Running optimization stage 1 on rvl_tm_Z5_layer1 .......
+@N: CG364 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_gen.v":12:7:12:13|Synthesizing module top_la0 in library work.
+Running optimization stage 1 on top_la0 .......
+Running optimization stage 2 on top_la0 .......
+@N: CL159 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_gen.v":53:7:53:13|Input reset_n is unused.
+@N: CL159 :"C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\reveal_workspace\tmpreveal\top_la0_gen.v":65:7:65:16|Input trigger_en is unused.
+Running optimization stage 2 on pmi_ram_dp_Z6_layer1 .......
+Running optimization stage 2 on rvl_tm_Z5_layer1 .......
+Running optimization stage 2 on top_la0_trig .......
+Running optimization stage 2 on rvl_tcnt_2s_3s_1_0s .......
+Running optimization stage 2 on pmi_ram_dp_Z4_layer1 .......
+Running optimization stage 2 on rvl_te_Z3_layer1 .......
+Extracted state machine for register next_then_shift
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on pmi_ram_dp_Z2_layer1 .......
+Running optimization stage 2 on rvl_te_Z1_layer1 .......
+Running optimization stage 2 on rvl_tu_1s_0s_0s_0s_1s .......
+Running optimization stage 2 on rvl_decode_2s_2s .......
+Running optimization stage 2 on rvl_jtag_int_28s_2s_0s_0s_5s_28s_28s .......
+Running optimization stage 2 on jtagconn16 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\layer1.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 110MB peak: 125MB)
+
+
+Process completed successfully.
+# Wed Mar 10 11:55:11 2021
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03L-SP1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: LAPTOP-QU0RURPA
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 182R, Built Oct 29 2020 10:49:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\layer0.srs changed - recompiling
+File C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\layer1.srs changed - recompiling
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\Test403_impl1_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 10 11:55:11 2021
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\cypri\Documents\GIT\PGE\05_CustumerRelationship\ProjetsDiamonds\Test403\impl1\synwork\Test403_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 23MB peak: 24MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Wed Mar 10 11:55:11 2021
+
+###########################################################]

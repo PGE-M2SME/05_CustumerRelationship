@@ -1,0 +1,1722 @@
+
+             Lattice Mapping Report File for Design Module 'Top'
+
+
+Design Information
+------------------
+
+Command line:   map -a LatticeECP3 -p LFE3-70EA -t FPBGA672 -s 7 -oc Commercial
+     Test403_impl1.ngd -o Test403_impl1_map.ncd -pr Test403_impl1.prf -mp
+     Test403_impl1.mrp -lpf C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelation
+     ship/ProjetsDiamonds/Test403/impl1/Test403_impl1_synplify.lpf -lpf C:/Users
+     /cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/Te
+     st403.lpf -gui -msgset C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelation
+     ship/ProjetsDiamonds/Test403/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE3-70EAFPBGA672
+Target Performance:   7
+Mapper:  ep5c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  03/10/21  11:55:22
+
+Design Summary
+--------------
+
+   Number of registers:    552 out of 52176 (1%)
+      PFU registers:          552 out of 49896 (1%)
+      PIO registers:            0 out of  2280 (0%)
+   Number of SLICEs:       591 out of 33264 (2%)
+      SLICEs as Logic/ROM:    591 out of 33264 (2%)
+      SLICEs as RAM:            0 out of  6804 (0%)
+      SLICEs as Carry:         81 out of 33264 (0%)
+   Number of LUT4s:        851 out of 66528 (1%)
+      Number used as logic LUTs:        689
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      162
+      Number used as shift registers:     0
+   Number of PIO sites used: 30 out of 380 (8%)
+   Number of PIO FIXEDDELAY:    0
+   Number of PCS (SerDes):  0 out of 2 (0%) with bonded PIO sites
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 10 (0%)
+   Number of DLLs:  0 out of 2 (0%)
+   Number of block RAMs:  114 out of 240 (48%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      Yes
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18C          0
+   MULT9X9C            0
+   ALU54A              0
+   ALU24A              0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 256 (0 %)
+
+                                    Page 1
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Design Summary (cont)
+---------------------
+   Number of Used DSP ALU Sites:  0 out of 128 (0 %)
+   Number of clocks:  3
+     Net Clk_FPGA_c: 18 loads, 18 rising, 0 falling (Driver: PIO Clk_FPGA )
+     Net Clkanalys: 259 loads, 259 rising, 0 falling (Driver: PIO Clk )
+     Net jtaghub16_jtck: 294 loads, 0 rising, 294 falling (Driver:
+     ep5chub/genblk5_jtage_u )
+   Number of Clock Enables:  52
+     Net top_reveal_coretop_instance/core0/trig_u/tu_0/op_code8: 2 loads, 2
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tu_0/mask_reg[0]_0_sqmuxa: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tu_0/compare_reg[0]_0_sqmuxa:
+     1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tu_1/op_code8: 2 loads, 2
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tu_1/mask_reg[0]_0_sqmuxa: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tu_1/compare_reg[0]_0_sqmuxa:
+     1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/te_precnte: 8 loads, 8
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/un1_tt_end_1: 1 loads, 1
+     LSLICEs
+     Net
+     top_reveal_coretop_instance/core0/trig_u/te_0/tt_prog_active_1_sqmuxa_1_i:
+     1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_val_0_sqmuxa: 8
+     loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/cnt_contig_reg_wen_1: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/num_then_wen_1: 1 loads,
+     1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/next_then_reg_wen_1: 1
+     loads, 1 LSLICEs
+     Net jtaghub16_ip_enable0: 31 loads, 31 LSLICEs
+     Net
+     top_reveal_coretop_instance/core0/trig_u/te_1/tt_wr_bit_cntr_1_sqmuxa_1_i:
+     1 loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_1/un1_tt_end_1: 1 loads, 1
+     LSLICEs
+     Net
+     top_reveal_coretop_instance/core0/trig_u/te_1/tt_prog_active_1_sqmuxa_i: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_1/N_92_i: 9 loads, 9
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_1/cnt_contig_reg_wen: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_1/num_then_wen: 1 loads, 1
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/te_1/next_then_reg_wen: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tcnt_0/reg2_0_sqmuxa: 1 loads,
+     1 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tcnt_0/reg1_0_sqmuxa: 2 loads,
+     2 LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tcnt_0/reg0_read8: 1 loads, 1
+
+                                    Page 2
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Design Summary (cont)
+---------------------
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/trig_u/tcnt_0/reg0_0_sqmuxa: 2 loads,
+     2 LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/N_41: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/capture_dr_d4_0_sqmuxa: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/addr_15_0_sqmuxa: 2 loads,
+     2 LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/jce2_d1_RNIPDRT1: 11
+     loads, 11 LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/N_728_i: 1 loads, 1
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/un1_jtdo_1_i: 8 loads, 8
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/N_730_i: 3 loads, 3
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/N_729_i: 19 loads, 19
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/jtag_int_u/parity_err_lat_0_sqmuxa: 1
+     loads, 1 LSLICEs
+     Net
+     top_reveal_coretop_instance/core0/jtag_int_u/cmd_block_extend_1_sqmuxa_i: 1
+     loads, 1 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/sample_en_d: 11 loads, 11
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/N_7_i: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntre: 8 loads, 8
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/N_36_i: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/trig_enbl_0_sqmuxa: 1 loads, 1
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/trace_dout_1_sqmuxa_i: 28 loads,
+     28 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/N_732_i: 8 loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/force_trig_0_sqmuxa_1: 1 loads,
+     1 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/un1_rd_dout_tm49_i: 8 loads, 8
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/un1_pre_trig_cntr_16_RNIRURL7: 8
+     loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/armed_RNIB8A02: 8 loads, 8
+     LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/num_pre_trig_frm_0_sqmuxa: 8
+     loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/num_post_trig_frm_0_sqmuxa: 8
+     loads, 8 LSLICEs
+     Net top_reveal_coretop_instance/core0/tm_u/force_trig_2_sqmuxa_i_0_0: 1
+     loads, 1 LSLICEs
+     Net jtaghub16_jupdate: 8 loads, 8 LSLICEs
+     Net ep5chub/id_enable_0_sqmuxa: 1 loads, 1 LSLICEs
+     Net ep5chub/N_5_i: 10 loads, 10 LSLICEs
+   Number of LSRs:  3
+     Net pled.op_ge.op_ge.un2_cpt_i: 7 loads, 7 LSLICEs
+     Net top_reveal_coretop_instance/core0/reset_rvl_n: 359 loads, 135 LSLICEs
+     Net jtaghub16_jrstn: 178 loads, 178 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+
+                                    Page 3
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Design Summary (cont)
+---------------------
+   Top 10 highest fanout non-clock nets:
+     Net top_reveal_coretop_instance/core0/reset_rvl_n: 359 loads
+     Net jtaghub16_jrstn: 182 loads
+     Net top_reveal_coretop_instance/core0/trig_u/te_0/VCC: 138 loads
+     Net top_reveal_coretop_instance/core0/tm_u/N_7_i: 120 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[0]: 115 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[1]: 115 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[2]: 115 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[3]: 115 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[4]: 115 loads
+     Net top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr[5]: 115 loads
+
+
+
+
+   Number of warnings:  2
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsD
+     iamonds/Test403/Test403.lpf(15): Semantic error in "LOCATE COMP "Clkn" SITE
+     "U19" ;": COMP "Clkn" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsD
+     iamonds/Test403/Test403.lpf(16): Semantic error in "IOBUF PORT "Clkn"
+     IO_TYPE=LVCMOS33 ;": Port "Clkn" does not exist in the design. This
+     preference has been disabled.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| Led                 | OUTPUT    | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Clk_FPGA            | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[23]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[22]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[21]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[20]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[19]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[18]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[17]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+IO (PIO) Attributes (cont)
+--------------------------
+| PinDat[16]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[15]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[14]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[13]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[12]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[11]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[10]          | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[9]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[8]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[7]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[6]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[5]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[4]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[3]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[2]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[1]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| PinDat[0]           | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Vsync               | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| De                  | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Hsync               | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Clk                 | INPUT     | LVCMOS33  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+Removed logic
+-------------
+
+Block ep5chub/ip_enable_14 undriven or does not drive anything - clipped.
+Block ep5chub/GSR_INST undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block ep5chub/ip_enable_15 undriven or does not drive anything - clipped.
+Block ep5chub/cdn undriven or does not drive anything - clipped.
+Block top_reveal_coretop_instance/VCC_0 undriven or does not drive anything -
+     clipped.
+Block top_reveal_coretop_instance/GND_0 undriven or does not drive anything -
+     clipped.
+Block top_reveal_coretop_instance/core0/VCC_0 undriven or does not drive
+
+                                    Page 5
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Block top_reveal_coretop_instance/core0/GND_0 undriven or does not drive
+     anything - clipped.
+Block top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/scuba_vhi_inst
+     undriven or does not drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/VCC_0 undriven or does not drive
+     anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/GND_0 undriven or does not drive
+     anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tcnt_0/VCC_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tcnt_0/GND_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/te_1/genblk1.te_tt_ebr_ram/scuba_
+     vhi_inst undriven or does not drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_ram/scuba_
+     vhi_inst undriven or does not drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tu_1/VCC_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tu_1/GND_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tu_0/VCC_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/tu_0/GND_0 undriven or does not
+     drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/decode_u/VCC_0 undriven or does
+     not drive anything - clipped.
+Block top_reveal_coretop_instance/core0/trig_u/decode_u/GND_0 undriven or does
+     not drive anything - clipped.
+Signal ep5chub/jrstn_i was merged into signal jtaghub16_jrstn
+Signal ep5chub/cdn_CN was merged into signal jtaghub16_jtck
+Signal ep5chub/jtdo2_0_a4_1_am_RNO_2 was merged into signal ep5chub/ip_enable_2
+Signal top_reveal_coretop_instance/core0/tm_u/jrstn_i was merged into signal
+     jtaghub16_jrstn
+Signal top_reveal_coretop_instance/core0/tm_u/jtck_i was merged into signal
+     jtaghub16_jtck
+Signal top_reveal_coretop_instance/core0/tm_u/reset_n_i was merged into signal
+     top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/jtag_int_u/r_w.CN was merged into
+     signal jtaghub16_jtck
+Signal top_reveal_coretop_instance/core0/jtag_int_u/jrstn_i was merged into
+     signal jtaghub16_jrstn
+Signal top_reveal_coretop_instance/core0/jtag_int_u/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/trig_u/tcnt_0/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/jshift_d2.CN was merged
+     into signal jtaghub16_jtck
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/jrstn_i was merged into
+     signal jtaghub16_jrstn
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/jshift_d2.CN was merged
+     into signal jtaghub16_jtck
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/jrstn_i was merged into
+     signal jtaghub16_jrstn
+
+                                    Page 6
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Removed logic (cont)
+--------------------
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/trig_u/tu_1/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal top_reveal_coretop_instance/core0/trig_u/tu_0/reset_n_i was merged into
+     signal top_reveal_coretop_instance/core0/reset_rvl_n
+Signal ep5chub/ip_enable_14 undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m5_d undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m0 undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m7 undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m10 undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m5_d_bm undriven or does not drive anything - clipped.
+Signal ep5chub/jtdo2_int_m5_d_am undriven or does not drive anything - clipped.
+Signal ep5chub/rom_rd_addr_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal ep5chub/bit_count_cry_0_COUT_3 undriven or does not drive anything -
+     clipped.
+Signal ep5chub/bit_count_cry_0_S0_0 undriven or does not drive anything -
+     clipped.
+Signal ep5chub/er2_tdo_15 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_14 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_7 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_6 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_4 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_3 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_10 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_9 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_13 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_12 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_11 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_1 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_2 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_8 undriven or does not drive anything - clipped.
+Signal ep5chub/er2_tdo_5 undriven or does not drive anything - clipped.
+Signal ep5chub/ip_enable_15 undriven or does not drive anything - clipped.
+Signal ep5chub/genblk5_un1_jtage_u undriven or does not drive anything -
+     clipped.
+Signal ep5chub/genblk5_un1_jtage_u_1 undriven or does not drive anything -
+     clipped.
+Signal ep5chub/tdoa undriven or does not drive anything - clipped.
+Signal ep5chub/tdia undriven or does not drive anything - clipped.
+Signal ep5chub/tmsa undriven or does not drive anything - clipped.
+Signal ep5chub/tcka undriven or does not drive anything - clipped.
+Signal ep5chub/cdn undriven or does not drive anything - clipped.
+Signal ep5chub/rom_rd_addr_s_0_S1_7 undriven or does not drive anything -
+     clipped.
+Signal ep5chub/rom_rd_addr_s_0_COUT_7 undriven or does not drive anything -
+     clipped.
+Signal un1_cpt_1_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal un1_cpt_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/VCC undriven or does not drive anything
+     - clipped.
+Signal top_reveal_coretop_instance/core0/GND undriven or does not drive anything
+     - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_s_0_S1[15] undriven
+
+                                    Page 7
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Removed logic (cont)
+--------------------
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_s_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/post_trig_cntr_cry_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/N_1 undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_s_0_S1[15] undriven
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_s_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/pre_trig_cntr_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/N_2 undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_s_0_S1[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_s_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_rd_addr_cntr_cry_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/N_3 undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_s_0_S1[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_s_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/tm_wr_addr_cntr_cry_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/N_4 undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/scuba_vhi undriven
+     or does not drive anything - clipped.
+Signal
+     top_reveal_coretop_instance/core0/jtag_int_u/tr_dout_bit_cnt_cry_0_COUT[3]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/tr_dout_bit_cnt_cry_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/N_1 undriven or does not
+     drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_s_0_S1[5] undriven
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_s_0_COUT[5] undriven
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/bit_cnt_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/jtag_int_u/N_16 undriven or does not
+     drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/VCC undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/GND undriven or does not drive
+     anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/rd_dout_tcnt[4] undriven or does
+     not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_s_0_S1[15]
+     undriven or does not drive anything - clipped.
+
+                                    Page 8
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Removed logic (cont)
+--------------------
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_s_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/te_precnt_cry_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/N_1 undriven or does not
+     drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_1/genblk1.te_tt_ebr_ram/scuba
+     _vhi undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_s_s0_0_S1[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_s_s0_0_COUT[15]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/te_precnt_cry_s0_0_S0[0]
+     undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/N_1 undriven or does not
+     drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_ram/scuba
+     _vhi undriven or does not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/rd_dout_tu[3] undriven or does
+     not drive anything - clipped.
+Signal top_reveal_coretop_instance/core0/trig_u/rd_dout_tu_0[3] undriven or does
+     not drive anything - clipped.
+Signal un1_cpt_1_cry_21_0_COUT undriven or does not drive anything - clipped.
+Block ep5chub/genblk5_jtage_u_RNI9U51 was optimized away.
+Block ep5chub/ip_enable_0__CN was optimized away.
+Block ep5chub/jtdo2_0_a4_1_am_RNO_2 was optimized away.
+Block top_reveal_coretop_instance/core0/tm_u/jrstn_RNIH98D was optimized away.
+Block top_reveal_coretop_instance/core0/tm_u/jtck_RNICM68 was optimized away.
+Block top_reveal_coretop_instance/core0/tm_u/reset_n_RNIGUS4 was optimized away.
+     
+Block top_reveal_coretop_instance/core0/jtag_int_u/parity_calc.CN was optimized
+     away.
+Block top_reveal_coretop_instance/core0/jtag_int_u/jrstn_RNIH98D was optimized
+     away.
+Block top_reveal_coretop_instance/core0/jtag_int_u/reset_n_RNIGUS4 was optimized
+     away.
+Block top_reveal_coretop_instance/core0/trig_u/tcnt_0/reset_n_RNIGUS4 was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/te_1/tt_wr_bit_cntr_0_.CN was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/te_1/jrstn_RNIH98D was optimized
+     away.
+Block top_reveal_coretop_instance/core0/trig_u/te_1/reset_n_RNIGUS4 was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/te_0/tt_prog_active.CN was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/te_0/jrstn_RNIH98D was optimized
+     away.
+Block top_reveal_coretop_instance/core0/trig_u/te_0/reset_n_RNIGUS4 was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/tu_1/reset_n_RNIGUS4 was
+     optimized away.
+Block top_reveal_coretop_instance/core0/trig_u/tu_0/reset_n_RNIGUS4 was
+     optimized away.
+Block ep5chub/jtdo2_int_m5_d/GATE was optimized away.
+Block ep5chub/jtdo2_int_m0 was optimized away.
+
+                                    Page 9
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Removed logic (cont)
+--------------------
+Block ep5chub/jtdo2_int_m7 was optimized away.
+Block ep5chub/jtdo2_int_m10 was optimized away.
+Block ep5chub/jtdo2_int_m5_d_bm was optimized away.
+Block ep5chub/jtdo2_int_m5_d_am was optimized away.
+
+Memory Usage
+------------
+
+/top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem:
+    EBRs: 112
+    RAM SLICEs: 0
+    Logic SLICEs: 2
+    PFU Registers: 4
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_27_0:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_0_111:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_1_110:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_2_109:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_3_108:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_4_107:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_5_106:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_6_105:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_7_104:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+
+                                   Page 10
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_8_103:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_9_102:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_10_101:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_11_100:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_12_99:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_13_98:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_14_97:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_15_96:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_16_95:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_17_94:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_18_93:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+
+                                   Page 11
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_19_92:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_20_91:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_21_90:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_22_89:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_23_88:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_24_87:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_25_86:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_26_85:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_0_27_84:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_0_83:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_1_82:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+
+                                   Page 12
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_2_81:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_3_80:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_4_79:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_5_78:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_6_77:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_7_76:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_8_75:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_9_74:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_10_73:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_11_72:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_12_71:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_13_70:
+
+                                   Page 13
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_14_69:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_15_68:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_16_67:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_17_66:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_18_65:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_19_64:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_20_63:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_21_62:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_22_61:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_23_60:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_24_59:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+
+                                   Page 14
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_25_58:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_26_57:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_1_27_56:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_0_55:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_1_54:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_2_53:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_3_52:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_4_51:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_5_50:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_6_49:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_7_48:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+
+                                   Page 15
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_8_47:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_9_46:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_10_45:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_11_44:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_12_43:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_13_42:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_14_41:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_15_40:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_16_39:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_17_38:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_18_37:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+
+                                   Page 16
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_19_36:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_20_35:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_21_34:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_22_33:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_23_32:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_24_31:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_25_30:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_26_29:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_2_27_28:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_0_27:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_1_26:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+
+                                   Page 17
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_2_25:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_3_24:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_4_23:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_5_22:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_6_21:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_7_20:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_8_19:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_9_18:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_10_17:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_11_16:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_12_15:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_13_14:
+
+                                   Page 18
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_14_13:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_15_12:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_16_11:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_17_10:
+         TYPE= DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,
+         REGMODE_A= OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_18_9:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_19_8:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_20_7:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_21_6:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_22_5:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_23_4:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_24_3:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+
+                                   Page 19
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+Memory Usage (cont)
+-------------------
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_25_2:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+    -Contains EBR pmi_ram_dpEbnonesadr281665536281665536p13bb2945_3_26_1:  TYPE=
+         DP16KC,  Width_B= 1,  Depth_A= 16384,  Depth_B= 16384,  REGMODE_A=
+         OUTREG,  REGMODE_B= OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_LPC_FILE=
+         pmi_ram_dpEbnonesadr281665536281665536p13bb2945__PMIP__65536__28__28B
+/top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_ram:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dpEbnonesadr124124p12f3c099_0_0_0:  TYPE= DP16KC,
+         Width_B= 1,  Depth_A= 4,  Depth_B= 4,  REGMODE_A= OUTREG,  REGMODE_B=
+         OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE= pmi_ram_dpEbnonesadr124124p12f3c099__PMIP__4__1__1B
+/top_reveal_coretop_instance/core0/trig_u/te_1/genblk1.te_tt_ebr_ram:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR pmi_ram_dpEbnonesadr224224p12f3c706_0_0_0:  TYPE= DP16KC,
+         Width_B= 2,  Depth_A= 4,  Depth_B= 4,  REGMODE_A= OUTREG,  REGMODE_B=
+         OUTREG,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,  GSR= DISABLED,
+         MEM_LPC_FILE= pmi_ram_dpEbnonesadr224224p12f3c706__PMIP__4__2__2B
+
+ASIC Components
+---------------
+
+Instance Name: top_reveal_coretop_instance/core0/trig_u/te_0/genblk1.te_tt_ebr_r
+     am/pmi_ram_dpEbnonesadr124124p12f3c099_0_0_0
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/trig_u/te_1/genblk1.te_tt_ebr_r
+     am/pmi_ram_dpEbnonesadr224224p12f3c706_0_0_0
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_27_0
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_0_111
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_1_110
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_2_109
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_3_108
+         Type: DP16KC
+
+                                   Page 20
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_4_107
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_5_106
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_6_105
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_7_104
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_8_103
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_9_102
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_10_101
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_11_100
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_12_99
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_13_98
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_14_97
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_15_96
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_16_95
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_17_94
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_18_93
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_19_92
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_20_91
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_21_90
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_22_89
+
+                                   Page 21
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_23_88
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_24_87
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_25_86
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_26_85
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_0_27_84
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_0_83
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_1_82
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_2_81
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_3_80
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_4_79
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_5_78
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_6_77
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_7_76
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_8_75
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_9_74
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_10_73
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_11_72
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_12_71
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+
+                                   Page 22
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+     bnonesadr281665536281665536p13bb2945_1_13_70
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_14_69
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_15_68
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_16_67
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_17_66
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_18_65
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_19_64
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_20_63
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_21_62
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_22_61
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_23_60
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_24_59
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_25_58
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_26_57
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_1_27_56
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_0_55
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_1_54
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_2_53
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_3_52
+         Type: DP16KC
+
+                                   Page 23
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_4_51
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_5_50
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_6_49
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_7_48
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_8_47
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_9_46
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_10_45
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_11_44
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_12_43
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_13_42
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_14_41
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_15_40
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_16_39
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_17_38
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_18_37
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_19_36
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_20_35
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_21_34
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_22_33
+
+                                   Page 24
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_23_32
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_24_31
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_25_30
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_26_29
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_2_27_28
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_0_27
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_1_26
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_2_25
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_3_24
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_4_23
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_5_22
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_6_21
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_7_20
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_8_19
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_9_18
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_10_17
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_11_16
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_12_15
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+
+                                   Page 25
+
+
+
+
+Design:  Top                                           Date:  03/10/21  11:55:22
+
+ASIC Components (cont)
+----------------------
+     bnonesadr281665536281665536p13bb2945_3_13_14
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_14_13
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_15_12
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_16_11
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_17_10
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_18_9
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_19_8
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_20_7
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_21_6
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_22_5
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_23_4
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_24_3
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_25_2
+         Type: DP16KC
+Instance Name: top_reveal_coretop_instance/core0/tm_u/genblk4.tr_mem/pmi_ram_dpE
+     bnonesadr281665536281665536p13bb2945_3_26_1
+         Type: DP16KC
+Instance Name: ep5chub/genblk5_jtage_u
+         Type: JTAGE
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 2 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 290 MB
+        
+
+
+
+
+
+
+                                   Page 26
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.

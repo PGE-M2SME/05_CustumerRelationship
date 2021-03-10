@@ -1,0 +1,38 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Mar 10 11:56:29 2021 *
+NOTE DESIGN NAME: Top *
+NOTE DEVICE NAME: LFE3-70EA-7FPBGA672 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Led : E23 : out *
+NOTE PINS Clk_FPGA : M3 : in *
+NOTE PINS PinDat[23] : U1 : in *
+NOTE PINS PinDat[22] : T1 : in *
+NOTE PINS PinDat[21] : W3 : in *
+NOTE PINS PinDat[20] : Y3 : in *
+NOTE PINS PinDat[19] : AA4 : in *
+NOTE PINS PinDat[18] : AA3 : in *
+NOTE PINS PinDat[17] : AC3 : in *
+NOTE PINS PinDat[16] : AC2 : in *
+NOTE PINS PinDat[15] : AE23 : in *
+NOTE PINS PinDat[14] : AF23 : in *
+NOTE PINS PinDat[13] : AF24 : in *
+NOTE PINS PinDat[12] : AE25 : in *
+NOTE PINS PinDat[11] : AC25 : in *
+NOTE PINS PinDat[10] : AC26 : in *
+NOTE PINS PinDat[9] : AB26 : in *
+NOTE PINS PinDat[8] : AA26 : in *
+NOTE PINS PinDat[7] : AC23 : in *
+NOTE PINS PinDat[6] : AD23 : in *
+NOTE PINS PinDat[5] : AC24 : in *
+NOTE PINS PinDat[4] : AB24 : in *
+NOTE PINS PinDat[3] : Y24 : in *
+NOTE PINS PinDat[2] : AA25 : in *
+NOTE PINS PinDat[1] : V22 : in *
+NOTE PINS PinDat[0] : V21 : in *
+NOTE PINS Vsync : AA1 : in *
+NOTE PINS De : AD1 : in *
+NOTE PINS Hsync : AD2 : in *
+NOTE PINS Clk : U20 : in *
+NOTE CONFIGURATION MODE: SPI *
+NOTE COMPRESSION: off *

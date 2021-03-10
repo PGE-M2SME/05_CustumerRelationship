@@ -1,0 +1,35 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE3-70EA-7FN672C
+family = LatticeECP3
+device = LFE3-70EA
+speed = 7
+package = FPBGA672
+operation = Commercial
+
+#design options
+[Design]
+title = Test403
+path = C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1
+core_generate = C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1
+search_path = C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403
+top = Top
+lpf = C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/Test403.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/Top.vhd = VHDL, work
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_workspace/tmpreveal/top_la0_trig_gen.v=Verilog
+C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_workspace/tmpreveal/top_la0_gen.v=Verilog
+C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/impl1/reveal_workspace/tmpreveal/Top_rvl_top.vhd=VHDL,work

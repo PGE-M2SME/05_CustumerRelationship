@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/25/2021 12:12:35
+#Project Location: C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4; Project name: Ext10GenDvi
+prj_project open "C:/Users/Cyprien/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/GenVideo/Diamond1.4/Ext10GenDvi.ldf"
+prj_run Translate -impl A
+prj_project save
+prj_project close
+#Stop recording: 1/25/2021 13:53:15

@@ -1,0 +1,49 @@
+<Project ModBy="Analyzer" Name="C:/Users/cypri/Documents/GIT/PGE/05_CustumerRelationship/ProjetsDiamonds/Test403/test.rvs" Date="2021-03-10">
+ <Core Name="Top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="65536" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="de"/>
+    <Sig Name="hsync"/>
+    <Sig Name="vsync"/>
+    <Bus Name="pindat" Radix="0">
+     <Sig Name="pindat:0"/>
+     <Sig Name="pindat:1"/>
+     <Sig Name="pindat:2"/>
+     <Sig Name="pindat:3"/>
+     <Sig Name="pindat:4"/>
+     <Sig Name="pindat:5"/>
+     <Sig Name="pindat:6"/>
+     <Sig Name="pindat:7"/>
+     <Sig Name="pindat:8"/>
+     <Sig Name="pindat:9"/>
+     <Sig Name="pindat:10"/>
+     <Sig Name="pindat:11"/>
+     <Sig Name="pindat:12"/>
+     <Sig Name="pindat:13"/>
+     <Sig Name="pindat:14"/>
+     <Sig Name="pindat:15"/>
+     <Sig Name="pindat:16"/>
+     <Sig Name="pindat:17"/>
+     <Sig Name="pindat:18"/>
+     <Sig Name="pindat:19"/>
+     <Sig Name="pindat:20"/>
+     <Sig Name="pindat:21"/>
+     <Sig Name="pindat:22"/>
+     <Sig Name="pindat:23"/>
+    </Bus>
+    <Sig Name="clkanalys"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="0" Radix="0"/>
+    <TE Enable="0" Expression="TU1" Name="TE1" ID="1"/>
+    <TE Enable="1" Expression="TU2" Name="TE2" ID="2"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>
